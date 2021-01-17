@@ -2,8 +2,8 @@
 name: Bug反馈
 about: 报告/反馈任何游玩中遇到的BUG
 title: "[BUG]"
-lables: "BUG"
-assignees: ""
+lables: 'BUG'
+assignees: ''
 ---
 
 **描述BUG**
