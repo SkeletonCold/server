@@ -5,6 +5,7 @@ title: "[额外]"
 lables: 二期服务器,建议
 assignees: ''
 ---
+点击上方Preview来预览
 如果有条件的话，请手动PR[此文件](..\..\info.md)
 关于[PR](https://github.com/SkeletonCold/server/pulls)
 **插件地址**
