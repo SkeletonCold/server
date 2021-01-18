@@ -2,7 +2,7 @@
 name: Bug反馈
 about: 报告/反馈任何游玩中遇到的BUG
 title: "[BUG]"
-lables: 'BUG'
+lables: BUG
 assignees: ''
 ---
 -问的越详细，答的越认真
