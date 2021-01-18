@@ -2,7 +2,7 @@
 name: 插件请求
 about: 你有什么插件想在二期服务器中看到，可以告诉我们！
 title: "[额外]"
-lables: ''
+lables: '二期服务器,建议'
 assignees: ''
 ---
 **插件地址**
