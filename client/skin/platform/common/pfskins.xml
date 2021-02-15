@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BFCSkins>
+   <BFCSkin id="skin_default" name="默认皮肤"  type="image"    thumb="skin\common\default\thumb.png"  file="skin\common\default\hfskin.xml"  default="true"/>
+	<BFCSkin id="skin_mc"     name="我的世界"  type="image"    thumb="skin\common\mc\thumb.png"   file="skin\common\mc\hfskin.xml"  />
+	<BFCSkin id="skin_war"    name="魔兽争霸"  type="image"    thumb="skin\common\war\thumb.png"  file="skin\common\war\hfskin.xml"/>
+	<BFCSkin id="skin_violet" name="魔幻紫"    type="color" thumb="#D32E7D" file="skin\common\color\purple.xml" />
+	<BFCSkin id="skin_pink" name="浅水红"      type="color" thumb="#8162e5" file="skin\common\color\red.xml"  />
+	<BFCSkin id="skin_yellow" name="大地褐"    type="color" thumb="#5d6b77" file="skin\common\color\brown.xml"/>
+	<BFCSkin id="skin_green" name="生机绿"     type="color" thumb="#18b06e" file="skin\common\color\green.xml" />
+	<BFCSkin id="skin_blue" name="活力蓝"      type="color" thumb="#e66437" file="skin\common\color\blue.xml" />
+</BFCSkins>

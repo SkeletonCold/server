@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BFCFrame>
+  <BFCSkin>
+    <Images />
+    <SkinElements type="common"/>
+    <Fonts />
+    <Tips />
+  </BFCSkin>
+  <BFCWindow size="894,598" minsize="350,220" caption-height="0" border-visiable="false">
+  </BFCWindow>
+</BFCFrame>

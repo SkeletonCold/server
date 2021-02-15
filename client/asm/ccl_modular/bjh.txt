@@ -1,0 +1,5970 @@
+// class version 50.0 (50)
+// access flags 0x21
+public class bjh implements bnj  {
+
+  // compiled from: RenderItem.java
+  // access flags 0x0
+  INNERCLASS bjh$9 null null
+  // access flags 0x0
+  INNERCLASS bjh$8 null null
+  // access flags 0x0
+  INNERCLASS bjh$7 null null
+  // access flags 0x0
+  INNERCLASS bjh$6 null null
+  // access flags 0x0
+  INNERCLASS bjh$5 null null
+  // access flags 0x0
+  INNERCLASS bjh$4 null null
+  // access flags 0x0
+  INNERCLASS bjh$3 null null
+  // access flags 0x0
+  INNERCLASS bjh$2 null null
+  // access flags 0x0
+  INNERCLASS bjh$1 null null
+  // access flags 0x4019
+  public final static enum INNERCLASS bgr$b bgr TransformType
+  // access flags 0x4019
+  public final static enum INNERCLASS akl$a akl EnumType
+  // access flags 0x4019
+  public final static enum INNERCLASS agf$a agf DirtType
+  // access flags 0x4019
+  public final static enum INNERCLASS agi$b agi EnumPlantType
+  // access flags 0x4019
+  public final static enum INNERCLASS aio$a aio EnumType
+  // access flags 0x4409
+  public static abstract enum INNERCLASS ahz$a ahz EnumType
+  // access flags 0x4019
+  public final static enum INNERCLASS aiu$a aiu EnumType
+  // access flags 0x4019
+  public final static enum INNERCLASS aiw$a aiw EnumType
+  // access flags 0x4019
+  public final static enum INNERCLASS agw$a agw EnumFlowerType
+  // access flags 0x4019
+  public final static enum INNERCLASS ajh$a ajh EnumType
+  // access flags 0x4019
+  public final static enum INNERCLASS aji$a aji EnumType
+  // access flags 0x4019
+  public final static enum INNERCLASS aiz$a aiz EnumType
+  // access flags 0x4019
+  public final static enum INNERCLASS ajy$a ajy EnumType
+  // access flags 0x4019
+  public final static enum INNERCLASS ajz$a ajz EnumType
+  // access flags 0x4019
+  public final static enum INNERCLASS akb$a akb EnumType
+  // access flags 0x4019
+  public final static enum INNERCLASS aih$a aih EnumType
+  // access flags 0x4019
+  public final static enum INNERCLASS akc$a akc EnumType
+  // access flags 0x4019
+  public final static enum INNERCLASS zp$a zp FishType
+  // access flags 0x4019
+  public final static enum INNERCLASS aho$a aho EnumType
+
+  // access flags 0x1A
+  private final static Ljy; b
+
+  // access flags 0x2
+  private Z c
+
+  // access flags 0x1
+  public F a
+
+  // access flags 0x12
+  private final Lbfo; d
+
+  // access flags 0x12
+  private final Lbmj; e
+
+  // access flags 0x1A
+  private final static Ljava/lang/String; __OBFID = "CL_00001003"
+
+  // access flags 0x2
+  private Lbov; modelLocation
+
+  // access flags 0x1
+  public <init>(Lbmj;Lbou;)V
+   L0
+    LINENUMBER 82 L0
+    ALOAD 0
+    INVOKESPECIAL java/lang/Object.<init> ()V
+   L1
+    LINENUMBER 69 L1
+    ALOAD 0
+    ICONST_1
+    PUTFIELD bjh.c : Z
+   L2
+    LINENUMBER 78 L2
+    ALOAD 0
+    ACONST_NULL
+    PUTFIELD bjh.modelLocation : Lbov;
+   L3
+    LINENUMBER 83 L3
+    ALOAD 0
+    ALOAD 1
+    PUTFIELD bjh.e : Lbmj;
+   L4
+    LINENUMBER 85 L4
+    ALOAD 2
+    INVOKESTATIC Config.setModelManager (Lbou;)V
+   L5
+    LINENUMBER 87 L5
+    GETSTATIC Reflector.ItemModelMesherForge_Constructor : LReflectorConstructor;
+    INVOKEVIRTUAL ReflectorConstructor.exists ()Z
+    IFEQ L6
+   L7
+    LINENUMBER 88 L7
+    ALOAD 0
+    GETSTATIC Reflector.ItemModelMesherForge_Constructor : LReflectorConstructor;
+    ICONST_1
+    ANEWARRAY java/lang/Object
+    DUP
+    ICONST_0
+    ALOAD 2
+    AASTORE
+    INVOKESTATIC Reflector.newInstance (LReflectorConstructor;[Ljava/lang/Object;)Ljava/lang/Object;
+    CHECKCAST bfo
+    PUTFIELD bjh.d : Lbfo;
+    GOTO L8
+   L6
+    LINENUMBER 92 L6
+   FRAME FULL [bjh bmj bou] []
+    ALOAD 0
+    NEW bfo
+    DUP
+    ALOAD 2
+    INVOKESPECIAL bfo.<init> (Lbou;)V
+    PUTFIELD bjh.d : Lbfo;
+   L8
+    LINENUMBER 96 L8
+   FRAME FULL [bjh bmj bou] []
+    ALOAD 0
+    INVOKESPECIAL bjh.b ()V
+   L9
+    LINENUMBER 97 L9
+    RETURN
+   L10
+    LOCALVARIABLE this Lbjh; L0 L10 0
+    LOCALVARIABLE p_i46165_1_ Lbmj; L0 L10 1
+    LOCALVARIABLE p_i46165_2_ Lbou; L0 L10 2
+    MAXSTACK = 6
+    MAXLOCALS = 3
+
+  // access flags 0x1
+  public a(Z)V
+   L0
+    LINENUMBER 101 L0
+    ALOAD 0
+    ILOAD 1
+    PUTFIELD bjh.c : Z
+   L1
+    LINENUMBER 102 L1
+    RETURN
+   L2
+    LOCALVARIABLE this Lbjh; L0 L2 0
+    LOCALVARIABLE p_175039_1_ Z L0 L2 1
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public a()Lbfo;
+   L0
+    LINENUMBER 106 L0
+    ALOAD 0
+    GETFIELD bjh.d : Lbfo;
+    ARETURN
+   L1
+    LOCALVARIABLE this Lbjh; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x4
+  protected a(Lzw;ILjava/lang/String;)V
+   L0
+    LINENUMBER 111 L0
+    ALOAD 0
+    GETFIELD bjh.d : Lbfo;
+    ALOAD 1
+    ILOAD 2
+    NEW bov
+    DUP
+    ALOAD 3
+    LDC "inventory"
+    INVOKESPECIAL bov.<init> (Ljava/lang/String;Ljava/lang/String;)V
+    INVOKEVIRTUAL bfo.a (Lzw;ILbov;)V
+   L1
+    LINENUMBER 112 L1
+    RETURN
+   L2
+    LOCALVARIABLE this Lbjh; L0 L2 0
+    LOCALVARIABLE p_175048_1_ Lzw; L0 L2 1
+    LOCALVARIABLE p_175048_2_ I L0 L2 2
+    LOCALVARIABLE p_175048_3_ Ljava/lang/String; L0 L2 3
+    MAXSTACK = 7
+    MAXLOCALS = 4
+
+  // access flags 0x4
+  protected a(Lafh;ILjava/lang/String;)V
+   L0
+    LINENUMBER 116 L0
+    ALOAD 0
+    ALOAD 1
+    INVOKESTATIC zw.a (Lafh;)Lzw;
+    ILOAD 2
+    ALOAD 3
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L1
+    LINENUMBER 117 L1
+    RETURN
+   L2
+    LOCALVARIABLE this Lbjh; L0 L2 0
+    LOCALVARIABLE p_175029_1_ Lafh; L0 L2 1
+    LOCALVARIABLE p_175029_2_ I L0 L2 2
+    LOCALVARIABLE p_175029_3_ Ljava/lang/String; L0 L2 3
+    MAXSTACK = 4
+    MAXLOCALS = 4
+
+  // access flags 0x2
+  private a(Lafh;Ljava/lang/String;)V
+   L0
+    LINENUMBER 121 L0
+    ALOAD 0
+    ALOAD 1
+    ICONST_0
+    ALOAD 2
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L1
+    LINENUMBER 122 L1
+    RETURN
+   L2
+    LOCALVARIABLE this Lbjh; L0 L2 0
+    LOCALVARIABLE p_175031_1_ Lafh; L0 L2 1
+    LOCALVARIABLE p_175031_2_ Ljava/lang/String; L0 L2 2
+    MAXSTACK = 4
+    MAXLOCALS = 3
+
+  // access flags 0x2
+  private a(Lzw;Ljava/lang/String;)V
+   L0
+    LINENUMBER 126 L0
+    ALOAD 0
+    ALOAD 1
+    ICONST_0
+    ALOAD 2
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L1
+    LINENUMBER 127 L1
+    RETURN
+   L2
+    LOCALVARIABLE this Lbjh; L0 L2 0
+    LOCALVARIABLE p_175047_1_ Lzw; L0 L2 1
+    LOCALVARIABLE p_175047_2_ Ljava/lang/String; L0 L2 2
+    MAXSTACK = 4
+    MAXLOCALS = 3
+
+  // access flags 0x2
+  private a(Lboq;Lzx;)V
+   L0
+    LINENUMBER 131 L0
+    ALOAD 0
+    ALOAD 1
+    ICONST_M1
+    ALOAD 2
+    INVOKESPECIAL bjh.a (Lboq;ILzx;)V
+   L1
+    LINENUMBER 132 L1
+    RETURN
+   L2
+    LOCALVARIABLE this Lbjh; L0 L2 0
+    LOCALVARIABLE p_175036_1_ Lboq; L0 L2 1
+    LOCALVARIABLE p_175036_2_ Lzx; L0 L2 2
+    MAXSTACK = 4
+    MAXLOCALS = 3
+
+  // access flags 0x1
+  public a(Lboq;I)V
+   L0
+    LINENUMBER 137 L0
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ACONST_NULL
+    CHECKCAST zx
+    INVOKESPECIAL bjh.a (Lboq;ILzx;)V
+   L1
+    LINENUMBER 138 L1
+    RETURN
+   L2
+    LOCALVARIABLE this Lbjh; L0 L2 0
+    LOCALVARIABLE p_175035_1_ Lboq; L0 L2 1
+    LOCALVARIABLE p_175035_2_ I L0 L2 2
+    MAXSTACK = 4
+    MAXLOCALS = 3
+
+  // access flags 0x2
+  private a(Lboq;ILzx;)V
+   L0
+    LINENUMBER 142 L0
+    INVOKESTATIC bfx.a ()Lbfx;
+    ASTORE 4
+   L1
+    LINENUMBER 143 L1
+    ALOAD 4
+    INVOKEVIRTUAL bfx.c ()Lbfd;
+    ASTORE 5
+   L2
+    LINENUMBER 145 L2
+    INVOKESTATIC ave.A ()Lave;
+    INVOKEVIRTUAL ave.T ()Lbmh;
+    INVOKEVIRTUAL bmh.isTextureBound ()Z
+    ISTORE 6
+   L3
+    LINENUMBER 147 L3
+    INVOKESTATIC Config.isMultiTexture ()Z
+    IFEQ L4
+    ILOAD 6
+    IFEQ L4
+    ICONST_1
+    GOTO L5
+   L4
+   FRAME FULL [bjh boq I zx bfx bfd I] []
+    ICONST_0
+   L5
+   FRAME FULL [bjh boq I zx bfx bfd I] [I]
+    ISTORE 7
+   L6
+    LINENUMBER 148 L6
+    ILOAD 7
+    IFEQ L7
+   L8
+    LINENUMBER 149 L8
+    ALOAD 5
+    GETSTATIC adf.a : Ladf;
+    INVOKEVIRTUAL bfd.setBlockLayer (Ladf;)V
+   L7
+    LINENUMBER 151 L7
+   FRAME FULL [bjh boq I zx bfx bfd I I] []
+    ALOAD 5
+    BIPUSH 7
+    GETSTATIC bms.b : Lbmu;
+    INVOKEVIRTUAL bfd.a (ILbmu;)V
+   L9
+    LINENUMBER 153 L9
+    GETSTATIC cq.n : [Lcq;
+    ASTORE 8
+   L10
+    LINENUMBER 154 L10
+    ALOAD 8
+    ARRAYLENGTH
+    ISTORE 9
+   L11
+    LINENUMBER 156 L11
+    ICONST_0
+    ISTORE 10
+   L12
+   FRAME FULL [bjh boq I zx bfx bfd I I [Lcq; I I] []
+    ILOAD 10
+    ILOAD 9
+    IF_ICMPGE L13
+   L14
+    LINENUMBER 158 L14
+    ALOAD 8
+    ILOAD 10
+    AALOAD
+    ASTORE 11
+   L15
+    LINENUMBER 159 L15
+    ALOAD 0
+    ALOAD 5
+    ALOAD 1
+    ALOAD 11
+    INVOKEINTERFACE boq.a (Lcq;)Ljava/util/List;
+    ILOAD 2
+    ALOAD 3
+    INVOKESPECIAL bjh.a (Lbfd;Ljava/util/List;ILzx;)V
+   L16
+    LINENUMBER 156 L16
+    IINC 10 1
+    GOTO L12
+   L13
+    LINENUMBER 162 L13
+   FRAME FULL [bjh boq I zx bfx bfd I I [Lcq; I I] []
+    ALOAD 0
+    ALOAD 5
+    ALOAD 1
+    INVOKEINTERFACE boq.a ()Ljava/util/List;
+    ILOAD 2
+    ALOAD 3
+    INVOKESPECIAL bjh.a (Lbfd;Ljava/util/List;ILzx;)V
+   L17
+    LINENUMBER 163 L17
+    ALOAD 4
+    INVOKEVIRTUAL bfx.b ()V
+   L18
+    LINENUMBER 165 L18
+    ILOAD 7
+    IFEQ L19
+   L20
+    LINENUMBER 168 L20
+    ALOAD 5
+    ACONST_NULL
+    INVOKEVIRTUAL bfd.setBlockLayer (Ladf;)V
+   L21
+    LINENUMBER 170 L21
+    INVOKESTATIC bfl.bindCurrentTexture ()V
+   L19
+    LINENUMBER 172 L19
+   FRAME FULL [bjh boq I zx bfx bfd I I [Lcq; I I] []
+    RETURN
+   L22
+    LOCALVARIABLE var9 Lcq; L15 L16 11
+    LOCALVARIABLE var8 I L12 L13 10
+    LOCALVARIABLE this Lbjh; L0 L22 0
+    LOCALVARIABLE p_175045_1_ Lboq; L0 L22 1
+    LOCALVARIABLE p_175045_2_ I L0 L22 2
+    LOCALVARIABLE p_175045_3_ Lzx; L0 L22 3
+    LOCALVARIABLE var4 Lbfx; L1 L22 4
+    LOCALVARIABLE var5 Lbfd; L2 L22 5
+    LOCALVARIABLE renderTextureMap Z L3 L22 6
+    LOCALVARIABLE multiTexture Z L6 L22 7
+    LOCALVARIABLE var6 [Lcq; L10 L22 8
+    LOCALVARIABLE var7 I L11 L22 9
+    MAXSTACK = 5
+    MAXLOCALS = 12
+
+  // access flags 0x1
+  public a(Lzx;Lboq;)V
+   L0
+    LINENUMBER 176 L0
+    ALOAD 1
+    IFNULL L1
+   L2
+    LINENUMBER 178 L2
+    INVOKESTATIC bfl.E ()V
+   L3
+    LINENUMBER 179 L3
+    LDC 0.5
+    LDC 0.5
+    LDC 0.5
+    INVOKESTATIC bfl.a (FFF)V
+   L4
+    LINENUMBER 181 L4
+    ALOAD 2
+    INVOKEINTERFACE boq.d ()Z
+    IFEQ L5
+   L6
+    LINENUMBER 183 L6
+    LDC 180.0
+    FCONST_0
+    FCONST_1
+    FCONST_0
+    INVOKESTATIC bfl.b (FFFF)V
+   L7
+    LINENUMBER 184 L7
+    LDC -0.5
+    LDC -0.5
+    LDC -0.5
+    INVOKESTATIC bfl.b (FFF)V
+   L8
+    LINENUMBER 185 L8
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    INVOKESTATIC bfl.c (FFFF)V
+   L9
+    LINENUMBER 186 L9
+    INVOKESTATIC bfl.B ()V
+    ALOAD 2
+    INSTANCEOF codechicken/lib/render/IItemRenderer
+    IFEQ L10
+    ALOAD 2
+    ALOAD 1
+    INVOKEINTERFACE codechicken/lib/render/IItemRenderer.renderItem (Lnet/minecraft/item/ItemStack;)V
+    GOTO L11
+   L10
+    LINENUMBER 187 L10
+   FRAME FULL [bjh zx boq] []
+    GETSTATIC bfi.a : Lbfi;
+    ALOAD 1
+    INVOKEVIRTUAL bfi.a (Lzx;)V
+    GOTO L11
+   L5
+    LINENUMBER 192 L5
+   FRAME FULL [bjh zx boq] []
+    INVOKESTATIC Config.isCustomItems ()Z
+    IFEQ L12
+   L13
+    LINENUMBER 193 L13
+    ALOAD 1
+    ALOAD 2
+    ALOAD 0
+    GETFIELD bjh.modelLocation : Lbov;
+    INVOKESTATIC CustomItems.getCustomItemModel (Lzx;Lboq;Lbov;)Lboq;
+    ASTORE 2
+   L12
+    LINENUMBER 195 L12
+   FRAME FULL [bjh zx boq] []
+    LDC -0.5
+    LDC -0.5
+    LDC -0.5
+    INVOKESTATIC bfl.b (FFF)V
+   L14
+    LINENUMBER 196 L14
+    ALOAD 0
+    ALOAD 2
+    ALOAD 1
+    INVOKESPECIAL bjh.a (Lboq;Lzx;)V
+   L15
+    LINENUMBER 198 L15
+    ALOAD 1
+    INVOKEVIRTUAL zx.t ()Z
+    IFEQ L11
+   L16
+    LINENUMBER 201 L16
+    INVOKESTATIC Config.isCustomItems ()Z
+    IFEQ L17
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    INVOKESTATIC CustomItems.renderCustomEffect (Lbjh;Lzx;Lboq;)Z
+    IFNE L11
+   L17
+    LINENUMBER 203 L17
+   FRAME FULL [bjh zx boq] []
+    ALOAD 0
+    ALOAD 2
+    INVOKESPECIAL bjh.a (Lboq;)V
+   L11
+    LINENUMBER 207 L11
+   FRAME FULL [bjh zx boq] []
+    INVOKESTATIC bfl.F ()V
+   L1
+    LINENUMBER 209 L1
+   FRAME FULL [bjh zx boq] []
+    RETURN
+   L18
+    LOCALVARIABLE this Lbjh; L0 L18 0
+    LOCALVARIABLE p_180454_1_ Lzx; L0 L18 1
+    LOCALVARIABLE p_180454_2_ Lboq; L0 L18 2
+    MAXSTACK = 4
+    MAXLOCALS = 3
+
+  // access flags 0x2
+  private a(Lboq;)V
+   L0
+    LINENUMBER 214 L0
+    INVOKESTATIC Config.isCustomItems ()Z
+    IFEQ L1
+   L2
+    LINENUMBER 216 L2
+    INVOKESTATIC CustomItems.isUseGlint ()Z
+    IFNE L1
+   L3
+    LINENUMBER 217 L3
+    RETURN
+   L1
+    LINENUMBER 220 L1
+   FRAME FULL [bjh boq] []
+    ICONST_0
+    INVOKESTATIC bfl.a (Z)V
+   L4
+    LINENUMBER 221 L4
+    SIPUSH 514
+    INVOKESTATIC bfl.c (I)V
+   L5
+    LINENUMBER 222 L5
+    INVOKESTATIC bfl.f ()V
+   L6
+    LINENUMBER 223 L6
+    SIPUSH 768
+    ICONST_1
+    INVOKESTATIC bfl.b (II)V
+   L7
+    LINENUMBER 224 L7
+    ALOAD 0
+    GETFIELD bjh.e : Lbmj;
+    GETSTATIC bjh.b : Ljy;
+    INVOKEVIRTUAL bmj.a (Ljy;)V
+   L8
+    LINENUMBER 225 L8
+    SIPUSH 5890
+    INVOKESTATIC bfl.n (I)V
+   L9
+    LINENUMBER 226 L9
+    INVOKESTATIC bfl.E ()V
+   L10
+    LINENUMBER 227 L10
+    LDC 8.0
+    LDC 8.0
+    LDC 8.0
+    INVOKESTATIC bfl.a (FFF)V
+   L11
+    LINENUMBER 228 L11
+    INVOKESTATIC ave.J ()J
+    LDC 3000
+    LREM
+    L2F
+    LDC 3000.0
+    FDIV
+    LDC 8.0
+    FDIV
+    FSTORE 2
+   L12
+    LINENUMBER 229 L12
+    FLOAD 2
+    FCONST_0
+    FCONST_0
+    INVOKESTATIC bfl.b (FFF)V
+   L13
+    LINENUMBER 230 L13
+    LDC -50.0
+    FCONST_0
+    FCONST_0
+    FCONST_1
+    INVOKESTATIC bfl.b (FFFF)V
+   L14
+    LINENUMBER 231 L14
+    ALOAD 0
+    ALOAD 1
+    LDC -8372020
+    INVOKEVIRTUAL bjh.a (Lboq;I)V
+   L15
+    LINENUMBER 232 L15
+    INVOKESTATIC bfl.F ()V
+   L16
+    LINENUMBER 233 L16
+    INVOKESTATIC bfl.E ()V
+   L17
+    LINENUMBER 234 L17
+    LDC 8.0
+    LDC 8.0
+    LDC 8.0
+    INVOKESTATIC bfl.a (FFF)V
+   L18
+    LINENUMBER 235 L18
+    INVOKESTATIC ave.J ()J
+    LDC 4873
+    LREM
+    L2F
+    LDC 4873.0
+    FDIV
+    LDC 8.0
+    FDIV
+    FSTORE 3
+   L19
+    LINENUMBER 236 L19
+    FLOAD 3
+    FNEG
+    FCONST_0
+    FCONST_0
+    INVOKESTATIC bfl.b (FFF)V
+   L20
+    LINENUMBER 237 L20
+    LDC 10.0
+    FCONST_0
+    FCONST_0
+    FCONST_1
+    INVOKESTATIC bfl.b (FFFF)V
+   L21
+    LINENUMBER 238 L21
+    ALOAD 0
+    ALOAD 1
+    LDC -8372020
+    INVOKEVIRTUAL bjh.a (Lboq;I)V
+   L22
+    LINENUMBER 239 L22
+    INVOKESTATIC bfl.F ()V
+   L23
+    LINENUMBER 240 L23
+    SIPUSH 5888
+    INVOKESTATIC bfl.n (I)V
+   L24
+    LINENUMBER 241 L24
+    SIPUSH 770
+    SIPUSH 771
+    INVOKESTATIC bfl.b (II)V
+   L25
+    LINENUMBER 242 L25
+    INVOKESTATIC bfl.e ()V
+   L26
+    LINENUMBER 243 L26
+    SIPUSH 515
+    INVOKESTATIC bfl.c (I)V
+   L27
+    LINENUMBER 244 L27
+    ICONST_1
+    INVOKESTATIC bfl.a (Z)V
+   L28
+    LINENUMBER 245 L28
+    ALOAD 0
+    GETFIELD bjh.e : Lbmj;
+    GETSTATIC bmh.g : Ljy;
+    INVOKEVIRTUAL bmj.a (Ljy;)V
+   L29
+    LINENUMBER 246 L29
+    RETURN
+   L30
+    LOCALVARIABLE this Lbjh; L0 L30 0
+    LOCALVARIABLE p_180451_1_ Lboq; L0 L30 1
+    LOCALVARIABLE var2 F L12 L30 2
+    LOCALVARIABLE var3 F L19 L30 3
+    MAXSTACK = 4
+    MAXLOCALS = 4
+
+  // access flags 0x2
+  private a(Lbfd;Lbgg;)V
+   L0
+    LINENUMBER 250 L0
+    ALOAD 2
+    INVOKEVIRTUAL bgg.d ()Lcq;
+    INVOKEVIRTUAL cq.m ()Ldf;
+    ASTORE 3
+   L1
+    LINENUMBER 251 L1
+    ALOAD 1
+    ALOAD 3
+    INVOKEVIRTUAL df.n ()I
+    I2F
+    ALOAD 3
+    INVOKEVIRTUAL df.o ()I
+    I2F
+    ALOAD 3
+    INVOKEVIRTUAL df.p ()I
+    I2F
+    INVOKEVIRTUAL bfd.b (FFF)V
+   L2
+    LINENUMBER 252 L2
+    RETURN
+   L3
+    LOCALVARIABLE this Lbjh; L0 L3 0
+    LOCALVARIABLE p_175038_1_ Lbfd; L0 L3 1
+    LOCALVARIABLE p_175038_2_ Lbgg; L0 L3 2
+    LOCALVARIABLE var3 Ldf; L1 L3 3
+    MAXSTACK = 4
+    MAXLOCALS = 4
+
+  // access flags 0x2
+  private a(Lbfd;Lbgg;I)V
+   L0
+    LINENUMBER 257 L0
+    ALOAD 1
+    INVOKEVIRTUAL bfd.isMultiTexture ()Z
+    IFEQ L1
+   L2
+    LINENUMBER 259 L2
+    ALOAD 1
+    ALOAD 2
+    INVOKEVIRTUAL bgg.getVertexDataSingle ()[I
+    INVOKEVIRTUAL bfd.a ([I)V
+   L3
+    LINENUMBER 260 L3
+    ALOAD 1
+    ALOAD 2
+    INVOKEVIRTUAL bgg.getSprite ()Lbmi;
+    INVOKEVIRTUAL bfd.putSprite (Lbmi;)V
+    GOTO L4
+   L1
+    LINENUMBER 265 L1
+   FRAME FULL [bjh bfd bgg I] []
+    ALOAD 1
+    ALOAD 2
+    INVOKEVIRTUAL bgg.a ()[I
+    INVOKEVIRTUAL bfd.a ([I)V
+   L4
+    LINENUMBER 270 L4
+   FRAME FULL [bjh bfd bgg I] []
+    GETSTATIC Reflector.IColoredBakedQuad : LReflectorClass;
+    INVOKEVIRTUAL ReflectorClass.exists ()Z
+    IFEQ L5
+    GETSTATIC Reflector.IColoredBakedQuad : LReflectorClass;
+    ALOAD 2
+    INVOKEVIRTUAL ReflectorClass.isInstance (Ljava/lang/Object;)Z
+    IFEQ L5
+   L6
+    LINENUMBER 271 L6
+    ALOAD 1
+    ALOAD 2
+    ILOAD 3
+    INVOKESTATIC bjh.forgeHooksClient_putQuadColor (Lbfd;Lbgg;I)V
+    GOTO L7
+   L5
+    LINENUMBER 274 L5
+   FRAME FULL [bjh bfd bgg I] []
+    ALOAD 1
+    ILOAD 3
+    INVOKEVIRTUAL bfd.a (I)V
+   L7
+    LINENUMBER 276 L7
+   FRAME FULL [bjh bfd bgg I] []
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    INVOKESPECIAL bjh.a (Lbfd;Lbgg;)V
+   L8
+    LINENUMBER 277 L8
+    RETURN
+   L9
+    LOCALVARIABLE this Lbjh; L0 L9 0
+    LOCALVARIABLE p_175033_1_ Lbfd; L0 L9 1
+    LOCALVARIABLE p_175033_2_ Lbgg; L0 L9 2
+    LOCALVARIABLE p_175033_3_ I L0 L9 3
+    MAXSTACK = 3
+    MAXLOCALS = 4
+
+  // access flags 0x2
+  private a(Lbfd;Ljava/util/List;ILzx;)V
+   L0
+    LINENUMBER 281 L0
+    ILOAD 3
+    ICONST_M1
+    IF_ICMPNE L1
+    ALOAD 4
+    IFNULL L1
+    ICONST_1
+    GOTO L2
+   L1
+   FRAME FULL [bjh bfd java/util/List I zx] []
+    ICONST_0
+   L2
+   FRAME FULL [bjh bfd java/util/List I zx] [I]
+    ISTORE 5
+   L3
+    LINENUMBER 282 L3
+    ICONST_0
+    ISTORE 6
+   L4
+    LINENUMBER 284 L4
+    ALOAD 2
+    INVOKEINTERFACE java/util/List.size ()I
+    ISTORE 7
+   L5
+   FRAME FULL [bjh bfd java/util/List I zx I I I] []
+    ILOAD 6
+    ILOAD 7
+    IF_ICMPGE L6
+   L7
+    LINENUMBER 286 L7
+    ALOAD 2
+    ILOAD 6
+    INVOKEINTERFACE java/util/List.get (I)Ljava/lang/Object;
+    CHECKCAST bgg
+    ASTORE 8
+   L8
+    LINENUMBER 287 L8
+    ILOAD 3
+    ISTORE 9
+   L9
+    LINENUMBER 289 L9
+    ILOAD 5
+    IFEQ L10
+    ALOAD 8
+    INVOKEVIRTUAL bgg.b ()Z
+    IFEQ L10
+   L11
+    LINENUMBER 291 L11
+    ALOAD 4
+    INVOKEVIRTUAL zx.b ()Lzw;
+    ALOAD 4
+    ALOAD 8
+    INVOKEVIRTUAL bgg.c ()I
+    INVOKEVIRTUAL zw.a (Lzx;I)I
+    ISTORE 9
+   L12
+    LINENUMBER 293 L12
+    INVOKESTATIC Config.isCustomColors ()Z
+    IFEQ L13
+   L14
+    LINENUMBER 294 L14
+    ALOAD 4
+    ALOAD 8
+    INVOKEVIRTUAL bgg.c ()I
+    ILOAD 9
+    INVOKESTATIC CustomColors.getColorFromItemStack (Lzx;II)I
+    ISTORE 9
+   L13
+    LINENUMBER 297 L13
+   FRAME FULL [bjh bfd java/util/List I zx I I I bgg I] []
+    GETSTATIC bfk.a : Z
+    IFEQ L15
+   L16
+    LINENUMBER 299 L16
+    ILOAD 9
+    INVOKESTATIC bml.c (I)I
+    ISTORE 9
+   L15
+    LINENUMBER 302 L15
+   FRAME FULL [bjh bfd java/util/List I zx I I I bgg I] []
+    ILOAD 9
+    LDC -16777216
+    IOR
+    ISTORE 9
+   L10
+    LINENUMBER 306 L10
+   FRAME FULL [bjh bfd java/util/List I zx I I I bgg I] []
+    ALOAD 0
+    ALOAD 1
+    ALOAD 8
+    ILOAD 9
+    INVOKESPECIAL bjh.a (Lbfd;Lbgg;I)V
+   L17
+    LINENUMBER 284 L17
+    IINC 6 1
+    GOTO L5
+   L6
+    LINENUMBER 308 L6
+   FRAME FULL [bjh bfd java/util/List I zx I I I] []
+    RETURN
+   L18
+    LOCALVARIABLE var8 Lbgg; L8 L17 8
+    LOCALVARIABLE var9 I L9 L17 9
+    LOCALVARIABLE var7 I L5 L6 7
+    LOCALVARIABLE this Lbjh; L0 L18 0
+    LOCALVARIABLE p_175032_1_ Lbfd; L0 L18 1
+    LOCALVARIABLE p_175032_2_ Ljava/util/List; L0 L18 2
+    LOCALVARIABLE p_175032_3_ I L0 L18 3
+    LOCALVARIABLE p_175032_4_ Lzx; L0 L18 4
+    LOCALVARIABLE var5 Z L3 L18 5
+    LOCALVARIABLE var6 I L4 L18 6
+    MAXSTACK = 4
+    MAXLOCALS = 10
+
+  // access flags 0x1
+  public a(Lzx;)Z
+   L0
+    LINENUMBER 312 L0
+    ALOAD 0
+    GETFIELD bjh.d : Lbfo;
+    ALOAD 1
+    INVOKEVIRTUAL bfo.a (Lzx;)Lboq;
+    ASTORE 2
+   L1
+    LINENUMBER 313 L1
+    ALOAD 2
+    IFNONNULL L2
+    ICONST_0
+    GOTO L3
+   L2
+   FRAME FULL [bjh zx boq] []
+    ALOAD 2
+    INVOKEINTERFACE boq.c ()Z
+   L3
+   FRAME FULL [bjh zx boq] [I]
+    IRETURN
+   L4
+    LOCALVARIABLE this Lbjh; L0 L4 0
+    LOCALVARIABLE p_175050_1_ Lzx; L0 L4 1
+    LOCALVARIABLE var2 Lboq; L1 L4 2
+    MAXSTACK = 2
+    MAXLOCALS = 3
+
+  // access flags 0x2
+  private b(Lzx;)V
+   L0
+    LINENUMBER 318 L0
+    ALOAD 0
+    GETFIELD bjh.d : Lbfo;
+    ALOAD 1
+    INVOKEVIRTUAL bfo.a (Lzx;)Lboq;
+    ASTORE 2
+   L1
+    LINENUMBER 319 L1
+    ALOAD 1
+    INVOKEVIRTUAL zx.b ()Lzw;
+    ASTORE 3
+   L2
+    LINENUMBER 321 L2
+    ALOAD 3
+    IFNULL L3
+   L4
+    LINENUMBER 323 L4
+    ALOAD 2
+    INVOKEINTERFACE boq.c ()Z
+    ISTORE 4
+   L5
+    LINENUMBER 325 L5
+    ILOAD 4
+    IFNE L6
+   L7
+    LINENUMBER 327 L7
+    FCONST_2
+    FCONST_2
+    FCONST_2
+    INVOKESTATIC bfl.a (FFF)V
+   L6
+    LINENUMBER 330 L6
+   FRAME FULL [bjh zx boq zw I] []
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    INVOKESTATIC bfl.c (FFFF)V
+   L3
+    LINENUMBER 332 L3
+   FRAME FULL [bjh zx boq zw] []
+    RETURN
+   L8
+    LOCALVARIABLE var4 Z L5 L3 4
+    LOCALVARIABLE this Lbjh; L0 L8 0
+    LOCALVARIABLE p_175046_1_ Lzx; L0 L8 1
+    LOCALVARIABLE var2 Lboq; L1 L8 2
+    LOCALVARIABLE var3 Lzw; L2 L8 3
+    MAXSTACK = 4
+    MAXLOCALS = 5
+
+  // access flags 0x1
+  public a(Lzx;Lbgr$b;)V
+   L0
+    LINENUMBER 336 L0
+    ALOAD 1
+    IFNULL L1
+   L2
+    LINENUMBER 338 L2
+    ALOAD 0
+    GETFIELD bjh.d : Lbfo;
+    ALOAD 1
+    INVOKEVIRTUAL bfo.a (Lzx;)Lboq;
+    ASTORE 3
+   L3
+    LINENUMBER 339 L3
+    ALOAD 0
+    ALOAD 1
+    ALOAD 3
+    ALOAD 2
+    INVOKEVIRTUAL bjh.a (Lzx;Lboq;Lbgr$b;)V
+   L1
+    LINENUMBER 341 L1
+   FRAME FULL [bjh zx bgr$b] []
+    RETURN
+   L4
+    LOCALVARIABLE var3 Lboq; L3 L1 3
+    LOCALVARIABLE this Lbjh; L0 L4 0
+    LOCALVARIABLE p_500168_1_ Lzx; L0 L4 1
+    LOCALVARIABLE p_500168_2_ Lbgr$b; L0 L4 2
+    MAXSTACK = 4
+    MAXLOCALS = 4
+
+  // access flags 0x1
+  public a(Lzx;Lpr;Lbgr$b;)V
+   L0
+    LINENUMBER 345 L0
+    ALOAD 1
+    IFNULL L1
+    ALOAD 2
+    IFNULL L1
+   L2
+    LINENUMBER 347 L2
+    ALOAD 0
+    GETFIELD bjh.d : Lbfo;
+    ALOAD 1
+    INVOKEVIRTUAL bfo.a (Lzx;)Lboq;
+    ASTORE 4
+   L3
+    LINENUMBER 349 L3
+    ALOAD 2
+    INSTANCEOF wn
+    IFEQ L4
+   L5
+    LINENUMBER 351 L5
+    ALOAD 2
+    CHECKCAST wn
+    ASTORE 5
+   L6
+    LINENUMBER 352 L6
+    ALOAD 1
+    INVOKEVIRTUAL zx.b ()Lzw;
+    ASTORE 6
+   L7
+    LINENUMBER 353 L7
+    ACONST_NULL
+    ASTORE 7
+   L8
+    LINENUMBER 355 L8
+    ALOAD 6
+    GETSTATIC zy.aR : Lzq;
+    IF_ACMPNE L9
+    ALOAD 5
+    GETFIELD wn.bG : Lur;
+    IFNULL L9
+   L10
+    LINENUMBER 357 L10
+    NEW bov
+    DUP
+    LDC "fishing_rod_cast"
+    LDC "inventory"
+    INVOKESPECIAL bov.<init> (Ljava/lang/String;Ljava/lang/String;)V
+    ASTORE 7
+    GOTO L11
+   L9
+    LINENUMBER 359 L9
+   FRAME FULL [bjh zx pr bgr$b boq wn zw N] []
+    ALOAD 6
+    GETSTATIC zy.f : Lyt;
+    IF_ACMPNE L12
+    ALOAD 5
+    INVOKEVIRTUAL wn.bQ ()Lzx;
+    IFNULL L12
+   L13
+    LINENUMBER 361 L13
+    ALOAD 1
+    INVOKEVIRTUAL zx.l ()I
+    ALOAD 5
+    INVOKEVIRTUAL wn.bR ()I
+    ISUB
+    ISTORE 8
+   L14
+    LINENUMBER 363 L14
+    ILOAD 8
+    BIPUSH 18
+    IF_ICMPLT L15
+   L16
+    LINENUMBER 365 L16
+    NEW bov
+    DUP
+    LDC "bow_pulling_2"
+    LDC "inventory"
+    INVOKESPECIAL bov.<init> (Ljava/lang/String;Ljava/lang/String;)V
+    ASTORE 7
+    GOTO L17
+   L15
+    LINENUMBER 367 L15
+   FRAME FULL [bjh zx pr bgr$b boq wn zw N I] []
+    ILOAD 8
+    BIPUSH 13
+    IF_ICMPLE L18
+   L19
+    LINENUMBER 369 L19
+    NEW bov
+    DUP
+    LDC "bow_pulling_1"
+    LDC "inventory"
+    INVOKESPECIAL bov.<init> (Ljava/lang/String;Ljava/lang/String;)V
+    ASTORE 7
+    GOTO L17
+   L18
+    LINENUMBER 371 L18
+   FRAME FULL [bjh zx pr bgr$b boq wn zw N I] []
+    ILOAD 8
+    IFLE L17
+   L20
+    LINENUMBER 373 L20
+    NEW bov
+    DUP
+    LDC "bow_pulling_0"
+    LDC "inventory"
+    INVOKESPECIAL bov.<init> (Ljava/lang/String;Ljava/lang/String;)V
+    ASTORE 7
+   L17
+    LINENUMBER 375 L17
+   FRAME FULL [bjh zx pr bgr$b boq wn zw bov I] []
+    GOTO L11
+   L12
+    LINENUMBER 379 L12
+   FRAME FULL [bjh zx pr bgr$b boq wn zw N] []
+    GETSTATIC Reflector.ForgeItem_getModel : LReflectorMethod;
+    INVOKEVIRTUAL ReflectorMethod.exists ()Z
+    IFEQ L11
+   L21
+    LINENUMBER 380 L21
+    ALOAD 6
+    GETSTATIC Reflector.ForgeItem_getModel : LReflectorMethod;
+    ICONST_3
+    ANEWARRAY java/lang/Object
+    DUP
+    ICONST_0
+    ALOAD 1
+    AASTORE
+    DUP
+    ICONST_1
+    ALOAD 5
+    AASTORE
+    DUP
+    ICONST_2
+    ALOAD 5
+    INVOKEVIRTUAL wn.bR ()I
+    INVOKESTATIC java/lang/Integer.valueOf (I)Ljava/lang/Integer;
+    AASTORE
+    INVOKESTATIC Reflector.call (Ljava/lang/Object;LReflectorMethod;[Ljava/lang/Object;)Ljava/lang/Object;
+    CHECKCAST bov
+    ASTORE 7
+   L11
+    LINENUMBER 385 L11
+   FRAME FULL [bjh zx pr bgr$b boq wn zw bov] []
+    ALOAD 0
+    ALOAD 7
+    PUTFIELD bjh.modelLocation : Lbov;
+   L22
+    LINENUMBER 387 L22
+    ALOAD 7
+    IFNULL L4
+   L23
+    LINENUMBER 389 L23
+    ALOAD 0
+    GETFIELD bjh.d : Lbfo;
+    INVOKEVIRTUAL bfo.a ()Lbou;
+    ALOAD 7
+    INVOKEVIRTUAL bou.a (Lbov;)Lboq;
+    ASTORE 4
+   L4
+    LINENUMBER 393 L4
+   FRAME FULL [bjh zx pr bgr$b boq] []
+    ALOAD 0
+    ALOAD 1
+    ALOAD 4
+    ALOAD 3
+    INVOKEVIRTUAL bjh.a (Lzx;Lboq;Lbgr$b;)V
+   L24
+    LINENUMBER 395 L24
+    ALOAD 0
+    ACONST_NULL
+    PUTFIELD bjh.modelLocation : Lbov;
+   L1
+    LINENUMBER 397 L1
+   FRAME FULL [bjh zx pr bgr$b] []
+    RETURN
+   L25
+    LOCALVARIABLE var8 I L14 L17 8
+    LOCALVARIABLE var5 Lwn; L6 L4 5
+    LOCALVARIABLE var6 Lzw; L7 L4 6
+    LOCALVARIABLE var7 Lbov; L8 L4 7
+    LOCALVARIABLE var4 Lboq; L3 L1 4
+    LOCALVARIABLE this Lbjh; L0 L25 0
+    LOCALVARIABLE p_175049_1_ Lzx; L0 L25 1
+    LOCALVARIABLE p_175049_2_ Lpr; L0 L25 2
+    LOCALVARIABLE p_175049_3_ Lbgr$b; L0 L25 3
+    MAXSTACK = 6
+    MAXLOCALS = 9
+
+  // access flags 0x4
+  protected a(Lzx;Lboq;Lbgr$b;)V
+   L0
+    LINENUMBER 401 L0
+    ALOAD 0
+    GETFIELD bjh.e : Lbmj;
+    GETSTATIC bmh.g : Ljy;
+    INVOKEVIRTUAL bmj.a (Ljy;)V
+   L1
+    LINENUMBER 402 L1
+    ALOAD 0
+    GETFIELD bjh.e : Lbmj;
+    GETSTATIC bmh.g : Ljy;
+    INVOKEVIRTUAL bmj.b (Ljy;)Lbmk;
+    ICONST_0
+    ICONST_0
+    INVOKEINTERFACE bmk.b (ZZ)V
+   L2
+    LINENUMBER 403 L2
+    ALOAD 0
+    ALOAD 1
+    INVOKESPECIAL bjh.b (Lzx;)V
+   L3
+    LINENUMBER 404 L3
+    INVOKESTATIC bfl.B ()V
+   L4
+    LINENUMBER 405 L4
+    SIPUSH 516
+    LDC 0.1
+    INVOKESTATIC bfl.a (IF)V
+   L5
+    LINENUMBER 406 L5
+    INVOKESTATIC bfl.l ()V
+   L6
+    LINENUMBER 407 L6
+    SIPUSH 770
+    SIPUSH 771
+    ICONST_1
+    ICONST_0
+    INVOKESTATIC bfl.a (IIII)V
+   L7
+    LINENUMBER 408 L7
+    INVOKESTATIC bfl.E ()V
+   L8
+    LINENUMBER 410 L8
+    GETSTATIC Reflector.ForgeHooksClient_handleCameraTransforms : LReflectorMethod;
+    INVOKEVIRTUAL ReflectorMethod.exists ()Z
+    IFEQ L9
+   L10
+    LINENUMBER 413 L10
+    GETSTATIC Reflector.ForgeHooksClient_handleCameraTransforms : LReflectorMethod;
+    ICONST_2
+    ANEWARRAY java/lang/Object
+    DUP
+    ICONST_0
+    ALOAD 2
+    AASTORE
+    DUP
+    ICONST_1
+    ALOAD 3
+    AASTORE
+    INVOKESTATIC Reflector.call (LReflectorMethod;[Ljava/lang/Object;)Ljava/lang/Object;
+    CHECKCAST boq
+    ASTORE 2
+    GOTO L11
+   L9
+    LINENUMBER 418 L9
+   FRAME FULL [bjh zx boq bgr$b] []
+    ALOAD 2
+    INVOKEINTERFACE boq.f ()Lbgr;
+    ASTORE 4
+   L12
+    LINENUMBER 419 L12
+    ALOAD 4
+    ALOAD 3
+    INVOKEVIRTUAL bgr.a (Lbgr$b;)V
+   L13
+    LINENUMBER 421 L13
+    ALOAD 0
+    ALOAD 4
+    ALOAD 3
+    INVOKEVIRTUAL bgr.b (Lbgr$b;)Lbgq;
+    INVOKESPECIAL bjh.a (Lbgq;)Z
+    IFEQ L11
+   L14
+    LINENUMBER 423 L14
+    SIPUSH 1028
+    INVOKESTATIC bfl.e (I)V
+   L11
+    LINENUMBER 429 L11
+   FRAME FULL [bjh zx boq bgr$b] []
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    INVOKEVIRTUAL bjh.a (Lzx;Lboq;)V
+   L15
+    LINENUMBER 430 L15
+    SIPUSH 1029
+    INVOKESTATIC bfl.e (I)V
+   L16
+    LINENUMBER 431 L16
+    INVOKESTATIC bfl.F ()V
+   L17
+    LINENUMBER 432 L17
+    INVOKESTATIC bfl.C ()V
+   L18
+    LINENUMBER 433 L18
+    INVOKESTATIC bfl.k ()V
+   L19
+    LINENUMBER 434 L19
+    ALOAD 0
+    GETFIELD bjh.e : Lbmj;
+    GETSTATIC bmh.g : Ljy;
+    INVOKEVIRTUAL bmj.a (Ljy;)V
+   L20
+    LINENUMBER 435 L20
+    ALOAD 0
+    GETFIELD bjh.e : Lbmj;
+    GETSTATIC bmh.g : Ljy;
+    INVOKEVIRTUAL bmj.b (Ljy;)Lbmk;
+    INVOKEINTERFACE bmk.a ()V
+   L21
+    LINENUMBER 436 L21
+    RETURN
+   L22
+    LOCALVARIABLE var4 Lbgr; L12 L11 4
+    LOCALVARIABLE this Lbjh; L0 L22 0
+    LOCALVARIABLE p_175040_1_ Lzx; L0 L22 1
+    LOCALVARIABLE p_175040_2_ Lboq; L0 L22 2
+    LOCALVARIABLE p_175040_3_ Lbgr$b; L0 L22 3
+    MAXSTACK = 5
+    MAXLOCALS = 5
+
+  // access flags 0x2
+  private a(Lbgq;)Z
+   L0
+    LINENUMBER 440 L0
+    ALOAD 1
+    GETFIELD bgq.d : Lorg/lwjgl/util/vector/Vector3f;
+    GETFIELD org/lwjgl/util/vector/Vector3f.x : F
+    FCONST_0
+    FCMPG
+    IFGE L1
+    ICONST_1
+    GOTO L2
+   L1
+   FRAME FULL [bjh bgq] []
+    ICONST_0
+   L2
+   FRAME FULL [bjh bgq] [I]
+    ALOAD 1
+    GETFIELD bgq.d : Lorg/lwjgl/util/vector/Vector3f;
+    GETFIELD org/lwjgl/util/vector/Vector3f.y : F
+    FCONST_0
+    FCMPG
+    IFGE L3
+    ICONST_1
+    GOTO L4
+   L3
+   FRAME FULL [bjh bgq] [I]
+    ICONST_0
+   L4
+   FRAME FULL [bjh bgq] [I I]
+    IXOR
+    ALOAD 1
+    GETFIELD bgq.d : Lorg/lwjgl/util/vector/Vector3f;
+    GETFIELD org/lwjgl/util/vector/Vector3f.z : F
+    FCONST_0
+    FCMPG
+    IFGE L5
+    ICONST_1
+    GOTO L6
+   L5
+   FRAME FULL [bjh bgq] [I]
+    ICONST_0
+   L6
+   FRAME FULL [bjh bgq] [I I]
+    IXOR
+    IRETURN
+   L7
+    LOCALVARIABLE this Lbjh; L0 L7 0
+    LOCALVARIABLE p_500169_1_ Lbgq; L0 L7 1
+    MAXSTACK = 3
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public a(Lzx;II)V
+   L0
+    LINENUMBER 445 L0
+    ALOAD 0
+    GETFIELD bjh.d : Lbfo;
+    ALOAD 1
+    INVOKEVIRTUAL bfo.a (Lzx;)Lboq;
+    ASTORE 4
+   L1
+    LINENUMBER 446 L1
+    INVOKESTATIC bfl.E ()V
+   L2
+    LINENUMBER 447 L2
+    ALOAD 0
+    GETFIELD bjh.e : Lbmj;
+    GETSTATIC bmh.g : Ljy;
+    INVOKEVIRTUAL bmj.a (Ljy;)V
+   L3
+    LINENUMBER 448 L3
+    ALOAD 0
+    GETFIELD bjh.e : Lbmj;
+    GETSTATIC bmh.g : Ljy;
+    INVOKEVIRTUAL bmj.b (Ljy;)Lbmk;
+    ICONST_0
+    ICONST_0
+    INVOKEINTERFACE bmk.b (ZZ)V
+   L4
+    LINENUMBER 449 L4
+    INVOKESTATIC bfl.B ()V
+   L5
+    LINENUMBER 450 L5
+    INVOKESTATIC bfl.d ()V
+   L6
+    LINENUMBER 451 L6
+    SIPUSH 516
+    LDC 0.1
+    INVOKESTATIC bfl.a (IF)V
+   L7
+    LINENUMBER 452 L7
+    INVOKESTATIC bfl.l ()V
+   L8
+    LINENUMBER 453 L8
+    SIPUSH 770
+    SIPUSH 771
+    INVOKESTATIC bfl.b (II)V
+   L9
+    LINENUMBER 454 L9
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    FCONST_1
+    INVOKESTATIC bfl.c (FFFF)V
+   L10
+    LINENUMBER 455 L10
+    ALOAD 0
+    ILOAD 2
+    ILOAD 3
+    ALOAD 4
+    INVOKEINTERFACE boq.c ()Z
+    INVOKESPECIAL bjh.a (IIZ)V
+   L11
+    LINENUMBER 457 L11
+    GETSTATIC Reflector.ForgeHooksClient_handleCameraTransforms : LReflectorMethod;
+    INVOKEVIRTUAL ReflectorMethod.exists ()Z
+    IFEQ L12
+   L13
+    LINENUMBER 459 L13
+    GETSTATIC Reflector.ForgeHooksClient_handleCameraTransforms : LReflectorMethod;
+    ICONST_2
+    ANEWARRAY java/lang/Object
+    DUP
+    ICONST_0
+    ALOAD 4
+    AASTORE
+    DUP
+    ICONST_1
+    GETSTATIC bgr$b.e : Lbgr$b;
+    AASTORE
+    INVOKESTATIC Reflector.call (LReflectorMethod;[Ljava/lang/Object;)Ljava/lang/Object;
+    CHECKCAST boq
+    ASTORE 4
+    GOTO L14
+   L12
+    LINENUMBER 464 L12
+   FRAME FULL [bjh zx I I boq] []
+    ALOAD 4
+    INVOKEINTERFACE boq.f ()Lbgr;
+    GETSTATIC bgr$b.e : Lbgr$b;
+    INVOKEVIRTUAL bgr.a (Lbgr$b;)V
+   L14
+    LINENUMBER 468 L14
+   FRAME FULL [bjh zx I I boq] []
+    ALOAD 0
+    ALOAD 1
+    ALOAD 4
+    INVOKEVIRTUAL bjh.a (Lzx;Lboq;)V
+   L15
+    LINENUMBER 469 L15
+    INVOKESTATIC bfl.c ()V
+   L16
+    LINENUMBER 470 L16
+    INVOKESTATIC bfl.C ()V
+   L17
+    LINENUMBER 471 L17
+    INVOKESTATIC bfl.f ()V
+   L18
+    LINENUMBER 472 L18
+    INVOKESTATIC bfl.F ()V
+   L19
+    LINENUMBER 473 L19
+    ALOAD 0
+    GETFIELD bjh.e : Lbmj;
+    GETSTATIC bmh.g : Ljy;
+    INVOKEVIRTUAL bmj.a (Ljy;)V
+   L20
+    LINENUMBER 474 L20
+    ALOAD 0
+    GETFIELD bjh.e : Lbmj;
+    GETSTATIC bmh.g : Ljy;
+    INVOKEVIRTUAL bmj.b (Ljy;)Lbmk;
+    INVOKEINTERFACE bmk.a ()V
+   L21
+    LINENUMBER 475 L21
+    RETURN
+   L22
+    LOCALVARIABLE this Lbjh; L0 L22 0
+    LOCALVARIABLE p_175042_1_ Lzx; L0 L22 1
+    LOCALVARIABLE p_175042_2_ I L0 L22 2
+    LOCALVARIABLE p_175042_3_ I L0 L22 3
+    LOCALVARIABLE var4 Lboq; L1 L22 4
+    MAXSTACK = 5
+    MAXLOCALS = 5
+
+  // access flags 0x2
+  private a(IIZ)V
+   L0
+    LINENUMBER 479 L0
+    ILOAD 1
+    I2F
+    ILOAD 2
+    I2F
+    LDC 100.0
+    ALOAD 0
+    GETFIELD bjh.a : F
+    FADD
+    INVOKESTATIC bfl.b (FFF)V
+   L1
+    LINENUMBER 480 L1
+    LDC 8.0
+    LDC 8.0
+    FCONST_0
+    INVOKESTATIC bfl.b (FFF)V
+   L2
+    LINENUMBER 481 L2
+    FCONST_1
+    FCONST_1
+    LDC -1.0
+    INVOKESTATIC bfl.a (FFF)V
+   L3
+    LINENUMBER 482 L3
+    LDC 0.5
+    LDC 0.5
+    LDC 0.5
+    INVOKESTATIC bfl.a (FFF)V
+   L4
+    LINENUMBER 484 L4
+    ILOAD 3
+    IFEQ L5
+   L6
+    LINENUMBER 486 L6
+    LDC 40.0
+    LDC 40.0
+    LDC 40.0
+    INVOKESTATIC bfl.a (FFF)V
+   L7
+    LINENUMBER 487 L7
+    LDC 210.0
+    FCONST_1
+    FCONST_0
+    FCONST_0
+    INVOKESTATIC bfl.b (FFFF)V
+   L8
+    LINENUMBER 488 L8
+    LDC -135.0
+    FCONST_0
+    FCONST_1
+    FCONST_0
+    INVOKESTATIC bfl.b (FFFF)V
+   L9
+    LINENUMBER 489 L9
+    INVOKESTATIC bfl.e ()V
+    GOTO L10
+   L5
+    LINENUMBER 493 L5
+   FRAME FULL [bjh I I I] []
+    LDC 64.0
+    LDC 64.0
+    LDC 64.0
+    INVOKESTATIC bfl.a (FFF)V
+   L11
+    LINENUMBER 494 L11
+    LDC 180.0
+    FCONST_1
+    FCONST_0
+    FCONST_0
+    INVOKESTATIC bfl.b (FFFF)V
+   L12
+    LINENUMBER 495 L12
+    INVOKESTATIC bfl.f ()V
+   L10
+    LINENUMBER 497 L10
+   FRAME FULL [bjh I I I] []
+    RETURN
+   L13
+    LOCALVARIABLE this Lbjh; L0 L13 0
+    LOCALVARIABLE p_180452_1_ I L0 L13 1
+    LOCALVARIABLE p_180452_2_ I L0 L13 2
+    LOCALVARIABLE p_180452_3_ Z L0 L13 3
+    MAXSTACK = 4
+    MAXLOCALS = 4
+
+  // access flags 0x1
+  public b(Lzx;II)V
+    TRYCATCHBLOCK L0 L1 L2 java/lang/Throwable
+   L3
+    LINENUMBER 501 L3
+    ALOAD 1
+    IFNULL L4
+    ALOAD 1
+    INVOKEVIRTUAL zx.b ()Lzw;
+    IFNULL L4
+   L5
+    LINENUMBER 503 L5
+    ALOAD 0
+    DUP
+    GETFIELD bjh.a : F
+    LDC 50.0
+    FADD
+    PUTFIELD bjh.a : F
+   L0
+    LINENUMBER 507 L0
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    INVOKEVIRTUAL bjh.a (Lzx;II)V
+   L1
+    LINENUMBER 550 L1
+    GOTO L6
+   L2
+    LINENUMBER 509 L2
+   FRAME FULL [bjh zx I I] [java/lang/Throwable]
+    ASTORE 4
+   L7
+    LINENUMBER 511 L7
+    ALOAD 4
+    LDC "Rendering item"
+    INVOKESTATIC b.a (Ljava/lang/Throwable;Ljava/lang/String;)Lb;
+    ASTORE 5
+   L8
+    LINENUMBER 512 L8
+    ALOAD 5
+    LDC "Item being rendered"
+    INVOKEVIRTUAL b.a (Ljava/lang/String;)Lc;
+    ASTORE 6
+   L9
+    LINENUMBER 513 L9
+    ALOAD 6
+    LDC "Item Type"
+    NEW bjh$1
+    DUP
+    ALOAD 0
+    ALOAD 1
+    INVOKESPECIAL bjh$1.<init> (Lbjh;Lzx;)V
+    INVOKEVIRTUAL c.a (Ljava/lang/String;Ljava/util/concurrent/Callable;)V
+   L10
+    LINENUMBER 522 L10
+    ALOAD 6
+    LDC "Item Aux"
+    NEW bjh$2
+    DUP
+    ALOAD 0
+    ALOAD 1
+    INVOKESPECIAL bjh$2.<init> (Lbjh;Lzx;)V
+    INVOKEVIRTUAL c.a (Ljava/lang/String;Ljava/util/concurrent/Callable;)V
+   L11
+    LINENUMBER 531 L11
+    ALOAD 6
+    LDC "Item NBT"
+    NEW bjh$3
+    DUP
+    ALOAD 0
+    ALOAD 1
+    INVOKESPECIAL bjh$3.<init> (Lbjh;Lzx;)V
+    INVOKEVIRTUAL c.a (Ljava/lang/String;Ljava/util/concurrent/Callable;)V
+   L12
+    LINENUMBER 540 L12
+    ALOAD 6
+    LDC "Item Foil"
+    NEW bjh$4
+    DUP
+    ALOAD 0
+    ALOAD 1
+    INVOKESPECIAL bjh$4.<init> (Lbjh;Lzx;)V
+    INVOKEVIRTUAL c.a (Ljava/lang/String;Ljava/util/concurrent/Callable;)V
+   L13
+    LINENUMBER 549 L13
+    NEW e
+    DUP
+    ALOAD 5
+    INVOKESPECIAL e.<init> (Lb;)V
+    ATHROW
+   L6
+    LINENUMBER 552 L6
+   FRAME FULL [bjh zx I I] []
+    ALOAD 0
+    DUP
+    GETFIELD bjh.a : F
+    LDC 50.0
+    FSUB
+    PUTFIELD bjh.a : F
+   L4
+    LINENUMBER 554 L4
+   FRAME FULL [bjh zx I I] []
+    RETURN
+   L14
+    LOCALVARIABLE var5 Lb; L8 L6 5
+    LOCALVARIABLE var6 Lc; L9 L6 6
+    LOCALVARIABLE var7 Ljava/lang/Throwable; L7 L6 4
+    LOCALVARIABLE this Lbjh; L3 L14 0
+    LOCALVARIABLE p_180450_1_ Lzx; L3 L14 1
+    LOCALVARIABLE p_180450_2_ I L3 L14 2
+    LOCALVARIABLE p_180450_3_ I L3 L14 3
+    MAXSTACK = 6
+    MAXLOCALS = 7
+
+  // access flags 0x1
+  public a(Lavn;Lzx;II)V
+   L0
+    LINENUMBER 558 L0
+    ALOAD 0
+    ALOAD 1
+    ALOAD 2
+    ILOAD 3
+    ILOAD 4
+    ACONST_NULL
+    CHECKCAST java/lang/String
+    INVOKEVIRTUAL bjh.a (Lavn;Lzx;IILjava/lang/String;)V
+   L1
+    LINENUMBER 559 L1
+    RETURN
+   L2
+    LOCALVARIABLE this Lbjh; L0 L2 0
+    LOCALVARIABLE p_175030_1_ Lavn; L0 L2 1
+    LOCALVARIABLE p_175030_2_ Lzx; L0 L2 2
+    LOCALVARIABLE p_175030_3_ I L0 L2 3
+    LOCALVARIABLE p_175030_4_ I L0 L2 4
+    MAXSTACK = 6
+    MAXLOCALS = 5
+
+  // access flags 0x1
+  public a(Lavn;Lzx;IILjava/lang/String;)V
+   L0
+    LINENUMBER 563 L0
+    ALOAD 2
+    IFNULL L1
+   L2
+    LINENUMBER 565 L2
+    ALOAD 2
+    GETFIELD zx.b : I
+    ICONST_1
+    IF_ICMPNE L3
+    ALOAD 5
+    IFNULL L4
+   L3
+    LINENUMBER 567 L3
+   FRAME FULL [bjh avn zx I I java/lang/String] []
+    ALOAD 5
+    IFNONNULL L5
+    ALOAD 2
+    GETFIELD zx.b : I
+    INVOKESTATIC java/lang/String.valueOf (I)Ljava/lang/String;
+    GOTO L6
+   L5
+   FRAME FULL [bjh avn zx I I java/lang/String] []
+    ALOAD 5
+   L6
+   FRAME FULL [bjh avn zx I I java/lang/String] [java/lang/String]
+    ASTORE 6
+   L7
+    LINENUMBER 569 L7
+    ALOAD 5
+    IFNONNULL L8
+    ALOAD 2
+    GETFIELD zx.b : I
+    ICONST_1
+    IF_ICMPGE L8
+   L9
+    LINENUMBER 571 L9
+    NEW java/lang/StringBuilder
+    DUP
+    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
+    GETSTATIC a.m : La;
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    ALOAD 2
+    GETFIELD zx.b : I
+    INVOKESTATIC java/lang/String.valueOf (I)Ljava/lang/String;
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
+    ASTORE 6
+   L8
+    LINENUMBER 574 L8
+   FRAME FULL [bjh avn zx I I java/lang/String java/lang/String] []
+    INVOKESTATIC bfl.f ()V
+   L10
+    LINENUMBER 575 L10
+    INVOKESTATIC bfl.i ()V
+   L11
+    LINENUMBER 576 L11
+    INVOKESTATIC bfl.k ()V
+   L12
+    LINENUMBER 577 L12
+    ALOAD 1
+    ALOAD 6
+    ILOAD 3
+    BIPUSH 19
+    IADD
+    ICONST_2
+    ISUB
+    ALOAD 1
+    ALOAD 6
+    INVOKEVIRTUAL avn.a (Ljava/lang/String;)I
+    ISUB
+    I2F
+    ILOAD 4
+    BIPUSH 6
+    IADD
+    ICONST_3
+    IADD
+    I2F
+    LDC 16777215
+    INVOKEVIRTUAL avn.a (Ljava/lang/String;FFI)I
+    POP
+   L13
+    LINENUMBER 578 L13
+    INVOKESTATIC bfl.e ()V
+   L14
+    LINENUMBER 579 L14
+    INVOKESTATIC bfl.j ()V
+   L4
+    LINENUMBER 583 L4
+   FRAME FULL [bjh avn zx I I java/lang/String] []
+    ALOAD 2
+    INVOKEVIRTUAL zx.g ()Z
+    ISTORE 6
+   L15
+    LINENUMBER 584 L15
+    GETSTATIC Reflector.ForgeItem_showDurabilityBar : LReflectorMethod;
+    INVOKEVIRTUAL ReflectorMethod.exists ()Z
+    IFEQ L16
+   L17
+    LINENUMBER 585 L17
+    ALOAD 2
+    INVOKEVIRTUAL zx.b ()Lzw;
+    GETSTATIC Reflector.ForgeItem_showDurabilityBar : LReflectorMethod;
+    ICONST_1
+    ANEWARRAY java/lang/Object
+    DUP
+    ICONST_0
+    ALOAD 2
+    AASTORE
+    INVOKESTATIC Reflector.callBoolean (Ljava/lang/Object;LReflectorMethod;[Ljava/lang/Object;)Z
+    ISTORE 6
+   L16
+    LINENUMBER 587 L16
+   FRAME FULL [bjh avn zx I I java/lang/String I] []
+    ILOAD 6
+    IFEQ L1
+   L18
+    LINENUMBER 589 L18
+    LDC 13.0
+    ALOAD 2
+    INVOKEVIRTUAL zx.h ()I
+    I2D
+    LDC 13.0
+    DMUL
+    ALOAD 2
+    INVOKEVIRTUAL zx.j ()I
+    I2D
+    DDIV
+    DSUB
+    INVOKESTATIC java/lang/Math.round (D)J
+    L2I
+    ISTORE 7
+   L19
+    LINENUMBER 590 L19
+    LDC 255.0
+    ALOAD 2
+    INVOKEVIRTUAL zx.h ()I
+    I2D
+    LDC 255.0
+    DMUL
+    ALOAD 2
+    INVOKEVIRTUAL zx.j ()I
+    I2D
+    DDIV
+    DSUB
+    INVOKESTATIC java/lang/Math.round (D)J
+    L2I
+    ISTORE 8
+   L20
+    LINENUMBER 592 L20
+    GETSTATIC Reflector.ForgeItem_getDurabilityForDisplay : LReflectorMethod;
+    INVOKEVIRTUAL ReflectorMethod.exists ()Z
+    IFEQ L21
+   L22
+    LINENUMBER 594 L22
+    ALOAD 2
+    INVOKEVIRTUAL zx.b ()Lzw;
+    GETSTATIC Reflector.ForgeItem_getDurabilityForDisplay : LReflectorMethod;
+    ICONST_1
+    ANEWARRAY java/lang/Object
+    DUP
+    ICONST_0
+    ALOAD 2
+    AASTORE
+    INVOKESTATIC Reflector.callDouble (Ljava/lang/Object;LReflectorMethod;[Ljava/lang/Object;)D
+    DSTORE 9
+   L23
+    LINENUMBER 595 L23
+    LDC 13.0
+    DLOAD 9
+    LDC 13.0
+    DMUL
+    DSUB
+    INVOKESTATIC java/lang/Math.round (D)J
+    L2I
+    ISTORE 7
+   L24
+    LINENUMBER 596 L24
+    LDC 255.0
+    DLOAD 9
+    LDC 255.0
+    DMUL
+    DSUB
+    INVOKESTATIC java/lang/Math.round (D)J
+    L2I
+    ISTORE 8
+   L21
+    LINENUMBER 599 L21
+   FRAME FULL [bjh avn zx I I java/lang/String I I I] []
+    INVOKESTATIC bfl.f ()V
+   L25
+    LINENUMBER 600 L25
+    INVOKESTATIC bfl.i ()V
+   L26
+    LINENUMBER 601 L26
+    INVOKESTATIC bfl.x ()V
+   L27
+    LINENUMBER 602 L27
+    INVOKESTATIC bfl.c ()V
+   L28
+    LINENUMBER 603 L28
+    INVOKESTATIC bfl.k ()V
+   L29
+    LINENUMBER 604 L29
+    INVOKESTATIC bfx.a ()Lbfx;
+    ASTORE 9
+   L30
+    LINENUMBER 605 L30
+    ALOAD 9
+    INVOKEVIRTUAL bfx.c ()Lbfd;
+    ASTORE 10
+   L31
+    LINENUMBER 606 L31
+    ALOAD 0
+    ALOAD 10
+    ILOAD 3
+    ICONST_2
+    IADD
+    ILOAD 4
+    BIPUSH 13
+    IADD
+    BIPUSH 13
+    ICONST_2
+    ICONST_0
+    ICONST_0
+    ICONST_0
+    SIPUSH 255
+    INVOKESPECIAL bjh.a (Lbfd;IIIIIIII)V
+   L32
+    LINENUMBER 607 L32
+    ALOAD 0
+    ALOAD 10
+    ILOAD 3
+    ICONST_2
+    IADD
+    ILOAD 4
+    BIPUSH 13
+    IADD
+    BIPUSH 12
+    ICONST_1
+    SIPUSH 255
+    ILOAD 8
+    ISUB
+    ICONST_4
+    IDIV
+    BIPUSH 64
+    ICONST_0
+    SIPUSH 255
+    INVOKESPECIAL bjh.a (Lbfd;IIIIIIII)V
+   L33
+    LINENUMBER 608 L33
+    ALOAD 0
+    ALOAD 10
+    ILOAD 3
+    ICONST_2
+    IADD
+    ILOAD 4
+    BIPUSH 13
+    IADD
+    ILOAD 7
+    ICONST_1
+    SIPUSH 255
+    ILOAD 8
+    ISUB
+    ILOAD 8
+    ICONST_0
+    SIPUSH 255
+    INVOKESPECIAL bjh.a (Lbfd;IIIIIIII)V
+   L34
+    LINENUMBER 610 L34
+    GETSTATIC Reflector.ForgeHooksClient : LReflectorClass;
+    INVOKEVIRTUAL ReflectorClass.exists ()Z
+    IFNE L35
+   L36
+    LINENUMBER 612 L36
+    INVOKESTATIC bfl.l ()V
+   L35
+    LINENUMBER 613 L35
+   FRAME FULL [bjh avn zx I I java/lang/String I I I bfx bfd] []
+    INVOKESTATIC bfl.d ()V
+   L37
+    LINENUMBER 614 L37
+    INVOKESTATIC bfl.w ()V
+   L38
+    LINENUMBER 615 L38
+    INVOKESTATIC bfl.e ()V
+   L39
+    LINENUMBER 616 L39
+    INVOKESTATIC bfl.j ()V
+   L1
+    LINENUMBER 619 L1
+   FRAME FULL [bjh avn zx I I java/lang/String] []
+    RETURN
+   L40
+    LOCALVARIABLE var6 Ljava/lang/String; L7 L4 6
+    LOCALVARIABLE health D L23 L21 9
+    LOCALVARIABLE var10 I L19 L1 7
+    LOCALVARIABLE var7 I L20 L1 8
+    LOCALVARIABLE var8 Lbfx; L30 L1 9
+    LOCALVARIABLE var9 Lbfd; L31 L1 10
+    LOCALVARIABLE itemDamaged Z L15 L1 6
+    LOCALVARIABLE this Lbjh; L0 L40 0
+    LOCALVARIABLE p_180453_1_ Lavn; L0 L40 1
+    LOCALVARIABLE p_180453_2_ Lzx; L0 L40 2
+    LOCALVARIABLE p_180453_3_ I L0 L40 3
+    LOCALVARIABLE p_180453_4_ I L0 L40 4
+    LOCALVARIABLE p_180453_5_ Ljava/lang/String; L0 L40 5
+    MAXSTACK = 10
+    MAXLOCALS = 11
+
+  // access flags 0x2
+  private a(Lbfd;IIIIIIII)V
+   L0
+    LINENUMBER 623 L0
+    ALOAD 1
+    BIPUSH 7
+    GETSTATIC bms.f : Lbmu;
+    INVOKEVIRTUAL bfd.a (ILbmu;)V
+   L1
+    LINENUMBER 624 L1
+    ALOAD 1
+    ILOAD 2
+    ICONST_0
+    IADD
+    I2D
+    ILOAD 3
+    ICONST_0
+    IADD
+    I2D
+    DCONST_0
+    INVOKEVIRTUAL bfd.b (DDD)Lbfd;
+    ILOAD 6
+    ILOAD 7
+    ILOAD 8
+    ILOAD 9
+    INVOKEVIRTUAL bfd.b (IIII)Lbfd;
+    INVOKEVIRTUAL bfd.d ()V
+   L2
+    LINENUMBER 625 L2
+    ALOAD 1
+    ILOAD 2
+    ICONST_0
+    IADD
+    I2D
+    ILOAD 3
+    ILOAD 5
+    IADD
+    I2D
+    DCONST_0
+    INVOKEVIRTUAL bfd.b (DDD)Lbfd;
+    ILOAD 6
+    ILOAD 7
+    ILOAD 8
+    ILOAD 9
+    INVOKEVIRTUAL bfd.b (IIII)Lbfd;
+    INVOKEVIRTUAL bfd.d ()V
+   L3
+    LINENUMBER 626 L3
+    ALOAD 1
+    ILOAD 2
+    ILOAD 4
+    IADD
+    I2D
+    ILOAD 3
+    ILOAD 5
+    IADD
+    I2D
+    DCONST_0
+    INVOKEVIRTUAL bfd.b (DDD)Lbfd;
+    ILOAD 6
+    ILOAD 7
+    ILOAD 8
+    ILOAD 9
+    INVOKEVIRTUAL bfd.b (IIII)Lbfd;
+    INVOKEVIRTUAL bfd.d ()V
+   L4
+    LINENUMBER 627 L4
+    ALOAD 1
+    ILOAD 2
+    ILOAD 4
+    IADD
+    I2D
+    ILOAD 3
+    ICONST_0
+    IADD
+    I2D
+    DCONST_0
+    INVOKEVIRTUAL bfd.b (DDD)Lbfd;
+    ILOAD 6
+    ILOAD 7
+    ILOAD 8
+    ILOAD 9
+    INVOKEVIRTUAL bfd.b (IIII)Lbfd;
+    INVOKEVIRTUAL bfd.d ()V
+   L5
+    LINENUMBER 628 L5
+    INVOKESTATIC bfx.a ()Lbfx;
+    INVOKEVIRTUAL bfx.b ()V
+   L6
+    LINENUMBER 629 L6
+    RETURN
+   L7
+    LOCALVARIABLE this Lbjh; L0 L7 0
+    LOCALVARIABLE p_500170_1_ Lbfd; L0 L7 1
+    LOCALVARIABLE p_500170_2_ I L0 L7 2
+    LOCALVARIABLE p_500170_3_ I L0 L7 3
+    LOCALVARIABLE p_500170_4_ I L0 L7 4
+    LOCALVARIABLE p_500170_5_ I L0 L7 5
+    LOCALVARIABLE p_500170_6_ I L0 L7 6
+    LOCALVARIABLE p_500170_7_ I L0 L7 7
+    LOCALVARIABLE p_500170_8_ I L0 L7 8
+    LOCALVARIABLE p_500170_9_ I L0 L7 9
+    MAXSTACK = 7
+    MAXLOCALS = 10
+
+  // access flags 0x2
+  private b()V
+   L0
+    LINENUMBER 633 L0
+    ALOAD 0
+    GETSTATIC afi.cf : Lafh;
+    LDC "anvil_intact"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L1
+    LINENUMBER 634 L1
+    ALOAD 0
+    GETSTATIC afi.cf : Lafh;
+    ICONST_1
+    LDC "anvil_slightly_damaged"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L2
+    LINENUMBER 635 L2
+    ALOAD 0
+    GETSTATIC afi.cf : Lafh;
+    ICONST_2
+    LDC "anvil_very_damaged"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L3
+    LINENUMBER 636 L3
+    ALOAD 0
+    GETSTATIC afi.cy : Lafh;
+    GETSTATIC zd.p : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "black_carpet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L4
+    LINENUMBER 637 L4
+    ALOAD 0
+    GETSTATIC afi.cy : Lafh;
+    GETSTATIC zd.l : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "blue_carpet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L5
+    LINENUMBER 638 L5
+    ALOAD 0
+    GETSTATIC afi.cy : Lafh;
+    GETSTATIC zd.m : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "brown_carpet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L6
+    LINENUMBER 639 L6
+    ALOAD 0
+    GETSTATIC afi.cy : Lafh;
+    GETSTATIC zd.j : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "cyan_carpet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L7
+    LINENUMBER 640 L7
+    ALOAD 0
+    GETSTATIC afi.cy : Lafh;
+    GETSTATIC zd.h : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "gray_carpet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L8
+    LINENUMBER 641 L8
+    ALOAD 0
+    GETSTATIC afi.cy : Lafh;
+    GETSTATIC zd.n : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "green_carpet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L9
+    LINENUMBER 642 L9
+    ALOAD 0
+    GETSTATIC afi.cy : Lafh;
+    GETSTATIC zd.d : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "light_blue_carpet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L10
+    LINENUMBER 643 L10
+    ALOAD 0
+    GETSTATIC afi.cy : Lafh;
+    GETSTATIC zd.f : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "lime_carpet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L11
+    LINENUMBER 644 L11
+    ALOAD 0
+    GETSTATIC afi.cy : Lafh;
+    GETSTATIC zd.c : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "magenta_carpet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L12
+    LINENUMBER 645 L12
+    ALOAD 0
+    GETSTATIC afi.cy : Lafh;
+    GETSTATIC zd.b : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "orange_carpet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L13
+    LINENUMBER 646 L13
+    ALOAD 0
+    GETSTATIC afi.cy : Lafh;
+    GETSTATIC zd.g : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "pink_carpet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L14
+    LINENUMBER 647 L14
+    ALOAD 0
+    GETSTATIC afi.cy : Lafh;
+    GETSTATIC zd.k : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "purple_carpet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L15
+    LINENUMBER 648 L15
+    ALOAD 0
+    GETSTATIC afi.cy : Lafh;
+    GETSTATIC zd.o : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "red_carpet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L16
+    LINENUMBER 649 L16
+    ALOAD 0
+    GETSTATIC afi.cy : Lafh;
+    GETSTATIC zd.i : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "silver_carpet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L17
+    LINENUMBER 650 L17
+    ALOAD 0
+    GETSTATIC afi.cy : Lafh;
+    GETSTATIC zd.a : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "white_carpet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L18
+    LINENUMBER 651 L18
+    ALOAD 0
+    GETSTATIC afi.cy : Lafh;
+    GETSTATIC zd.e : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "yellow_carpet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L19
+    LINENUMBER 652 L19
+    ALOAD 0
+    GETSTATIC afi.bZ : Lafh;
+    GETSTATIC akl$a.b : Lakl$a;
+    INVOKEVIRTUAL akl$a.a ()I
+    LDC "mossy_cobblestone_wall"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L20
+    LINENUMBER 653 L20
+    ALOAD 0
+    GETSTATIC afi.bZ : Lafh;
+    GETSTATIC akl$a.a : Lakl$a;
+    INVOKEVIRTUAL akl$a.a ()I
+    LDC "cobblestone_wall"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L21
+    LINENUMBER 654 L21
+    ALOAD 0
+    GETSTATIC afi.d : Lafh;
+    GETSTATIC agf$a.b : Lagf$a;
+    INVOKEVIRTUAL agf$a.a ()I
+    LDC "coarse_dirt"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L22
+    LINENUMBER 655 L22
+    ALOAD 0
+    GETSTATIC afi.d : Lafh;
+    GETSTATIC agf$a.a : Lagf$a;
+    INVOKEVIRTUAL agf$a.a ()I
+    LDC "dirt"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L23
+    LINENUMBER 656 L23
+    ALOAD 0
+    GETSTATIC afi.d : Lafh;
+    GETSTATIC agf$a.c : Lagf$a;
+    INVOKEVIRTUAL agf$a.a ()I
+    LDC "podzol"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L24
+    LINENUMBER 657 L24
+    ALOAD 0
+    GETSTATIC afi.cF : Lagi;
+    GETSTATIC agi$b.d : Lagi$b;
+    INVOKEVIRTUAL agi$b.a ()I
+    LDC "double_fern"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L25
+    LINENUMBER 658 L25
+    ALOAD 0
+    GETSTATIC afi.cF : Lagi;
+    GETSTATIC agi$b.c : Lagi$b;
+    INVOKEVIRTUAL agi$b.a ()I
+    LDC "double_grass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L26
+    LINENUMBER 659 L26
+    ALOAD 0
+    GETSTATIC afi.cF : Lagi;
+    GETSTATIC agi$b.f : Lagi$b;
+    INVOKEVIRTUAL agi$b.a ()I
+    LDC "paeonia"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L27
+    LINENUMBER 660 L27
+    ALOAD 0
+    GETSTATIC afi.cF : Lagi;
+    GETSTATIC agi$b.e : Lagi$b;
+    INVOKEVIRTUAL agi$b.a ()I
+    LDC "double_rose"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L28
+    LINENUMBER 661 L28
+    ALOAD 0
+    GETSTATIC afi.cF : Lagi;
+    GETSTATIC agi$b.a : Lagi$b;
+    INVOKEVIRTUAL agi$b.a ()I
+    LDC "sunflower"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L29
+    LINENUMBER 662 L29
+    ALOAD 0
+    GETSTATIC afi.cF : Lagi;
+    GETSTATIC agi$b.b : Lagi$b;
+    INVOKEVIRTUAL agi$b.a ()I
+    LDC "syringa"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L30
+    LINENUMBER 663 L30
+    ALOAD 0
+    GETSTATIC afi.t : Lahs;
+    GETSTATIC aio$a.c : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "birch_leaves"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L31
+    LINENUMBER 664 L31
+    ALOAD 0
+    GETSTATIC afi.t : Lahs;
+    GETSTATIC aio$a.d : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "jungle_leaves"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L32
+    LINENUMBER 665 L32
+    ALOAD 0
+    GETSTATIC afi.t : Lahs;
+    GETSTATIC aio$a.a : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "oak_leaves"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L33
+    LINENUMBER 666 L33
+    ALOAD 0
+    GETSTATIC afi.t : Lahs;
+    GETSTATIC aio$a.b : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "spruce_leaves"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L34
+    LINENUMBER 667 L34
+    ALOAD 0
+    GETSTATIC afi.u : Lahs;
+    GETSTATIC aio$a.e : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    ICONST_4
+    ISUB
+    LDC "acacia_leaves"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L35
+    LINENUMBER 668 L35
+    ALOAD 0
+    GETSTATIC afi.u : Lahs;
+    GETSTATIC aio$a.f : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    ICONST_4
+    ISUB
+    LDC "dark_oak_leaves"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L36
+    LINENUMBER 669 L36
+    ALOAD 0
+    GETSTATIC afi.r : Lafh;
+    GETSTATIC aio$a.c : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "birch_log"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L37
+    LINENUMBER 670 L37
+    ALOAD 0
+    GETSTATIC afi.r : Lafh;
+    GETSTATIC aio$a.d : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "jungle_log"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L38
+    LINENUMBER 671 L38
+    ALOAD 0
+    GETSTATIC afi.r : Lafh;
+    GETSTATIC aio$a.a : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "oak_log"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L39
+    LINENUMBER 672 L39
+    ALOAD 0
+    GETSTATIC afi.r : Lafh;
+    GETSTATIC aio$a.b : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "spruce_log"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L40
+    LINENUMBER 673 L40
+    ALOAD 0
+    GETSTATIC afi.s : Lafh;
+    GETSTATIC aio$a.e : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    ICONST_4
+    ISUB
+    LDC "acacia_log"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L41
+    LINENUMBER 674 L41
+    ALOAD 0
+    GETSTATIC afi.s : Lafh;
+    GETSTATIC aio$a.f : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    ICONST_4
+    ISUB
+    LDC "dark_oak_log"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L42
+    LINENUMBER 675 L42
+    ALOAD 0
+    GETSTATIC afi.be : Lafh;
+    GETSTATIC ahz$a.f : Lahz$a;
+    INVOKEVIRTUAL ahz$a.a ()I
+    LDC "chiseled_brick_monster_egg"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L43
+    LINENUMBER 676 L43
+    ALOAD 0
+    GETSTATIC afi.be : Lafh;
+    GETSTATIC ahz$a.b : Lahz$a;
+    INVOKEVIRTUAL ahz$a.a ()I
+    LDC "cobblestone_monster_egg"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L44
+    LINENUMBER 677 L44
+    ALOAD 0
+    GETSTATIC afi.be : Lafh;
+    GETSTATIC ahz$a.e : Lahz$a;
+    INVOKEVIRTUAL ahz$a.a ()I
+    LDC "cracked_brick_monster_egg"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L45
+    LINENUMBER 678 L45
+    ALOAD 0
+    GETSTATIC afi.be : Lafh;
+    GETSTATIC ahz$a.d : Lahz$a;
+    INVOKEVIRTUAL ahz$a.a ()I
+    LDC "mossy_brick_monster_egg"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L46
+    LINENUMBER 679 L46
+    ALOAD 0
+    GETSTATIC afi.be : Lafh;
+    GETSTATIC ahz$a.a : Lahz$a;
+    INVOKEVIRTUAL ahz$a.a ()I
+    LDC "stone_monster_egg"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L47
+    LINENUMBER 680 L47
+    ALOAD 0
+    GETSTATIC afi.be : Lafh;
+    GETSTATIC ahz$a.c : Lahz$a;
+    INVOKEVIRTUAL ahz$a.a ()I
+    LDC "stone_brick_monster_egg"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L48
+    LINENUMBER 681 L48
+    ALOAD 0
+    GETSTATIC afi.f : Lafh;
+    GETSTATIC aio$a.e : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "acacia_planks"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L49
+    LINENUMBER 682 L49
+    ALOAD 0
+    GETSTATIC afi.f : Lafh;
+    GETSTATIC aio$a.c : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "birch_planks"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L50
+    LINENUMBER 683 L50
+    ALOAD 0
+    GETSTATIC afi.f : Lafh;
+    GETSTATIC aio$a.f : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "dark_oak_planks"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L51
+    LINENUMBER 684 L51
+    ALOAD 0
+    GETSTATIC afi.f : Lafh;
+    GETSTATIC aio$a.d : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "jungle_planks"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L52
+    LINENUMBER 685 L52
+    ALOAD 0
+    GETSTATIC afi.f : Lafh;
+    GETSTATIC aio$a.a : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "oak_planks"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L53
+    LINENUMBER 686 L53
+    ALOAD 0
+    GETSTATIC afi.f : Lafh;
+    GETSTATIC aio$a.b : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "spruce_planks"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L54
+    LINENUMBER 687 L54
+    ALOAD 0
+    GETSTATIC afi.cI : Lafh;
+    GETSTATIC aiu$a.b : Laiu$a;
+    INVOKEVIRTUAL aiu$a.a ()I
+    LDC "prismarine_bricks"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L55
+    LINENUMBER 688 L55
+    ALOAD 0
+    GETSTATIC afi.cI : Lafh;
+    GETSTATIC aiu$a.c : Laiu$a;
+    INVOKEVIRTUAL aiu$a.a ()I
+    LDC "dark_prismarine"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L56
+    LINENUMBER 689 L56
+    ALOAD 0
+    GETSTATIC afi.cI : Lafh;
+    GETSTATIC aiu$a.a : Laiu$a;
+    INVOKEVIRTUAL aiu$a.a ()I
+    LDC "prismarine"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L57
+    LINENUMBER 690 L57
+    ALOAD 0
+    GETSTATIC afi.cq : Lafh;
+    GETSTATIC aiw$a.b : Laiw$a;
+    INVOKEVIRTUAL aiw$a.a ()I
+    LDC "chiseled_quartz_block"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L58
+    LINENUMBER 691 L58
+    ALOAD 0
+    GETSTATIC afi.cq : Lafh;
+    GETSTATIC aiw$a.a : Laiw$a;
+    INVOKEVIRTUAL aiw$a.a ()I
+    LDC "quartz_block"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L59
+    LINENUMBER 692 L59
+    ALOAD 0
+    GETSTATIC afi.cq : Lafh;
+    GETSTATIC aiw$a.c : Laiw$a;
+    INVOKEVIRTUAL aiw$a.a ()I
+    LDC "quartz_column"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L60
+    LINENUMBER 693 L60
+    ALOAD 0
+    GETSTATIC afi.O : Lagw;
+    GETSTATIC agw$a.d : Lagw$a;
+    INVOKEVIRTUAL agw$a.b ()I
+    LDC "allium"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L61
+    LINENUMBER 694 L61
+    ALOAD 0
+    GETSTATIC afi.O : Lagw;
+    GETSTATIC agw$a.c : Lagw$a;
+    INVOKEVIRTUAL agw$a.b ()I
+    LDC "blue_orchid"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L62
+    LINENUMBER 695 L62
+    ALOAD 0
+    GETSTATIC afi.O : Lagw;
+    GETSTATIC agw$a.e : Lagw$a;
+    INVOKEVIRTUAL agw$a.b ()I
+    LDC "houstonia"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L63
+    LINENUMBER 696 L63
+    ALOAD 0
+    GETSTATIC afi.O : Lagw;
+    GETSTATIC agw$a.g : Lagw$a;
+    INVOKEVIRTUAL agw$a.b ()I
+    LDC "orange_tulip"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L64
+    LINENUMBER 697 L64
+    ALOAD 0
+    GETSTATIC afi.O : Lagw;
+    GETSTATIC agw$a.j : Lagw$a;
+    INVOKEVIRTUAL agw$a.b ()I
+    LDC "oxeye_daisy"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L65
+    LINENUMBER 698 L65
+    ALOAD 0
+    GETSTATIC afi.O : Lagw;
+    GETSTATIC agw$a.i : Lagw$a;
+    INVOKEVIRTUAL agw$a.b ()I
+    LDC "pink_tulip"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L66
+    LINENUMBER 699 L66
+    ALOAD 0
+    GETSTATIC afi.O : Lagw;
+    GETSTATIC agw$a.b : Lagw$a;
+    INVOKEVIRTUAL agw$a.b ()I
+    LDC "poppy"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L67
+    LINENUMBER 700 L67
+    ALOAD 0
+    GETSTATIC afi.O : Lagw;
+    GETSTATIC agw$a.f : Lagw$a;
+    INVOKEVIRTUAL agw$a.b ()I
+    LDC "red_tulip"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L68
+    LINENUMBER 701 L68
+    ALOAD 0
+    GETSTATIC afi.O : Lagw;
+    GETSTATIC agw$a.h : Lagw$a;
+    INVOKEVIRTUAL agw$a.b ()I
+    LDC "white_tulip"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L69
+    LINENUMBER 702 L69
+    ALOAD 0
+    GETSTATIC afi.m : Lajh;
+    GETSTATIC ajh$a.b : Lajh$a;
+    INVOKEVIRTUAL ajh$a.a ()I
+    LDC "red_sand"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L70
+    LINENUMBER 703 L70
+    ALOAD 0
+    GETSTATIC afi.m : Lajh;
+    GETSTATIC ajh$a.a : Lajh$a;
+    INVOKEVIRTUAL ajh$a.a ()I
+    LDC "sand"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L71
+    LINENUMBER 704 L71
+    ALOAD 0
+    GETSTATIC afi.A : Lafh;
+    GETSTATIC aji$a.b : Laji$a;
+    INVOKEVIRTUAL aji$a.a ()I
+    LDC "chiseled_sandstone"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L72
+    LINENUMBER 705 L72
+    ALOAD 0
+    GETSTATIC afi.A : Lafh;
+    GETSTATIC aji$a.a : Laji$a;
+    INVOKEVIRTUAL aji$a.a ()I
+    LDC "sandstone"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L73
+    LINENUMBER 706 L73
+    ALOAD 0
+    GETSTATIC afi.A : Lafh;
+    GETSTATIC aji$a.c : Laji$a;
+    INVOKEVIRTUAL aji$a.a ()I
+    LDC "smooth_sandstone"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L74
+    LINENUMBER 707 L74
+    ALOAD 0
+    GETSTATIC afi.cM : Lafh;
+    GETSTATIC aiz$a.b : Laiz$a;
+    INVOKEVIRTUAL aiz$a.a ()I
+    LDC "chiseled_red_sandstone"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L75
+    LINENUMBER 708 L75
+    ALOAD 0
+    GETSTATIC afi.cM : Lafh;
+    GETSTATIC aiz$a.a : Laiz$a;
+    INVOKEVIRTUAL aiz$a.a ()I
+    LDC "red_sandstone"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L76
+    LINENUMBER 709 L76
+    ALOAD 0
+    GETSTATIC afi.cM : Lafh;
+    GETSTATIC aiz$a.c : Laiz$a;
+    INVOKEVIRTUAL aiz$a.a ()I
+    LDC "smooth_red_sandstone"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L77
+    LINENUMBER 710 L77
+    ALOAD 0
+    GETSTATIC afi.g : Lafh;
+    GETSTATIC aio$a.e : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "acacia_sapling"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L78
+    LINENUMBER 711 L78
+    ALOAD 0
+    GETSTATIC afi.g : Lafh;
+    GETSTATIC aio$a.c : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "birch_sapling"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L79
+    LINENUMBER 712 L79
+    ALOAD 0
+    GETSTATIC afi.g : Lafh;
+    GETSTATIC aio$a.f : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "dark_oak_sapling"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L80
+    LINENUMBER 713 L80
+    ALOAD 0
+    GETSTATIC afi.g : Lafh;
+    GETSTATIC aio$a.d : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "jungle_sapling"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L81
+    LINENUMBER 714 L81
+    ALOAD 0
+    GETSTATIC afi.g : Lafh;
+    GETSTATIC aio$a.a : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "oak_sapling"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L82
+    LINENUMBER 715 L82
+    ALOAD 0
+    GETSTATIC afi.g : Lafh;
+    GETSTATIC aio$a.b : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "spruce_sapling"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L83
+    LINENUMBER 716 L83
+    ALOAD 0
+    GETSTATIC afi.v : Lafh;
+    ICONST_0
+    LDC "sponge"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L84
+    LINENUMBER 717 L84
+    ALOAD 0
+    GETSTATIC afi.v : Lafh;
+    ICONST_1
+    LDC "sponge_wet"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L85
+    LINENUMBER 718 L85
+    ALOAD 0
+    GETSTATIC afi.cG : Lajs;
+    GETSTATIC zd.p : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "black_stained_glass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L86
+    LINENUMBER 719 L86
+    ALOAD 0
+    GETSTATIC afi.cG : Lajs;
+    GETSTATIC zd.l : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "blue_stained_glass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L87
+    LINENUMBER 720 L87
+    ALOAD 0
+    GETSTATIC afi.cG : Lajs;
+    GETSTATIC zd.m : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "brown_stained_glass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L88
+    LINENUMBER 721 L88
+    ALOAD 0
+    GETSTATIC afi.cG : Lajs;
+    GETSTATIC zd.j : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "cyan_stained_glass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L89
+    LINENUMBER 722 L89
+    ALOAD 0
+    GETSTATIC afi.cG : Lajs;
+    GETSTATIC zd.h : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "gray_stained_glass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L90
+    LINENUMBER 723 L90
+    ALOAD 0
+    GETSTATIC afi.cG : Lajs;
+    GETSTATIC zd.n : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "green_stained_glass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L91
+    LINENUMBER 724 L91
+    ALOAD 0
+    GETSTATIC afi.cG : Lajs;
+    GETSTATIC zd.d : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "light_blue_stained_glass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L92
+    LINENUMBER 725 L92
+    ALOAD 0
+    GETSTATIC afi.cG : Lajs;
+    GETSTATIC zd.f : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "lime_stained_glass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L93
+    LINENUMBER 726 L93
+    ALOAD 0
+    GETSTATIC afi.cG : Lajs;
+    GETSTATIC zd.c : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "magenta_stained_glass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L94
+    LINENUMBER 727 L94
+    ALOAD 0
+    GETSTATIC afi.cG : Lajs;
+    GETSTATIC zd.b : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "orange_stained_glass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L95
+    LINENUMBER 728 L95
+    ALOAD 0
+    GETSTATIC afi.cG : Lajs;
+    GETSTATIC zd.g : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "pink_stained_glass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L96
+    LINENUMBER 729 L96
+    ALOAD 0
+    GETSTATIC afi.cG : Lajs;
+    GETSTATIC zd.k : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "purple_stained_glass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L97
+    LINENUMBER 730 L97
+    ALOAD 0
+    GETSTATIC afi.cG : Lajs;
+    GETSTATIC zd.o : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "red_stained_glass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L98
+    LINENUMBER 731 L98
+    ALOAD 0
+    GETSTATIC afi.cG : Lajs;
+    GETSTATIC zd.i : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "silver_stained_glass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L99
+    LINENUMBER 732 L99
+    ALOAD 0
+    GETSTATIC afi.cG : Lajs;
+    GETSTATIC zd.a : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "white_stained_glass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L100
+    LINENUMBER 733 L100
+    ALOAD 0
+    GETSTATIC afi.cG : Lajs;
+    GETSTATIC zd.e : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "yellow_stained_glass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L101
+    LINENUMBER 734 L101
+    ALOAD 0
+    GETSTATIC afi.cH : Lajt;
+    GETSTATIC zd.p : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "black_stained_glass_pane"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L102
+    LINENUMBER 735 L102
+    ALOAD 0
+    GETSTATIC afi.cH : Lajt;
+    GETSTATIC zd.l : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "blue_stained_glass_pane"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L103
+    LINENUMBER 736 L103
+    ALOAD 0
+    GETSTATIC afi.cH : Lajt;
+    GETSTATIC zd.m : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "brown_stained_glass_pane"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L104
+    LINENUMBER 737 L104
+    ALOAD 0
+    GETSTATIC afi.cH : Lajt;
+    GETSTATIC zd.j : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "cyan_stained_glass_pane"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L105
+    LINENUMBER 738 L105
+    ALOAD 0
+    GETSTATIC afi.cH : Lajt;
+    GETSTATIC zd.h : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "gray_stained_glass_pane"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L106
+    LINENUMBER 739 L106
+    ALOAD 0
+    GETSTATIC afi.cH : Lajt;
+    GETSTATIC zd.n : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "green_stained_glass_pane"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L107
+    LINENUMBER 740 L107
+    ALOAD 0
+    GETSTATIC afi.cH : Lajt;
+    GETSTATIC zd.d : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "light_blue_stained_glass_pane"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L108
+    LINENUMBER 741 L108
+    ALOAD 0
+    GETSTATIC afi.cH : Lajt;
+    GETSTATIC zd.f : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "lime_stained_glass_pane"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L109
+    LINENUMBER 742 L109
+    ALOAD 0
+    GETSTATIC afi.cH : Lajt;
+    GETSTATIC zd.c : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "magenta_stained_glass_pane"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L110
+    LINENUMBER 743 L110
+    ALOAD 0
+    GETSTATIC afi.cH : Lajt;
+    GETSTATIC zd.b : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "orange_stained_glass_pane"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L111
+    LINENUMBER 744 L111
+    ALOAD 0
+    GETSTATIC afi.cH : Lajt;
+    GETSTATIC zd.g : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "pink_stained_glass_pane"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L112
+    LINENUMBER 745 L112
+    ALOAD 0
+    GETSTATIC afi.cH : Lajt;
+    GETSTATIC zd.k : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "purple_stained_glass_pane"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L113
+    LINENUMBER 746 L113
+    ALOAD 0
+    GETSTATIC afi.cH : Lajt;
+    GETSTATIC zd.o : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "red_stained_glass_pane"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L114
+    LINENUMBER 747 L114
+    ALOAD 0
+    GETSTATIC afi.cH : Lajt;
+    GETSTATIC zd.i : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "silver_stained_glass_pane"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L115
+    LINENUMBER 748 L115
+    ALOAD 0
+    GETSTATIC afi.cH : Lajt;
+    GETSTATIC zd.a : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "white_stained_glass_pane"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L116
+    LINENUMBER 749 L116
+    ALOAD 0
+    GETSTATIC afi.cH : Lajt;
+    GETSTATIC zd.e : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "yellow_stained_glass_pane"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L117
+    LINENUMBER 750 L117
+    ALOAD 0
+    GETSTATIC afi.cu : Lafh;
+    GETSTATIC zd.p : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "black_stained_hardened_clay"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L118
+    LINENUMBER 751 L118
+    ALOAD 0
+    GETSTATIC afi.cu : Lafh;
+    GETSTATIC zd.l : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "blue_stained_hardened_clay"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L119
+    LINENUMBER 752 L119
+    ALOAD 0
+    GETSTATIC afi.cu : Lafh;
+    GETSTATIC zd.m : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "brown_stained_hardened_clay"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L120
+    LINENUMBER 753 L120
+    ALOAD 0
+    GETSTATIC afi.cu : Lafh;
+    GETSTATIC zd.j : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "cyan_stained_hardened_clay"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L121
+    LINENUMBER 754 L121
+    ALOAD 0
+    GETSTATIC afi.cu : Lafh;
+    GETSTATIC zd.h : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "gray_stained_hardened_clay"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L122
+    LINENUMBER 755 L122
+    ALOAD 0
+    GETSTATIC afi.cu : Lafh;
+    GETSTATIC zd.n : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "green_stained_hardened_clay"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L123
+    LINENUMBER 756 L123
+    ALOAD 0
+    GETSTATIC afi.cu : Lafh;
+    GETSTATIC zd.d : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "light_blue_stained_hardened_clay"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L124
+    LINENUMBER 757 L124
+    ALOAD 0
+    GETSTATIC afi.cu : Lafh;
+    GETSTATIC zd.f : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "lime_stained_hardened_clay"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L125
+    LINENUMBER 758 L125
+    ALOAD 0
+    GETSTATIC afi.cu : Lafh;
+    GETSTATIC zd.c : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "magenta_stained_hardened_clay"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L126
+    LINENUMBER 759 L126
+    ALOAD 0
+    GETSTATIC afi.cu : Lafh;
+    GETSTATIC zd.b : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "orange_stained_hardened_clay"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L127
+    LINENUMBER 760 L127
+    ALOAD 0
+    GETSTATIC afi.cu : Lafh;
+    GETSTATIC zd.g : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "pink_stained_hardened_clay"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L128
+    LINENUMBER 761 L128
+    ALOAD 0
+    GETSTATIC afi.cu : Lafh;
+    GETSTATIC zd.k : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "purple_stained_hardened_clay"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L129
+    LINENUMBER 762 L129
+    ALOAD 0
+    GETSTATIC afi.cu : Lafh;
+    GETSTATIC zd.o : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "red_stained_hardened_clay"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L130
+    LINENUMBER 763 L130
+    ALOAD 0
+    GETSTATIC afi.cu : Lafh;
+    GETSTATIC zd.i : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "silver_stained_hardened_clay"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L131
+    LINENUMBER 764 L131
+    ALOAD 0
+    GETSTATIC afi.cu : Lafh;
+    GETSTATIC zd.a : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "white_stained_hardened_clay"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L132
+    LINENUMBER 765 L132
+    ALOAD 0
+    GETSTATIC afi.cu : Lafh;
+    GETSTATIC zd.e : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "yellow_stained_hardened_clay"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L133
+    LINENUMBER 766 L133
+    ALOAD 0
+    GETSTATIC afi.b : Lafh;
+    GETSTATIC ajy$a.f : Lajy$a;
+    INVOKEVIRTUAL ajy$a.a ()I
+    LDC "andesite"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L134
+    LINENUMBER 767 L134
+    ALOAD 0
+    GETSTATIC afi.b : Lafh;
+    GETSTATIC ajy$a.g : Lajy$a;
+    INVOKEVIRTUAL ajy$a.a ()I
+    LDC "andesite_smooth"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L135
+    LINENUMBER 768 L135
+    ALOAD 0
+    GETSTATIC afi.b : Lafh;
+    GETSTATIC ajy$a.d : Lajy$a;
+    INVOKEVIRTUAL ajy$a.a ()I
+    LDC "diorite"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L136
+    LINENUMBER 769 L136
+    ALOAD 0
+    GETSTATIC afi.b : Lafh;
+    GETSTATIC ajy$a.e : Lajy$a;
+    INVOKEVIRTUAL ajy$a.a ()I
+    LDC "diorite_smooth"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L137
+    LINENUMBER 770 L137
+    ALOAD 0
+    GETSTATIC afi.b : Lafh;
+    GETSTATIC ajy$a.b : Lajy$a;
+    INVOKEVIRTUAL ajy$a.a ()I
+    LDC "granite"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L138
+    LINENUMBER 771 L138
+    ALOAD 0
+    GETSTATIC afi.b : Lafh;
+    GETSTATIC ajy$a.c : Lajy$a;
+    INVOKEVIRTUAL ajy$a.a ()I
+    LDC "granite_smooth"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L139
+    LINENUMBER 772 L139
+    ALOAD 0
+    GETSTATIC afi.b : Lafh;
+    GETSTATIC ajy$a.a : Lajy$a;
+    INVOKEVIRTUAL ajy$a.a ()I
+    LDC "stone"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L140
+    LINENUMBER 773 L140
+    ALOAD 0
+    GETSTATIC afi.bf : Lafh;
+    GETSTATIC ajz$a.c : Lajz$a;
+    INVOKEVIRTUAL ajz$a.a ()I
+    LDC "cracked_stonebrick"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L141
+    LINENUMBER 774 L141
+    ALOAD 0
+    GETSTATIC afi.bf : Lafh;
+    GETSTATIC ajz$a.a : Lajz$a;
+    INVOKEVIRTUAL ajz$a.a ()I
+    LDC "stonebrick"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L142
+    LINENUMBER 775 L142
+    ALOAD 0
+    GETSTATIC afi.bf : Lafh;
+    GETSTATIC ajz$a.d : Lajz$a;
+    INVOKEVIRTUAL ajz$a.a ()I
+    LDC "chiseled_stonebrick"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L143
+    LINENUMBER 776 L143
+    ALOAD 0
+    GETSTATIC afi.bf : Lafh;
+    GETSTATIC ajz$a.b : Lajz$a;
+    INVOKEVIRTUAL ajz$a.a ()I
+    LDC "mossy_stonebrick"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L144
+    LINENUMBER 777 L144
+    ALOAD 0
+    GETSTATIC afi.U : Lahh;
+    GETSTATIC akb$a.e : Lakb$a;
+    INVOKEVIRTUAL akb$a.a ()I
+    LDC "brick_slab"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L145
+    LINENUMBER 778 L145
+    ALOAD 0
+    GETSTATIC afi.U : Lahh;
+    GETSTATIC akb$a.d : Lakb$a;
+    INVOKEVIRTUAL akb$a.a ()I
+    LDC "cobblestone_slab"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L146
+    LINENUMBER 779 L146
+    ALOAD 0
+    GETSTATIC afi.U : Lahh;
+    GETSTATIC akb$a.c : Lakb$a;
+    INVOKEVIRTUAL akb$a.a ()I
+    LDC "old_wood_slab"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L147
+    LINENUMBER 780 L147
+    ALOAD 0
+    GETSTATIC afi.U : Lahh;
+    GETSTATIC akb$a.g : Lakb$a;
+    INVOKEVIRTUAL akb$a.a ()I
+    LDC "nether_brick_slab"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L148
+    LINENUMBER 781 L148
+    ALOAD 0
+    GETSTATIC afi.U : Lahh;
+    GETSTATIC akb$a.h : Lakb$a;
+    INVOKEVIRTUAL akb$a.a ()I
+    LDC "quartz_slab"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L149
+    LINENUMBER 782 L149
+    ALOAD 0
+    GETSTATIC afi.U : Lahh;
+    GETSTATIC akb$a.b : Lakb$a;
+    INVOKEVIRTUAL akb$a.a ()I
+    LDC "sandstone_slab"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L150
+    LINENUMBER 783 L150
+    ALOAD 0
+    GETSTATIC afi.U : Lahh;
+    GETSTATIC akb$a.f : Lakb$a;
+    INVOKEVIRTUAL akb$a.a ()I
+    LDC "stone_brick_slab"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L151
+    LINENUMBER 784 L151
+    ALOAD 0
+    GETSTATIC afi.U : Lahh;
+    GETSTATIC akb$a.a : Lakb$a;
+    INVOKEVIRTUAL akb$a.a ()I
+    LDC "stone_slab"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L152
+    LINENUMBER 785 L152
+    ALOAD 0
+    GETSTATIC afi.cP : Lahh;
+    GETSTATIC aih$a.a : Laih$a;
+    INVOKEVIRTUAL aih$a.a ()I
+    LDC "red_sandstone_slab"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L153
+    LINENUMBER 786 L153
+    ALOAD 0
+    GETSTATIC afi.H : Lakc;
+    GETSTATIC akc$a.a : Lakc$a;
+    INVOKEVIRTUAL akc$a.a ()I
+    LDC "dead_bush"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L154
+    LINENUMBER 787 L154
+    ALOAD 0
+    GETSTATIC afi.H : Lakc;
+    GETSTATIC akc$a.c : Lakc$a;
+    INVOKEVIRTUAL akc$a.a ()I
+    LDC "fern"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L155
+    LINENUMBER 788 L155
+    ALOAD 0
+    GETSTATIC afi.H : Lakc;
+    GETSTATIC akc$a.b : Lakc$a;
+    INVOKEVIRTUAL akc$a.a ()I
+    LDC "tall_grass"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L156
+    LINENUMBER 789 L156
+    ALOAD 0
+    GETSTATIC afi.bM : Lahh;
+    GETSTATIC aio$a.e : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "acacia_slab"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L157
+    LINENUMBER 790 L157
+    ALOAD 0
+    GETSTATIC afi.bM : Lahh;
+    GETSTATIC aio$a.c : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "birch_slab"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L158
+    LINENUMBER 791 L158
+    ALOAD 0
+    GETSTATIC afi.bM : Lahh;
+    GETSTATIC aio$a.f : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "dark_oak_slab"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L159
+    LINENUMBER 792 L159
+    ALOAD 0
+    GETSTATIC afi.bM : Lahh;
+    GETSTATIC aio$a.d : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "jungle_slab"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L160
+    LINENUMBER 793 L160
+    ALOAD 0
+    GETSTATIC afi.bM : Lahh;
+    GETSTATIC aio$a.a : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "oak_slab"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L161
+    LINENUMBER 794 L161
+    ALOAD 0
+    GETSTATIC afi.bM : Lahh;
+    GETSTATIC aio$a.b : Laio$a;
+    INVOKEVIRTUAL aio$a.a ()I
+    LDC "spruce_slab"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L162
+    LINENUMBER 795 L162
+    ALOAD 0
+    GETSTATIC afi.L : Lafh;
+    GETSTATIC zd.p : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "black_wool"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L163
+    LINENUMBER 796 L163
+    ALOAD 0
+    GETSTATIC afi.L : Lafh;
+    GETSTATIC zd.l : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "blue_wool"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L164
+    LINENUMBER 797 L164
+    ALOAD 0
+    GETSTATIC afi.L : Lafh;
+    GETSTATIC zd.m : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "brown_wool"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L165
+    LINENUMBER 798 L165
+    ALOAD 0
+    GETSTATIC afi.L : Lafh;
+    GETSTATIC zd.j : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "cyan_wool"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L166
+    LINENUMBER 799 L166
+    ALOAD 0
+    GETSTATIC afi.L : Lafh;
+    GETSTATIC zd.h : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "gray_wool"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L167
+    LINENUMBER 800 L167
+    ALOAD 0
+    GETSTATIC afi.L : Lafh;
+    GETSTATIC zd.n : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "green_wool"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L168
+    LINENUMBER 801 L168
+    ALOAD 0
+    GETSTATIC afi.L : Lafh;
+    GETSTATIC zd.d : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "light_blue_wool"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L169
+    LINENUMBER 802 L169
+    ALOAD 0
+    GETSTATIC afi.L : Lafh;
+    GETSTATIC zd.f : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "lime_wool"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L170
+    LINENUMBER 803 L170
+    ALOAD 0
+    GETSTATIC afi.L : Lafh;
+    GETSTATIC zd.c : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "magenta_wool"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L171
+    LINENUMBER 804 L171
+    ALOAD 0
+    GETSTATIC afi.L : Lafh;
+    GETSTATIC zd.b : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "orange_wool"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L172
+    LINENUMBER 805 L172
+    ALOAD 0
+    GETSTATIC afi.L : Lafh;
+    GETSTATIC zd.g : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "pink_wool"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L173
+    LINENUMBER 806 L173
+    ALOAD 0
+    GETSTATIC afi.L : Lafh;
+    GETSTATIC zd.k : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "purple_wool"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L174
+    LINENUMBER 807 L174
+    ALOAD 0
+    GETSTATIC afi.L : Lafh;
+    GETSTATIC zd.o : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "red_wool"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L175
+    LINENUMBER 808 L175
+    ALOAD 0
+    GETSTATIC afi.L : Lafh;
+    GETSTATIC zd.i : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "silver_wool"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L176
+    LINENUMBER 809 L176
+    ALOAD 0
+    GETSTATIC afi.L : Lafh;
+    GETSTATIC zd.a : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "white_wool"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L177
+    LINENUMBER 810 L177
+    ALOAD 0
+    GETSTATIC afi.L : Lafh;
+    GETSTATIC zd.e : Lzd;
+    INVOKEVIRTUAL zd.a ()I
+    LDC "yellow_wool"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L178
+    LINENUMBER 811 L178
+    ALOAD 0
+    GETSTATIC afi.cC : Lafh;
+    LDC "acacia_stairs"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L179
+    LINENUMBER 812 L179
+    ALOAD 0
+    GETSTATIC afi.cs : Lafh;
+    LDC "activator_rail"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L180
+    LINENUMBER 813 L180
+    ALOAD 0
+    GETSTATIC afi.bY : Laff;
+    LDC "beacon"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L181
+    LINENUMBER 814 L181
+    ALOAD 0
+    GETSTATIC afi.h : Lafh;
+    LDC "bedrock"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L182
+    LINENUMBER 815 L182
+    ALOAD 0
+    GETSTATIC afi.bV : Lafh;
+    LDC "birch_stairs"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L183
+    LINENUMBER 816 L183
+    ALOAD 0
+    GETSTATIC afi.X : Lafh;
+    LDC "bookshelf"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L184
+    LINENUMBER 817 L184
+    ALOAD 0
+    GETSTATIC afi.V : Lafh;
+    LDC "brick_block"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L185
+    LINENUMBER 818 L185
+    ALOAD 0
+    GETSTATIC afi.V : Lafh;
+    LDC "brick_block"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L186
+    LINENUMBER 819 L186
+    ALOAD 0
+    GETSTATIC afi.bu : Lafh;
+    LDC "brick_stairs"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L187
+    LINENUMBER 820 L187
+    ALOAD 0
+    GETSTATIC afi.P : Lafm;
+    LDC "brown_mushroom"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L188
+    LINENUMBER 821 L188
+    ALOAD 0
+    GETSTATIC afi.aK : Lafo;
+    LDC "cactus"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L189
+    LINENUMBER 822 L189
+    ALOAD 0
+    GETSTATIC afi.aL : Lafh;
+    LDC "clay"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L190
+    LINENUMBER 823 L190
+    ALOAD 0
+    GETSTATIC afi.cA : Lafh;
+    LDC "coal_block"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L191
+    LINENUMBER 824 L191
+    ALOAD 0
+    GETSTATIC afi.q : Lafh;
+    LDC "coal_ore"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L192
+    LINENUMBER 825 L192
+    ALOAD 0
+    GETSTATIC afi.e : Lafh;
+    LDC "cobblestone"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L193
+    LINENUMBER 826 L193
+    ALOAD 0
+    GETSTATIC afi.ai : Lafh;
+    LDC "crafting_table"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L194
+    LINENUMBER 827 L194
+    ALOAD 0
+    GETSTATIC afi.cD : Lafh;
+    LDC "dark_oak_stairs"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L195
+    LINENUMBER 828 L195
+    ALOAD 0
+    GETSTATIC afi.cl : Laga;
+    LDC "daylight_detector"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L196
+    LINENUMBER 829 L196
+    ALOAD 0
+    GETSTATIC afi.I : Lagb;
+    LDC "dead_bush"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L197
+    LINENUMBER 830 L197
+    ALOAD 0
+    GETSTATIC afi.E : Lafh;
+    LDC "detector_rail"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L198
+    LINENUMBER 831 L198
+    ALOAD 0
+    GETSTATIC afi.ah : Lafh;
+    LDC "diamond_block"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L199
+    LINENUMBER 832 L199
+    ALOAD 0
+    GETSTATIC afi.ag : Lafh;
+    LDC "diamond_ore"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L200
+    LINENUMBER 833 L200
+    ALOAD 0
+    GETSTATIC afi.z : Lafh;
+    LDC "dispenser"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L201
+    LINENUMBER 834 L201
+    ALOAD 0
+    GETSTATIC afi.ct : Lafh;
+    LDC "dropper"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L202
+    LINENUMBER 835 L202
+    ALOAD 0
+    GETSTATIC afi.bT : Lafh;
+    LDC "emerald_block"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L203
+    LINENUMBER 836 L203
+    ALOAD 0
+    GETSTATIC afi.bP : Lafh;
+    LDC "emerald_ore"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L204
+    LINENUMBER 837 L204
+    ALOAD 0
+    GETSTATIC afi.bC : Lafh;
+    LDC "enchanting_table"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L205
+    LINENUMBER 838 L205
+    ALOAD 0
+    GETSTATIC afi.bG : Lafh;
+    LDC "end_portal_frame"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L206
+    LINENUMBER 839 L206
+    ALOAD 0
+    GETSTATIC afi.bH : Lafh;
+    LDC "end_stone"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L207
+    LINENUMBER 840 L207
+    ALOAD 0
+    GETSTATIC afi.aO : Lafh;
+    LDC "oak_fence"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L208
+    LINENUMBER 841 L208
+    ALOAD 0
+    GETSTATIC afi.aP : Lafh;
+    LDC "spruce_fence"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L209
+    LINENUMBER 842 L209
+    ALOAD 0
+    GETSTATIC afi.aQ : Lafh;
+    LDC "birch_fence"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L210
+    LINENUMBER 843 L210
+    ALOAD 0
+    GETSTATIC afi.aR : Lafh;
+    LDC "jungle_fence"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L211
+    LINENUMBER 844 L211
+    ALOAD 0
+    GETSTATIC afi.aS : Lafh;
+    LDC "dark_oak_fence"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L212
+    LINENUMBER 845 L212
+    ALOAD 0
+    GETSTATIC afi.aT : Lafh;
+    LDC "acacia_fence"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L213
+    LINENUMBER 846 L213
+    ALOAD 0
+    GETSTATIC afi.bo : Lafh;
+    LDC "oak_fence_gate"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L214
+    LINENUMBER 847 L214
+    ALOAD 0
+    GETSTATIC afi.bp : Lafh;
+    LDC "spruce_fence_gate"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L215
+    LINENUMBER 848 L215
+    ALOAD 0
+    GETSTATIC afi.bq : Lafh;
+    LDC "birch_fence_gate"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L216
+    LINENUMBER 849 L216
+    ALOAD 0
+    GETSTATIC afi.br : Lafh;
+    LDC "jungle_fence_gate"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L217
+    LINENUMBER 850 L217
+    ALOAD 0
+    GETSTATIC afi.bs : Lafh;
+    LDC "dark_oak_fence_gate"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L218
+    LINENUMBER 851 L218
+    ALOAD 0
+    GETSTATIC afi.bt : Lafh;
+    LDC "acacia_fence_gate"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L219
+    LINENUMBER 852 L219
+    ALOAD 0
+    GETSTATIC afi.al : Lafh;
+    LDC "furnace"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L220
+    LINENUMBER 853 L220
+    ALOAD 0
+    GETSTATIC afi.w : Lafh;
+    LDC "glass"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L221
+    LINENUMBER 854 L221
+    ALOAD 0
+    GETSTATIC afi.bj : Lafh;
+    LDC "glass_pane"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L222
+    LINENUMBER 855 L222
+    ALOAD 0
+    GETSTATIC afi.aX : Lafh;
+    LDC "glowstone"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L223
+    LINENUMBER 856 L223
+    ALOAD 0
+    GETSTATIC afi.D : Lafh;
+    LDC "golden_rail"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L224
+    LINENUMBER 857 L224
+    ALOAD 0
+    GETSTATIC afi.R : Lafh;
+    LDC "gold_block"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L225
+    LINENUMBER 858 L225
+    ALOAD 0
+    GETSTATIC afi.o : Lafh;
+    LDC "gold_ore"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L226
+    LINENUMBER 859 L226
+    ALOAD 0
+    GETSTATIC afi.c : Lahe;
+    LDC "grass"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L227
+    LINENUMBER 860 L227
+    ALOAD 0
+    GETSTATIC afi.n : Lafh;
+    LDC "gravel"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L228
+    LINENUMBER 861 L228
+    ALOAD 0
+    GETSTATIC afi.cz : Lafh;
+    LDC "hardened_clay"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L229
+    LINENUMBER 862 L229
+    ALOAD 0
+    GETSTATIC afi.cx : Lafh;
+    LDC "hay_block"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L230
+    LINENUMBER 863 L230
+    ALOAD 0
+    GETSTATIC afi.ci : Lafh;
+    LDC "heavy_weighted_pressure_plate"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L231
+    LINENUMBER 864 L231
+    ALOAD 0
+    GETSTATIC afi.cp : Lahn;
+    LDC "hopper"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L232
+    LINENUMBER 865 L232
+    ALOAD 0
+    GETSTATIC afi.aI : Lafh;
+    LDC "ice"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L233
+    LINENUMBER 866 L233
+    ALOAD 0
+    GETSTATIC afi.bi : Lafh;
+    LDC "iron_bars"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L234
+    LINENUMBER 867 L234
+    ALOAD 0
+    GETSTATIC afi.S : Lafh;
+    LDC "iron_block"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L235
+    LINENUMBER 868 L235
+    ALOAD 0
+    GETSTATIC afi.p : Lafh;
+    LDC "iron_ore"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L236
+    LINENUMBER 869 L236
+    ALOAD 0
+    GETSTATIC afi.cw : Lafh;
+    LDC "iron_trapdoor"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L237
+    LINENUMBER 870 L237
+    ALOAD 0
+    GETSTATIC afi.aN : Lafh;
+    LDC "jukebox"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L238
+    LINENUMBER 871 L238
+    ALOAD 0
+    GETSTATIC afi.bW : Lafh;
+    LDC "jungle_stairs"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L239
+    LINENUMBER 872 L239
+    ALOAD 0
+    GETSTATIC afi.au : Lafh;
+    LDC "ladder"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L240
+    LINENUMBER 873 L240
+    ALOAD 0
+    GETSTATIC afi.y : Lafh;
+    LDC "lapis_block"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L241
+    LINENUMBER 874 L241
+    ALOAD 0
+    GETSTATIC afi.x : Lafh;
+    LDC "lapis_ore"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L242
+    LINENUMBER 875 L242
+    ALOAD 0
+    GETSTATIC afi.ay : Lafh;
+    LDC "lever"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L243
+    LINENUMBER 876 L243
+    ALOAD 0
+    GETSTATIC afi.ch : Lafh;
+    LDC "light_weighted_pressure_plate"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L244
+    LINENUMBER 877 L244
+    ALOAD 0
+    GETSTATIC afi.aZ : Lafh;
+    LDC "lit_pumpkin"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L245
+    LINENUMBER 878 L245
+    ALOAD 0
+    GETSTATIC afi.bk : Lafh;
+    LDC "melon_block"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L246
+    LINENUMBER 879 L246
+    ALOAD 0
+    GETSTATIC afi.Y : Lafh;
+    LDC "mossy_cobblestone"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L247
+    LINENUMBER 880 L247
+    ALOAD 0
+    GETSTATIC afi.bw : Laib;
+    LDC "mycelium"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L248
+    LINENUMBER 881 L248
+    ALOAD 0
+    GETSTATIC afi.aV : Lafh;
+    LDC "netherrack"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L249
+    LINENUMBER 882 L249
+    ALOAD 0
+    GETSTATIC afi.by : Lafh;
+    LDC "nether_brick"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L250
+    LINENUMBER 883 L250
+    ALOAD 0
+    GETSTATIC afi.bz : Lafh;
+    LDC "nether_brick_fence"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L251
+    LINENUMBER 884 L251
+    ALOAD 0
+    GETSTATIC afi.bA : Lafh;
+    LDC "nether_brick_stairs"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L252
+    LINENUMBER 885 L252
+    ALOAD 0
+    GETSTATIC afi.B : Lafh;
+    LDC "noteblock"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L253
+    LINENUMBER 886 L253
+    ALOAD 0
+    GETSTATIC afi.ad : Lafh;
+    LDC "oak_stairs"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L254
+    LINENUMBER 887 L254
+    ALOAD 0
+    GETSTATIC afi.Z : Lafh;
+    LDC "obsidian"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L255
+    LINENUMBER 888 L255
+    ALOAD 0
+    GETSTATIC afi.cB : Lafh;
+    LDC "packed_ice"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L256
+    LINENUMBER 889 L256
+    ALOAD 0
+    GETSTATIC afi.J : Lals;
+    LDC "piston"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L257
+    LINENUMBER 890 L257
+    ALOAD 0
+    GETSTATIC afi.aU : Lafh;
+    LDC "pumpkin"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L258
+    LINENUMBER 891 L258
+    ALOAD 0
+    GETSTATIC afi.co : Lafh;
+    LDC "quartz_ore"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L259
+    LINENUMBER 892 L259
+    ALOAD 0
+    GETSTATIC afi.cr : Lafh;
+    LDC "quartz_stairs"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L260
+    LINENUMBER 893 L260
+    ALOAD 0
+    GETSTATIC afi.av : Lafh;
+    LDC "rail"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L261
+    LINENUMBER 894 L261
+    ALOAD 0
+    GETSTATIC afi.cn : Lafh;
+    LDC "redstone_block"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L262
+    LINENUMBER 895 L262
+    ALOAD 0
+    GETSTATIC afi.bJ : Lafh;
+    LDC "redstone_lamp"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L263
+    LINENUMBER 896 L263
+    ALOAD 0
+    GETSTATIC afi.aC : Lafh;
+    LDC "redstone_ore"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L264
+    LINENUMBER 897 L264
+    ALOAD 0
+    GETSTATIC afi.aF : Lafh;
+    LDC "redstone_torch"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L265
+    LINENUMBER 898 L265
+    ALOAD 0
+    GETSTATIC afi.Q : Lafm;
+    LDC "red_mushroom"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L266
+    LINENUMBER 899 L266
+    ALOAD 0
+    GETSTATIC afi.bO : Lafh;
+    LDC "sandstone_stairs"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L267
+    LINENUMBER 900 L267
+    ALOAD 0
+    GETSTATIC afi.cN : Lafh;
+    LDC "red_sandstone_stairs"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L268
+    LINENUMBER 901 L268
+    ALOAD 0
+    GETSTATIC afi.cJ : Lafh;
+    LDC "sea_lantern"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L269
+    LINENUMBER 902 L269
+    ALOAD 0
+    GETSTATIC afi.cE : Lafh;
+    LDC "slime"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L270
+    LINENUMBER 903 L270
+    ALOAD 0
+    GETSTATIC afi.aJ : Lafh;
+    LDC "snow"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L271
+    LINENUMBER 904 L271
+    ALOAD 0
+    GETSTATIC afi.aH : Lafh;
+    LDC "snow_layer"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L272
+    LINENUMBER 905 L272
+    ALOAD 0
+    GETSTATIC afi.aW : Lafh;
+    LDC "soul_sand"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L273
+    LINENUMBER 906 L273
+    ALOAD 0
+    GETSTATIC afi.bU : Lafh;
+    LDC "spruce_stairs"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L274
+    LINENUMBER 907 L274
+    ALOAD 0
+    GETSTATIC afi.F : Lals;
+    LDC "sticky_piston"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L275
+    LINENUMBER 908 L275
+    ALOAD 0
+    GETSTATIC afi.bv : Lafh;
+    LDC "stone_brick_stairs"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L276
+    LINENUMBER 909 L276
+    ALOAD 0
+    GETSTATIC afi.aG : Lafh;
+    LDC "stone_button"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L277
+    LINENUMBER 910 L277
+    ALOAD 0
+    GETSTATIC afi.az : Lafh;
+    LDC "stone_pressure_plate"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L278
+    LINENUMBER 911 L278
+    ALOAD 0
+    GETSTATIC afi.aw : Lafh;
+    LDC "stone_stairs"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L279
+    LINENUMBER 912 L279
+    ALOAD 0
+    GETSTATIC afi.W : Lafh;
+    LDC "tnt"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L280
+    LINENUMBER 913 L280
+    ALOAD 0
+    GETSTATIC afi.aa : Lafh;
+    LDC "torch"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L281
+    LINENUMBER 914 L281
+    ALOAD 0
+    GETSTATIC afi.bd : Lafh;
+    LDC "trapdoor"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L282
+    LINENUMBER 915 L282
+    ALOAD 0
+    GETSTATIC afi.bR : Lakj;
+    LDC "tripwire_hook"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L283
+    LINENUMBER 916 L283
+    ALOAD 0
+    GETSTATIC afi.bn : Lafh;
+    LDC "vine"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L284
+    LINENUMBER 917 L284
+    ALOAD 0
+    GETSTATIC afi.bx : Lafh;
+    LDC "waterlily"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L285
+    LINENUMBER 918 L285
+    ALOAD 0
+    GETSTATIC afi.G : Lafh;
+    LDC "web"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L286
+    LINENUMBER 919 L286
+    ALOAD 0
+    GETSTATIC afi.cd : Lafh;
+    LDC "wooden_button"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L287
+    LINENUMBER 920 L287
+    ALOAD 0
+    GETSTATIC afi.aB : Lafh;
+    LDC "wooden_pressure_plate"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L288
+    LINENUMBER 921 L288
+    ALOAD 0
+    GETSTATIC afi.N : Lagw;
+    GETSTATIC agw$a.a : Lagw$a;
+    INVOKEVIRTUAL agw$a.b ()I
+    LDC "dandelion"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L289
+    LINENUMBER 922 L289
+    ALOAD 0
+    GETSTATIC afi.ae : Lafs;
+    LDC "chest"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L290
+    LINENUMBER 923 L290
+    ALOAD 0
+    GETSTATIC afi.cg : Lafh;
+    LDC "trapped_chest"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L291
+    LINENUMBER 924 L291
+    ALOAD 0
+    GETSTATIC afi.bQ : Lafh;
+    LDC "ender_chest"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L292
+    LINENUMBER 925 L292
+    ALOAD 0
+    GETSTATIC zy.a : Lzw;
+    LDC "iron_shovel"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L293
+    LINENUMBER 926 L293
+    ALOAD 0
+    GETSTATIC zy.b : Lzw;
+    LDC "iron_pickaxe"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L294
+    LINENUMBER 927 L294
+    ALOAD 0
+    GETSTATIC zy.c : Lzw;
+    LDC "iron_axe"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L295
+    LINENUMBER 928 L295
+    ALOAD 0
+    GETSTATIC zy.d : Lzw;
+    LDC "flint_and_steel"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L296
+    LINENUMBER 929 L296
+    ALOAD 0
+    GETSTATIC zy.e : Lzw;
+    LDC "apple"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L297
+    LINENUMBER 930 L297
+    ALOAD 0
+    GETSTATIC zy.f : Lyt;
+    ICONST_0
+    LDC "bow"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L298
+    LINENUMBER 931 L298
+    ALOAD 0
+    GETSTATIC zy.f : Lyt;
+    ICONST_1
+    LDC "bow_pulling_0"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L299
+    LINENUMBER 932 L299
+    ALOAD 0
+    GETSTATIC zy.f : Lyt;
+    ICONST_2
+    LDC "bow_pulling_1"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L300
+    LINENUMBER 933 L300
+    ALOAD 0
+    GETSTATIC zy.f : Lyt;
+    ICONST_3
+    LDC "bow_pulling_2"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L301
+    LINENUMBER 934 L301
+    ALOAD 0
+    GETSTATIC zy.g : Lzw;
+    LDC "arrow"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L302
+    LINENUMBER 935 L302
+    ALOAD 0
+    GETSTATIC zy.h : Lzw;
+    ICONST_0
+    LDC "coal"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L303
+    LINENUMBER 936 L303
+    ALOAD 0
+    GETSTATIC zy.h : Lzw;
+    ICONST_1
+    LDC "charcoal"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L304
+    LINENUMBER 937 L304
+    ALOAD 0
+    GETSTATIC zy.i : Lzw;
+    LDC "diamond"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L305
+    LINENUMBER 938 L305
+    ALOAD 0
+    GETSTATIC zy.j : Lzw;
+    LDC "iron_ingot"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L306
+    LINENUMBER 939 L306
+    ALOAD 0
+    GETSTATIC zy.k : Lzw;
+    LDC "gold_ingot"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L307
+    LINENUMBER 940 L307
+    ALOAD 0
+    GETSTATIC zy.l : Lzw;
+    LDC "iron_sword"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L308
+    LINENUMBER 941 L308
+    ALOAD 0
+    GETSTATIC zy.m : Lzw;
+    LDC "wooden_sword"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L309
+    LINENUMBER 942 L309
+    ALOAD 0
+    GETSTATIC zy.n : Lzw;
+    LDC "wooden_shovel"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L310
+    LINENUMBER 943 L310
+    ALOAD 0
+    GETSTATIC zy.o : Lzw;
+    LDC "wooden_pickaxe"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L311
+    LINENUMBER 944 L311
+    ALOAD 0
+    GETSTATIC zy.p : Lzw;
+    LDC "wooden_axe"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L312
+    LINENUMBER 945 L312
+    ALOAD 0
+    GETSTATIC zy.q : Lzw;
+    LDC "stone_sword"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L313
+    LINENUMBER 946 L313
+    ALOAD 0
+    GETSTATIC zy.r : Lzw;
+    LDC "stone_shovel"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L314
+    LINENUMBER 947 L314
+    ALOAD 0
+    GETSTATIC zy.s : Lzw;
+    LDC "stone_pickaxe"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L315
+    LINENUMBER 948 L315
+    ALOAD 0
+    GETSTATIC zy.t : Lzw;
+    LDC "stone_axe"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L316
+    LINENUMBER 949 L316
+    ALOAD 0
+    GETSTATIC zy.u : Lzw;
+    LDC "diamond_sword"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L317
+    LINENUMBER 950 L317
+    ALOAD 0
+    GETSTATIC zy.v : Lzw;
+    LDC "diamond_shovel"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L318
+    LINENUMBER 951 L318
+    ALOAD 0
+    GETSTATIC zy.w : Lzw;
+    LDC "diamond_pickaxe"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L319
+    LINENUMBER 952 L319
+    ALOAD 0
+    GETSTATIC zy.x : Lzw;
+    LDC "diamond_axe"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L320
+    LINENUMBER 953 L320
+    ALOAD 0
+    GETSTATIC zy.y : Lzw;
+    LDC "stick"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L321
+    LINENUMBER 954 L321
+    ALOAD 0
+    GETSTATIC zy.z : Lzw;
+    LDC "bowl"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L322
+    LINENUMBER 955 L322
+    ALOAD 0
+    GETSTATIC zy.A : Lzw;
+    LDC "mushroom_stew"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L323
+    LINENUMBER 956 L323
+    ALOAD 0
+    GETSTATIC zy.B : Lzw;
+    LDC "golden_sword"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L324
+    LINENUMBER 957 L324
+    ALOAD 0
+    GETSTATIC zy.C : Lzw;
+    LDC "golden_shovel"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L325
+    LINENUMBER 958 L325
+    ALOAD 0
+    GETSTATIC zy.D : Lzw;
+    LDC "golden_pickaxe"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L326
+    LINENUMBER 959 L326
+    ALOAD 0
+    GETSTATIC zy.E : Lzw;
+    LDC "golden_axe"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L327
+    LINENUMBER 960 L327
+    ALOAD 0
+    GETSTATIC zy.F : Lzw;
+    LDC "string"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L328
+    LINENUMBER 961 L328
+    ALOAD 0
+    GETSTATIC zy.G : Lzw;
+    LDC "feather"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L329
+    LINENUMBER 962 L329
+    ALOAD 0
+    GETSTATIC zy.H : Lzw;
+    LDC "gunpowder"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L330
+    LINENUMBER 963 L330
+    ALOAD 0
+    GETSTATIC zy.I : Lzw;
+    LDC "wooden_hoe"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L331
+    LINENUMBER 964 L331
+    ALOAD 0
+    GETSTATIC zy.J : Lzw;
+    LDC "stone_hoe"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L332
+    LINENUMBER 965 L332
+    ALOAD 0
+    GETSTATIC zy.K : Lzw;
+    LDC "iron_hoe"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L333
+    LINENUMBER 966 L333
+    ALOAD 0
+    GETSTATIC zy.L : Lzw;
+    LDC "diamond_hoe"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L334
+    LINENUMBER 967 L334
+    ALOAD 0
+    GETSTATIC zy.M : Lzw;
+    LDC "golden_hoe"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L335
+    LINENUMBER 968 L335
+    ALOAD 0
+    GETSTATIC zy.N : Lzw;
+    LDC "wheat_seeds"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L336
+    LINENUMBER 969 L336
+    ALOAD 0
+    GETSTATIC zy.O : Lzw;
+    LDC "wheat"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L337
+    LINENUMBER 970 L337
+    ALOAD 0
+    GETSTATIC zy.P : Lzw;
+    LDC "bread"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L338
+    LINENUMBER 971 L338
+    ALOAD 0
+    GETSTATIC zy.Q : Lyj;
+    LDC "leather_helmet"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L339
+    LINENUMBER 972 L339
+    ALOAD 0
+    GETSTATIC zy.R : Lyj;
+    LDC "leather_chestplate"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L340
+    LINENUMBER 973 L340
+    ALOAD 0
+    GETSTATIC zy.S : Lyj;
+    LDC "leather_leggings"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L341
+    LINENUMBER 974 L341
+    ALOAD 0
+    GETSTATIC zy.T : Lyj;
+    LDC "leather_boots"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L342
+    LINENUMBER 975 L342
+    ALOAD 0
+    GETSTATIC zy.U : Lyj;
+    LDC "chainmail_helmet"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L343
+    LINENUMBER 976 L343
+    ALOAD 0
+    GETSTATIC zy.V : Lyj;
+    LDC "chainmail_chestplate"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L344
+    LINENUMBER 977 L344
+    ALOAD 0
+    GETSTATIC zy.W : Lyj;
+    LDC "chainmail_leggings"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L345
+    LINENUMBER 978 L345
+    ALOAD 0
+    GETSTATIC zy.X : Lyj;
+    LDC "chainmail_boots"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L346
+    LINENUMBER 979 L346
+    ALOAD 0
+    GETSTATIC zy.Y : Lyj;
+    LDC "iron_helmet"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L347
+    LINENUMBER 980 L347
+    ALOAD 0
+    GETSTATIC zy.Z : Lyj;
+    LDC "iron_chestplate"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L348
+    LINENUMBER 981 L348
+    ALOAD 0
+    GETSTATIC zy.aa : Lyj;
+    LDC "iron_leggings"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L349
+    LINENUMBER 982 L349
+    ALOAD 0
+    GETSTATIC zy.ab : Lyj;
+    LDC "iron_boots"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L350
+    LINENUMBER 983 L350
+    ALOAD 0
+    GETSTATIC zy.ac : Lyj;
+    LDC "diamond_helmet"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L351
+    LINENUMBER 984 L351
+    ALOAD 0
+    GETSTATIC zy.ad : Lyj;
+    LDC "diamond_chestplate"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L352
+    LINENUMBER 985 L352
+    ALOAD 0
+    GETSTATIC zy.ae : Lyj;
+    LDC "diamond_leggings"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L353
+    LINENUMBER 986 L353
+    ALOAD 0
+    GETSTATIC zy.af : Lyj;
+    LDC "diamond_boots"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L354
+    LINENUMBER 987 L354
+    ALOAD 0
+    GETSTATIC zy.ag : Lyj;
+    LDC "golden_helmet"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L355
+    LINENUMBER 988 L355
+    ALOAD 0
+    GETSTATIC zy.ah : Lyj;
+    LDC "golden_chestplate"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L356
+    LINENUMBER 989 L356
+    ALOAD 0
+    GETSTATIC zy.ai : Lyj;
+    LDC "golden_leggings"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L357
+    LINENUMBER 990 L357
+    ALOAD 0
+    GETSTATIC zy.aj : Lyj;
+    LDC "golden_boots"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L358
+    LINENUMBER 991 L358
+    ALOAD 0
+    GETSTATIC zy.ak : Lzw;
+    LDC "flint"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L359
+    LINENUMBER 992 L359
+    ALOAD 0
+    GETSTATIC zy.al : Lzw;
+    LDC "porkchop"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L360
+    LINENUMBER 993 L360
+    ALOAD 0
+    GETSTATIC zy.am : Lzw;
+    LDC "cooked_porkchop"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L361
+    LINENUMBER 994 L361
+    ALOAD 0
+    GETSTATIC zy.an : Lzw;
+    LDC "painting"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L362
+    LINENUMBER 995 L362
+    ALOAD 0
+    GETSTATIC zy.ao : Lzw;
+    LDC "golden_apple"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L363
+    LINENUMBER 996 L363
+    ALOAD 0
+    GETSTATIC zy.ao : Lzw;
+    ICONST_1
+    LDC "golden_apple"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L364
+    LINENUMBER 997 L364
+    ALOAD 0
+    GETSTATIC zy.ap : Lzw;
+    LDC "sign"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L365
+    LINENUMBER 998 L365
+    ALOAD 0
+    GETSTATIC zy.aq : Lzw;
+    LDC "oak_door"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L366
+    LINENUMBER 999 L366
+    ALOAD 0
+    GETSTATIC zy.ar : Lzw;
+    LDC "spruce_door"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L367
+    LINENUMBER 1000 L367
+    ALOAD 0
+    GETSTATIC zy.as : Lzw;
+    LDC "birch_door"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L368
+    LINENUMBER 1001 L368
+    ALOAD 0
+    GETSTATIC zy.at : Lzw;
+    LDC "jungle_door"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L369
+    LINENUMBER 1002 L369
+    ALOAD 0
+    GETSTATIC zy.au : Lzw;
+    LDC "acacia_door"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L370
+    LINENUMBER 1003 L370
+    ALOAD 0
+    GETSTATIC zy.av : Lzw;
+    LDC "dark_oak_door"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L371
+    LINENUMBER 1004 L371
+    ALOAD 0
+    GETSTATIC zy.aw : Lzw;
+    LDC "bucket"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L372
+    LINENUMBER 1005 L372
+    ALOAD 0
+    GETSTATIC zy.ax : Lzw;
+    LDC "water_bucket"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L373
+    LINENUMBER 1006 L373
+    ALOAD 0
+    GETSTATIC zy.ay : Lzw;
+    LDC "lava_bucket"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L374
+    LINENUMBER 1007 L374
+    ALOAD 0
+    GETSTATIC zy.az : Lzw;
+    LDC "minecart"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L375
+    LINENUMBER 1008 L375
+    ALOAD 0
+    GETSTATIC zy.aA : Lzw;
+    LDC "saddle"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L376
+    LINENUMBER 1009 L376
+    ALOAD 0
+    GETSTATIC zy.aB : Lzw;
+    LDC "iron_door"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L377
+    LINENUMBER 1010 L377
+    ALOAD 0
+    GETSTATIC zy.aC : Lzw;
+    LDC "redstone"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L378
+    LINENUMBER 1011 L378
+    ALOAD 0
+    GETSTATIC zy.aD : Lzw;
+    LDC "snowball"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L379
+    LINENUMBER 1012 L379
+    ALOAD 0
+    GETSTATIC zy.aE : Lzw;
+    LDC "boat"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L380
+    LINENUMBER 1013 L380
+    ALOAD 0
+    GETSTATIC zy.aF : Lzw;
+    LDC "leather"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L381
+    LINENUMBER 1014 L381
+    ALOAD 0
+    GETSTATIC zy.aG : Lzw;
+    LDC "milk_bucket"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L382
+    LINENUMBER 1015 L382
+    ALOAD 0
+    GETSTATIC zy.aH : Lzw;
+    LDC "brick"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L383
+    LINENUMBER 1016 L383
+    ALOAD 0
+    GETSTATIC zy.aI : Lzw;
+    LDC "clay_ball"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L384
+    LINENUMBER 1017 L384
+    ALOAD 0
+    GETSTATIC zy.aJ : Lzw;
+    LDC "reeds"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L385
+    LINENUMBER 1018 L385
+    ALOAD 0
+    GETSTATIC zy.aK : Lzw;
+    LDC "paper"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L386
+    LINENUMBER 1019 L386
+    ALOAD 0
+    GETSTATIC zy.aL : Lzw;
+    LDC "book"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L387
+    LINENUMBER 1020 L387
+    ALOAD 0
+    GETSTATIC zy.aM : Lzw;
+    LDC "slime_ball"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L388
+    LINENUMBER 1021 L388
+    ALOAD 0
+    GETSTATIC zy.aN : Lzw;
+    LDC "chest_minecart"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L389
+    LINENUMBER 1022 L389
+    ALOAD 0
+    GETSTATIC zy.aO : Lzw;
+    LDC "furnace_minecart"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L390
+    LINENUMBER 1023 L390
+    ALOAD 0
+    GETSTATIC zy.aP : Lzw;
+    LDC "egg"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L391
+    LINENUMBER 1024 L391
+    ALOAD 0
+    GETSTATIC zy.aQ : Lzw;
+    LDC "compass"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L392
+    LINENUMBER 1025 L392
+    ALOAD 0
+    GETSTATIC zy.aR : Lzq;
+    LDC "fishing_rod"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L393
+    LINENUMBER 1026 L393
+    ALOAD 0
+    GETSTATIC zy.aR : Lzq;
+    ICONST_1
+    LDC "fishing_rod_cast"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L394
+    LINENUMBER 1027 L394
+    ALOAD 0
+    GETSTATIC zy.aS : Lzw;
+    LDC "clock"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L395
+    LINENUMBER 1028 L395
+    ALOAD 0
+    GETSTATIC zy.aT : Lzw;
+    LDC "glowstone_dust"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L396
+    LINENUMBER 1029 L396
+    ALOAD 0
+    GETSTATIC zy.aU : Lzw;
+    GETSTATIC zp$a.a : Lzp$a;
+    INVOKEVIRTUAL zp$a.a ()I
+    LDC "cod"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L397
+    LINENUMBER 1030 L397
+    ALOAD 0
+    GETSTATIC zy.aU : Lzw;
+    GETSTATIC zp$a.b : Lzp$a;
+    INVOKEVIRTUAL zp$a.a ()I
+    LDC "salmon"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L398
+    LINENUMBER 1031 L398
+    ALOAD 0
+    GETSTATIC zy.aU : Lzw;
+    GETSTATIC zp$a.c : Lzp$a;
+    INVOKEVIRTUAL zp$a.a ()I
+    LDC "clownfish"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L399
+    LINENUMBER 1032 L399
+    ALOAD 0
+    GETSTATIC zy.aU : Lzw;
+    GETSTATIC zp$a.d : Lzp$a;
+    INVOKEVIRTUAL zp$a.a ()I
+    LDC "pufferfish"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L400
+    LINENUMBER 1033 L400
+    ALOAD 0
+    GETSTATIC zy.aV : Lzw;
+    GETSTATIC zp$a.a : Lzp$a;
+    INVOKEVIRTUAL zp$a.a ()I
+    LDC "cooked_cod"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L401
+    LINENUMBER 1034 L401
+    ALOAD 0
+    GETSTATIC zy.aV : Lzw;
+    GETSTATIC zp$a.b : Lzp$a;
+    INVOKEVIRTUAL zp$a.a ()I
+    LDC "cooked_salmon"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L402
+    LINENUMBER 1035 L402
+    ALOAD 0
+    GETSTATIC zy.aW : Lzw;
+    GETSTATIC zd.p : Lzd;
+    INVOKEVIRTUAL zd.b ()I
+    LDC "dye_black"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L403
+    LINENUMBER 1036 L403
+    ALOAD 0
+    GETSTATIC zy.aW : Lzw;
+    GETSTATIC zd.o : Lzd;
+    INVOKEVIRTUAL zd.b ()I
+    LDC "dye_red"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L404
+    LINENUMBER 1037 L404
+    ALOAD 0
+    GETSTATIC zy.aW : Lzw;
+    GETSTATIC zd.n : Lzd;
+    INVOKEVIRTUAL zd.b ()I
+    LDC "dye_green"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L405
+    LINENUMBER 1038 L405
+    ALOAD 0
+    GETSTATIC zy.aW : Lzw;
+    GETSTATIC zd.m : Lzd;
+    INVOKEVIRTUAL zd.b ()I
+    LDC "dye_brown"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L406
+    LINENUMBER 1039 L406
+    ALOAD 0
+    GETSTATIC zy.aW : Lzw;
+    GETSTATIC zd.l : Lzd;
+    INVOKEVIRTUAL zd.b ()I
+    LDC "dye_blue"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L407
+    LINENUMBER 1040 L407
+    ALOAD 0
+    GETSTATIC zy.aW : Lzw;
+    GETSTATIC zd.k : Lzd;
+    INVOKEVIRTUAL zd.b ()I
+    LDC "dye_purple"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L408
+    LINENUMBER 1041 L408
+    ALOAD 0
+    GETSTATIC zy.aW : Lzw;
+    GETSTATIC zd.j : Lzd;
+    INVOKEVIRTUAL zd.b ()I
+    LDC "dye_cyan"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L409
+    LINENUMBER 1042 L409
+    ALOAD 0
+    GETSTATIC zy.aW : Lzw;
+    GETSTATIC zd.i : Lzd;
+    INVOKEVIRTUAL zd.b ()I
+    LDC "dye_silver"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L410
+    LINENUMBER 1043 L410
+    ALOAD 0
+    GETSTATIC zy.aW : Lzw;
+    GETSTATIC zd.h : Lzd;
+    INVOKEVIRTUAL zd.b ()I
+    LDC "dye_gray"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L411
+    LINENUMBER 1044 L411
+    ALOAD 0
+    GETSTATIC zy.aW : Lzw;
+    GETSTATIC zd.g : Lzd;
+    INVOKEVIRTUAL zd.b ()I
+    LDC "dye_pink"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L412
+    LINENUMBER 1045 L412
+    ALOAD 0
+    GETSTATIC zy.aW : Lzw;
+    GETSTATIC zd.f : Lzd;
+    INVOKEVIRTUAL zd.b ()I
+    LDC "dye_lime"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L413
+    LINENUMBER 1046 L413
+    ALOAD 0
+    GETSTATIC zy.aW : Lzw;
+    GETSTATIC zd.e : Lzd;
+    INVOKEVIRTUAL zd.b ()I
+    LDC "dye_yellow"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L414
+    LINENUMBER 1047 L414
+    ALOAD 0
+    GETSTATIC zy.aW : Lzw;
+    GETSTATIC zd.d : Lzd;
+    INVOKEVIRTUAL zd.b ()I
+    LDC "dye_light_blue"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L415
+    LINENUMBER 1048 L415
+    ALOAD 0
+    GETSTATIC zy.aW : Lzw;
+    GETSTATIC zd.c : Lzd;
+    INVOKEVIRTUAL zd.b ()I
+    LDC "dye_magenta"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L416
+    LINENUMBER 1049 L416
+    ALOAD 0
+    GETSTATIC zy.aW : Lzw;
+    GETSTATIC zd.b : Lzd;
+    INVOKEVIRTUAL zd.b ()I
+    LDC "dye_orange"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L417
+    LINENUMBER 1050 L417
+    ALOAD 0
+    GETSTATIC zy.aW : Lzw;
+    GETSTATIC zd.a : Lzd;
+    INVOKEVIRTUAL zd.b ()I
+    LDC "dye_white"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L418
+    LINENUMBER 1051 L418
+    ALOAD 0
+    GETSTATIC zy.aX : Lzw;
+    LDC "bone"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L419
+    LINENUMBER 1052 L419
+    ALOAD 0
+    GETSTATIC zy.aY : Lzw;
+    LDC "sugar"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L420
+    LINENUMBER 1053 L420
+    ALOAD 0
+    GETSTATIC zy.aZ : Lzw;
+    LDC "cake"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L421
+    LINENUMBER 1054 L421
+    ALOAD 0
+    GETSTATIC zy.ba : Lzw;
+    LDC "bed"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L422
+    LINENUMBER 1055 L422
+    ALOAD 0
+    GETSTATIC zy.bb : Lzw;
+    LDC "repeater"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L423
+    LINENUMBER 1056 L423
+    ALOAD 0
+    GETSTATIC zy.bc : Lzw;
+    LDC "cookie"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L424
+    LINENUMBER 1057 L424
+    ALOAD 0
+    GETSTATIC zy.be : Laap;
+    LDC "shears"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L425
+    LINENUMBER 1058 L425
+    ALOAD 0
+    GETSTATIC zy.bf : Lzw;
+    LDC "melon"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L426
+    LINENUMBER 1059 L426
+    ALOAD 0
+    GETSTATIC zy.bg : Lzw;
+    LDC "pumpkin_seeds"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L427
+    LINENUMBER 1060 L427
+    ALOAD 0
+    GETSTATIC zy.bh : Lzw;
+    LDC "melon_seeds"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L428
+    LINENUMBER 1061 L428
+    ALOAD 0
+    GETSTATIC zy.bi : Lzw;
+    LDC "beef"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L429
+    LINENUMBER 1062 L429
+    ALOAD 0
+    GETSTATIC zy.bj : Lzw;
+    LDC "cooked_beef"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L430
+    LINENUMBER 1063 L430
+    ALOAD 0
+    GETSTATIC zy.bk : Lzw;
+    LDC "chicken"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L431
+    LINENUMBER 1064 L431
+    ALOAD 0
+    GETSTATIC zy.bl : Lzw;
+    LDC "cooked_chicken"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L432
+    LINENUMBER 1065 L432
+    ALOAD 0
+    GETSTATIC zy.bo : Lzw;
+    LDC "rabbit"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L433
+    LINENUMBER 1066 L433
+    ALOAD 0
+    GETSTATIC zy.bp : Lzw;
+    LDC "cooked_rabbit"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L434
+    LINENUMBER 1067 L434
+    ALOAD 0
+    GETSTATIC zy.bm : Lzw;
+    LDC "mutton"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L435
+    LINENUMBER 1068 L435
+    ALOAD 0
+    GETSTATIC zy.bn : Lzw;
+    LDC "cooked_mutton"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L436
+    LINENUMBER 1069 L436
+    ALOAD 0
+    GETSTATIC zy.br : Lzw;
+    LDC "rabbit_foot"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L437
+    LINENUMBER 1070 L437
+    ALOAD 0
+    GETSTATIC zy.bs : Lzw;
+    LDC "rabbit_hide"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L438
+    LINENUMBER 1071 L438
+    ALOAD 0
+    GETSTATIC zy.bq : Lzw;
+    LDC "rabbit_stew"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L439
+    LINENUMBER 1072 L439
+    ALOAD 0
+    GETSTATIC zy.bt : Lzw;
+    LDC "rotten_flesh"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L440
+    LINENUMBER 1073 L440
+    ALOAD 0
+    GETSTATIC zy.bu : Lzw;
+    LDC "ender_pearl"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L441
+    LINENUMBER 1074 L441
+    ALOAD 0
+    GETSTATIC zy.bv : Lzw;
+    LDC "blaze_rod"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L442
+    LINENUMBER 1075 L442
+    ALOAD 0
+    GETSTATIC zy.bw : Lzw;
+    LDC "ghast_tear"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L443
+    LINENUMBER 1076 L443
+    ALOAD 0
+    GETSTATIC zy.bx : Lzw;
+    LDC "gold_nugget"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L444
+    LINENUMBER 1077 L444
+    ALOAD 0
+    GETSTATIC zy.by : Lzw;
+    LDC "nether_wart"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L445
+    LINENUMBER 1078 L445
+    ALOAD 0
+    GETFIELD bjh.d : Lbfo;
+    GETSTATIC zy.bz : Laai;
+    NEW bjh$5
+    DUP
+    ALOAD 0
+    INVOKESPECIAL bjh$5.<init> (Lbjh;)V
+    INVOKEVIRTUAL bfo.a (Lzw;Lbfp;)V
+   L446
+    LINENUMBER 1086 L446
+    ALOAD 0
+    GETSTATIC zy.bA : Lzw;
+    LDC "glass_bottle"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L447
+    LINENUMBER 1087 L447
+    ALOAD 0
+    GETSTATIC zy.bB : Lzw;
+    LDC "spider_eye"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L448
+    LINENUMBER 1088 L448
+    ALOAD 0
+    GETSTATIC zy.bC : Lzw;
+    LDC "fermented_spider_eye"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L449
+    LINENUMBER 1089 L449
+    ALOAD 0
+    GETSTATIC zy.bD : Lzw;
+    LDC "blaze_powder"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L450
+    LINENUMBER 1090 L450
+    ALOAD 0
+    GETSTATIC zy.bE : Lzw;
+    LDC "magma_cream"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L451
+    LINENUMBER 1091 L451
+    ALOAD 0
+    GETSTATIC zy.bF : Lzw;
+    LDC "brewing_stand"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L452
+    LINENUMBER 1092 L452
+    ALOAD 0
+    GETSTATIC zy.bG : Lzw;
+    LDC "cauldron"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L453
+    LINENUMBER 1093 L453
+    ALOAD 0
+    GETSTATIC zy.bH : Lzw;
+    LDC "ender_eye"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L454
+    LINENUMBER 1094 L454
+    ALOAD 0
+    GETSTATIC zy.bI : Lzw;
+    LDC "speckled_melon"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L455
+    LINENUMBER 1095 L455
+    ALOAD 0
+    GETFIELD bjh.d : Lbfo;
+    GETSTATIC zy.bJ : Lzw;
+    NEW bjh$6
+    DUP
+    ALOAD 0
+    INVOKESPECIAL bjh$6.<init> (Lbjh;)V
+    INVOKEVIRTUAL bfo.a (Lzw;Lbfp;)V
+   L456
+    LINENUMBER 1103 L456
+    ALOAD 0
+    GETSTATIC zy.bK : Lzw;
+    LDC "experience_bottle"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L457
+    LINENUMBER 1104 L457
+    ALOAD 0
+    GETSTATIC zy.bL : Lzw;
+    LDC "fire_charge"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L458
+    LINENUMBER 1105 L458
+    ALOAD 0
+    GETSTATIC zy.bM : Lzw;
+    LDC "writable_book"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L459
+    LINENUMBER 1106 L459
+    ALOAD 0
+    GETSTATIC zy.bO : Lzw;
+    LDC "emerald"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L460
+    LINENUMBER 1107 L460
+    ALOAD 0
+    GETSTATIC zy.bP : Lzw;
+    LDC "item_frame"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L461
+    LINENUMBER 1108 L461
+    ALOAD 0
+    GETSTATIC zy.bQ : Lzw;
+    LDC "flower_pot"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L462
+    LINENUMBER 1109 L462
+    ALOAD 0
+    GETSTATIC zy.bR : Lzw;
+    LDC "carrot"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L463
+    LINENUMBER 1110 L463
+    ALOAD 0
+    GETSTATIC zy.bS : Lzw;
+    LDC "potato"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L464
+    LINENUMBER 1111 L464
+    ALOAD 0
+    GETSTATIC zy.bT : Lzw;
+    LDC "baked_potato"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L465
+    LINENUMBER 1112 L465
+    ALOAD 0
+    GETSTATIC zy.bU : Lzw;
+    LDC "poisonous_potato"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L466
+    LINENUMBER 1113 L466
+    ALOAD 0
+    GETSTATIC zy.bV : Lzh;
+    LDC "map"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L467
+    LINENUMBER 1114 L467
+    ALOAD 0
+    GETSTATIC zy.bW : Lzw;
+    LDC "golden_carrot"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L468
+    LINENUMBER 1115 L468
+    ALOAD 0
+    GETSTATIC zy.bX : Lzw;
+    ICONST_0
+    LDC "skull_skeleton"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L469
+    LINENUMBER 1116 L469
+    ALOAD 0
+    GETSTATIC zy.bX : Lzw;
+    ICONST_1
+    LDC "skull_wither"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L470
+    LINENUMBER 1117 L470
+    ALOAD 0
+    GETSTATIC zy.bX : Lzw;
+    ICONST_2
+    LDC "skull_zombie"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L471
+    LINENUMBER 1118 L471
+    ALOAD 0
+    GETSTATIC zy.bX : Lzw;
+    ICONST_3
+    LDC "skull_char"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L472
+    LINENUMBER 1119 L472
+    ALOAD 0
+    GETSTATIC zy.bX : Lzw;
+    ICONST_4
+    LDC "skull_creeper"
+    INVOKEVIRTUAL bjh.a (Lzw;ILjava/lang/String;)V
+   L473
+    LINENUMBER 1120 L473
+    ALOAD 0
+    GETSTATIC zy.bY : Lzw;
+    LDC "carrot_on_a_stick"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L474
+    LINENUMBER 1121 L474
+    ALOAD 0
+    GETSTATIC zy.bZ : Lzw;
+    LDC "nether_star"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L475
+    LINENUMBER 1122 L475
+    ALOAD 0
+    GETSTATIC zy.ca : Lzw;
+    LDC "pumpkin_pie"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L476
+    LINENUMBER 1123 L476
+    ALOAD 0
+    GETSTATIC zy.cc : Lzw;
+    LDC "firework_charge"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L477
+    LINENUMBER 1124 L477
+    ALOAD 0
+    GETSTATIC zy.ce : Lzw;
+    LDC "comparator"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L478
+    LINENUMBER 1125 L478
+    ALOAD 0
+    GETSTATIC zy.cf : Lzw;
+    LDC "netherbrick"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L479
+    LINENUMBER 1126 L479
+    ALOAD 0
+    GETSTATIC zy.cg : Lzw;
+    LDC "quartz"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L480
+    LINENUMBER 1127 L480
+    ALOAD 0
+    GETSTATIC zy.ch : Lzw;
+    LDC "tnt_minecart"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L481
+    LINENUMBER 1128 L481
+    ALOAD 0
+    GETSTATIC zy.ci : Lzw;
+    LDC "hopper_minecart"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L482
+    LINENUMBER 1129 L482
+    ALOAD 0
+    GETSTATIC zy.cj : Lyk;
+    LDC "armor_stand"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L483
+    LINENUMBER 1130 L483
+    ALOAD 0
+    GETSTATIC zy.ck : Lzw;
+    LDC "iron_horse_armor"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L484
+    LINENUMBER 1131 L484
+    ALOAD 0
+    GETSTATIC zy.cl : Lzw;
+    LDC "golden_horse_armor"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L485
+    LINENUMBER 1132 L485
+    ALOAD 0
+    GETSTATIC zy.cm : Lzw;
+    LDC "diamond_horse_armor"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L486
+    LINENUMBER 1133 L486
+    ALOAD 0
+    GETSTATIC zy.cn : Lzw;
+    LDC "lead"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L487
+    LINENUMBER 1134 L487
+    ALOAD 0
+    GETSTATIC zy.co : Lzw;
+    LDC "name_tag"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L488
+    LINENUMBER 1135 L488
+    ALOAD 0
+    GETFIELD bjh.d : Lbfo;
+    GETSTATIC zy.cE : Lzw;
+    NEW bjh$7
+    DUP
+    ALOAD 0
+    INVOKESPECIAL bjh$7.<init> (Lbjh;)V
+    INVOKEVIRTUAL bfo.a (Lzw;Lbfp;)V
+   L489
+    LINENUMBER 1143 L489
+    ALOAD 0
+    GETSTATIC zy.cq : Lzw;
+    LDC "record_13"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L490
+    LINENUMBER 1144 L490
+    ALOAD 0
+    GETSTATIC zy.cr : Lzw;
+    LDC "record_cat"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L491
+    LINENUMBER 1145 L491
+    ALOAD 0
+    GETSTATIC zy.cs : Lzw;
+    LDC "record_blocks"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L492
+    LINENUMBER 1146 L492
+    ALOAD 0
+    GETSTATIC zy.ct : Lzw;
+    LDC "record_chirp"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L493
+    LINENUMBER 1147 L493
+    ALOAD 0
+    GETSTATIC zy.cu : Lzw;
+    LDC "record_far"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L494
+    LINENUMBER 1148 L494
+    ALOAD 0
+    GETSTATIC zy.cv : Lzw;
+    LDC "record_mall"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L495
+    LINENUMBER 1149 L495
+    ALOAD 0
+    GETSTATIC zy.cw : Lzw;
+    LDC "record_mellohi"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L496
+    LINENUMBER 1150 L496
+    ALOAD 0
+    GETSTATIC zy.cx : Lzw;
+    LDC "record_stal"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L497
+    LINENUMBER 1151 L497
+    ALOAD 0
+    GETSTATIC zy.cy : Lzw;
+    LDC "record_strad"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L498
+    LINENUMBER 1152 L498
+    ALOAD 0
+    GETSTATIC zy.cz : Lzw;
+    LDC "record_ward"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L499
+    LINENUMBER 1153 L499
+    ALOAD 0
+    GETSTATIC zy.cA : Lzw;
+    LDC "record_11"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L500
+    LINENUMBER 1154 L500
+    ALOAD 0
+    GETSTATIC zy.cB : Lzw;
+    LDC "record_wait"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L501
+    LINENUMBER 1155 L501
+    ALOAD 0
+    GETSTATIC zy.cC : Lzw;
+    LDC "prismarine_shard"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L502
+    LINENUMBER 1156 L502
+    ALOAD 0
+    GETSTATIC zy.cD : Lzw;
+    LDC "prismarine_crystals"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L503
+    LINENUMBER 1157 L503
+    ALOAD 0
+    GETFIELD bjh.d : Lbfo;
+    GETSTATIC zy.cd : Lzi;
+    NEW bjh$8
+    DUP
+    ALOAD 0
+    INVOKESPECIAL bjh$8.<init> (Lbjh;)V
+    INVOKEVIRTUAL bfo.a (Lzw;Lbfp;)V
+   L504
+    LINENUMBER 1165 L504
+    ALOAD 0
+    GETFIELD bjh.d : Lbfo;
+    GETSTATIC zy.bd : Laab;
+    NEW bjh$9
+    DUP
+    ALOAD 0
+    INVOKESPECIAL bjh$9.<init> (Lbjh;)V
+    INVOKEVIRTUAL bfo.a (Lzw;Lbfp;)V
+   L505
+    LINENUMBER 1173 L505
+    ALOAD 0
+    GETSTATIC afi.bX : Lafh;
+    LDC "command_block"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L506
+    LINENUMBER 1174 L506
+    ALOAD 0
+    GETSTATIC zy.cb : Lzw;
+    LDC "fireworks"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L507
+    LINENUMBER 1175 L507
+    ALOAD 0
+    GETSTATIC zy.cp : Lzw;
+    LDC "command_block_minecart"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L508
+    LINENUMBER 1176 L508
+    ALOAD 0
+    GETSTATIC afi.cv : Lafh;
+    LDC "barrier"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L509
+    LINENUMBER 1177 L509
+    ALOAD 0
+    GETSTATIC afi.ac : Lafh;
+    LDC "mob_spawner"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L510
+    LINENUMBER 1178 L510
+    ALOAD 0
+    GETSTATIC zy.bN : Lzw;
+    LDC "written_book"
+    INVOKESPECIAL bjh.a (Lzw;Ljava/lang/String;)V
+   L511
+    LINENUMBER 1179 L511
+    ALOAD 0
+    GETSTATIC afi.bg : Lafh;
+    GETSTATIC aho$a.k : Laho$a;
+    INVOKEVIRTUAL aho$a.a ()I
+    LDC "brown_mushroom_block"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L512
+    LINENUMBER 1180 L512
+    ALOAD 0
+    GETSTATIC afi.bh : Lafh;
+    GETSTATIC aho$a.k : Laho$a;
+    INVOKEVIRTUAL aho$a.a ()I
+    LDC "red_mushroom_block"
+    INVOKEVIRTUAL bjh.a (Lafh;ILjava/lang/String;)V
+   L513
+    LINENUMBER 1181 L513
+    ALOAD 0
+    GETSTATIC afi.bI : Lafh;
+    LDC "dragon_egg"
+    INVOKESPECIAL bjh.a (Lafh;Ljava/lang/String;)V
+   L514
+    LINENUMBER 1183 L514
+    GETSTATIC Reflector.ModelLoader_onRegisterItems : LReflectorMethod;
+    INVOKEVIRTUAL ReflectorMethod.exists ()Z
+    IFEQ L515
+   L516
+    LINENUMBER 1184 L516
+    GETSTATIC Reflector.ModelLoader_onRegisterItems : LReflectorMethod;
+    ICONST_1
+    ANEWARRAY java/lang/Object
+    DUP
+    ICONST_0
+    ALOAD 0
+    GETFIELD bjh.d : Lbfo;
+    AASTORE
+    INVOKESTATIC Reflector.call (LReflectorMethod;[Ljava/lang/Object;)Ljava/lang/Object;
+    POP
+   L515
+    LINENUMBER 1186 L515
+   FRAME FULL [bjh] []
+    RETURN
+   L517
+    LOCALVARIABLE this Lbjh; L0 L517 0
+    MAXSTACK = 5
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public a(Lbni;)V
+   L0
+    LINENUMBER 1190 L0
+    ALOAD 0
+    GETFIELD bjh.d : Lbfo;
+    INVOKEVIRTUAL bfo.b ()V
+   L1
+    LINENUMBER 1191 L1
+    RETURN
+   L2
+    LOCALVARIABLE this Lbjh; L0 L2 0
+    LOCALVARIABLE resourceManager Lbni; L0 L2 1
+    MAXSTACK = 1
+    MAXLOCALS = 2
+
+  // access flags 0x9
+  public static forgeHooksClient_putQuadColor(Lbfd;Lbgg;I)V
+   L0
+    LINENUMBER 1197 L0
+    ILOAD 2
+    SIPUSH 255
+    IAND
+    I2F
+    FSTORE 3
+   L1
+    LINENUMBER 1198 L1
+    ILOAD 2
+    BIPUSH 8
+    IUSHR
+    SIPUSH 255
+    IAND
+    I2F
+    FSTORE 4
+   L2
+    LINENUMBER 1199 L2
+    ILOAD 2
+    BIPUSH 16
+    IUSHR
+    SIPUSH 255
+    IAND
+    I2F
+    FSTORE 5
+   L3
+    LINENUMBER 1200 L3
+    ILOAD 2
+    BIPUSH 24
+    IUSHR
+    SIPUSH 255
+    IAND
+    I2F
+    FSTORE 6
+   L4
+    LINENUMBER 1202 L4
+    ALOAD 1
+    INVOKEVIRTUAL bgg.a ()[I
+    ASTORE 7
+   L5
+    LINENUMBER 1203 L5
+    ALOAD 7
+    ARRAYLENGTH
+    ICONST_4
+    IDIV
+    ISTORE 8
+   L6
+    LINENUMBER 1205 L6
+    ICONST_0
+    ISTORE 9
+   L7
+   FRAME FULL [bfd bgg I F F F F [I I I] []
+    ILOAD 9
+    ICONST_4
+    IF_ICMPGE L8
+   L9
+    LINENUMBER 1207 L9
+    ALOAD 7
+    ICONST_3
+    ILOAD 8
+    ILOAD 9
+    IMUL
+    IADD
+    IALOAD
+    ISTORE 10
+   L10
+    LINENUMBER 1208 L10
+    ILOAD 10
+    SIPUSH 255
+    IAND
+    I2F
+    FSTORE 11
+   L11
+    LINENUMBER 1209 L11
+    ILOAD 10
+    BIPUSH 8
+    IUSHR
+    SIPUSH 255
+    IAND
+    I2F
+    FSTORE 12
+   L12
+    LINENUMBER 1210 L12
+    ILOAD 10
+    BIPUSH 16
+    IUSHR
+    SIPUSH 255
+    IAND
+    I2F
+    FSTORE 13
+   L13
+    LINENUMBER 1211 L13
+    ILOAD 10
+    BIPUSH 24
+    IUSHR
+    SIPUSH 255
+    IAND
+    I2F
+    FSTORE 14
+   L14
+    LINENUMBER 1212 L14
+    SIPUSH 255
+    FLOAD 3
+    FLOAD 11
+    FMUL
+    LDC 255.0
+    FDIV
+    F2I
+    INVOKESTATIC java/lang/Math.min (II)I
+    ISTORE 15
+   L15
+    LINENUMBER 1213 L15
+    SIPUSH 255
+    FLOAD 4
+    FLOAD 12
+    FMUL
+    LDC 255.0
+    FDIV
+    F2I
+    INVOKESTATIC java/lang/Math.min (II)I
+    ISTORE 16
+   L16
+    LINENUMBER 1214 L16
+    SIPUSH 255
+    FLOAD 5
+    FLOAD 13
+    FMUL
+    LDC 255.0
+    FDIV
+    F2I
+    INVOKESTATIC java/lang/Math.min (II)I
+    ISTORE 17
+   L17
+    LINENUMBER 1215 L17
+    SIPUSH 255
+    FLOAD 6
+    FLOAD 14
+    FMUL
+    LDC 255.0
+    FDIV
+    F2I
+    INVOKESTATIC java/lang/Math.min (II)I
+    ISTORE 18
+   L18
+    LINENUMBER 1216 L18
+    ALOAD 0
+    ALOAD 0
+    ICONST_4
+    ILOAD 9
+    ISUB
+    INVOKEVIRTUAL bfd.c (I)I
+    ILOAD 15
+    ILOAD 16
+    ILOAD 17
+    ILOAD 18
+    INVOKEVIRTUAL bfd.a (IIIII)V
+   L19
+    LINENUMBER 1205 L19
+    IINC 9 1
+    GOTO L7
+   L8
+    LINENUMBER 1218 L8
+   FRAME FULL [bfd bgg I F F F F [I I I] []
+    RETURN
+   L20
+    LOCALVARIABLE vc I L10 L19 10
+    LOCALVARIABLE vcr F L11 L19 11
+    LOCALVARIABLE vcg F L12 L19 12
+    LOCALVARIABLE vcb F L13 L19 13
+    LOCALVARIABLE vca F L14 L19 14
+    LOCALVARIABLE ncr I L15 L19 15
+    LOCALVARIABLE ncg I L16 L19 16
+    LOCALVARIABLE ncb I L17 L19 17
+    LOCALVARIABLE nca I L18 L19 18
+    LOCALVARIABLE i I L7 L8 9
+    LOCALVARIABLE renderer Lbfd; L0 L20 0
+    LOCALVARIABLE quad Lbgg; L0 L20 1
+    LOCALVARIABLE color I L0 L20 2
+    LOCALVARIABLE cr F L1 L20 3
+    LOCALVARIABLE cg F L2 L20 4
+    LOCALVARIABLE cb F L3 L20 5
+    LOCALVARIABLE ca F L4 L20 6
+    LOCALVARIABLE vd [I L5 L20 7
+    LOCALVARIABLE step I L6 L20 8
+    MAXSTACK = 6
+    MAXLOCALS = 19
+
+  // access flags 0x8
+  static <clinit>()V
+   L0
+    LINENUMBER 68 L0
+    NEW jy
+    DUP
+    LDC "textures/misc/enchanted_item_glint.png"
+    INVOKESPECIAL jy.<init> (Ljava/lang/String;)V
+    PUTSTATIC bjh.b : Ljy;
+    RETURN
+    MAXSTACK = 3
+    MAXLOCALS = 0
+}

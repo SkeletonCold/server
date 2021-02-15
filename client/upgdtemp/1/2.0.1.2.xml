@@ -1,0 +1,1833 @@
+<?xml version="1.0" encoding="gb2312"?>
+<UPDATEINFO>
+<XMLGenerationInfo>
+<Generator name="updatconfig.exe" version="1.5.3.126" dataversion="20060430-001"/>
+<GenerateTime>2016-08-04 09:13:50</GenerateTime>
+</XMLGenerationInfo>
+<REDIRECT/>
+<GENERAL>
+<PRODUCTNAME>N8游戏平台</PRODUCTNAME>
+<VERSION>2.0.1.2</VERSION>
+<VERSIONCHECKMODE>G</VERSIONCHECKMODE>
+<CHECKSEPARATELY>true</CHECKSEPARATELY>
+<ENABLEROLLBACK>true</ENABLEROLLBACK>
+<DOWNLOADTHREADNUM>5</DOWNLOADTHREADNUM>
+<DOWNLOADRETRYTIME>10</DOWNLOADRETRYTIME>
+<DOWNLOADMAXMSGINTERVAL>5000</DOWNLOADMAXMSGINTERVAL>
+</GENERAL>
+<FEATURES>
+<FEATURE>平台更新</FEATURE>
+</FEATURES>
+<SHELLCONTROL>
+<DOWNLOAD auto="true" timeout="0"/>
+<INSTALL auto="true" forced="true" timeout="0"/>
+</SHELLCONTROL>
+<UPDATESERVER>
+<SERVER>deploy.n8mc.com</SERVER>
+</UPDATESERVER>
+<DNSPROXYSERVER/>
+<PATH>
+<TEMP>%Temp%</TEMP>
+<APP>%App%</APP>
+<UPDATERTEMP>%UpdaterTemp%</UPDATERTEMP>
+</PATH>
+<FILES>
+<FILE name="pf.ini" location="%App%\config\data\pf.ini" skipexistingfile="false" size="16" check="md5" md5="cb850e4f3b877d6500abacbf8af1fe0e">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/config/data/pf.ini.zip</LOCATION>
+<FILESIZE>128</FILESIZE>
+<FILEMD5>ad6e82ca6090d8bf79cd23669cc06e16</FILEMD5>
+<DESTINATION>%UpdaterTemp%\config\data\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\config\data\pf.ini.zip</LOCATION>
+<DESTINATION>%App%\config\data\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="game.xml" location="%App%\config\xml\game.xml" skipexistingfile="false" size="2572" check="md5" md5="856646b19b75b5c12bc914eb60486f66">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/config/xml/game.xml.zip</LOCATION>
+<FILESIZE>679</FILESIZE>
+<FILEMD5>7b599991b592bc9c7cc0ce14c5ec56c9</FILEMD5>
+<DESTINATION>%UpdaterTemp%\config\xml\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\config\xml\game.xml.zip</LOCATION>
+<DESTINATION>%App%\config\xml\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="mods.xml" location="%App%\config\xml\mods.xml" skipexistingfile="false" size="3588" check="md5" md5="cdcb3585a894f465d1593ce914419327">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/config/xml/mods.xml.zip</LOCATION>
+<FILESIZE>684</FILESIZE>
+<FILEMD5>86c2d7d1d4f6018e5496d119df8349cf</FILEMD5>
+<DESTINATION>%UpdaterTemp%\config\xml\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\config\xml\mods.xml.zip</LOCATION>
+<DESTINATION>%App%\config\xml\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="url.xml" location="%App%\config\xml\url.xml" skipexistingfile="false" size="851" check="md5" md5="1783187122b929e93cd41d77ee00b58a">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/config/xml/url.xml.zip</LOCATION>
+<FILESIZE>467</FILESIZE>
+<FILEMD5>d2641f26707595634d870b4659c8b203</FILEMD5>
+<DESTINATION>%UpdaterTemp%\config\xml\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\config\xml\url.xml.zip</LOCATION>
+<DESTINATION>%App%\config\xml\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="n8app.exe" location="%App%\n8app.exe" skipexistingfile="false" size="2351616" check="md5" md5="a654d025f8d83734fe15fd1a5cae53ca">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/n8app.exe.zip</LOCATION>
+<FILESIZE>1088888</FILESIZE>
+<FILEMD5>153a6d3151051f3df1aacae6ab828ce1</FILEMD5>
+<DESTINATION>%UpdaterTemp%\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\n8app.exe.zip</LOCATION>
+<DESTINATION>%App%\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="n8downloader.exe" location="%App%\n8downloader.exe" skipexistingfile="false" size="2393600" check="md5" md5="20b3bd0656e2afbaaf09d59b95fed61e">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/n8downloader.exe.zip</LOCATION>
+<FILESIZE>1119137</FILESIZE>
+<FILEMD5>cf855decc46448c09105ea2bdb467ca1</FILEMD5>
+<DESTINATION>%UpdaterTemp%\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\n8downloader.exe.zip</LOCATION>
+<DESTINATION>%App%\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="n8loader.exe" location="%App%\n8loader.exe" skipexistingfile="false" size="132608" check="md5" md5="2d07de90da64194d9545dc98af335d1c">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/n8loader.exe.zip</LOCATION>
+<FILESIZE>63956</FILESIZE>
+<FILEMD5>d289c235c477bae11248e7d8a13bdd29</FILEMD5>
+<DESTINATION>%UpdaterTemp%\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\n8loader.exe.zip</LOCATION>
+<DESTINATION>%App%\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="bk.png" location="%App%\skin\downloader\common\default\main\bk.png" skipexistingfile="false" size="7846" check="md5" md5="41144194319dc4afab9407997952094f">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/downloader/common/default/main/bk.png.zip</LOCATION>
+<FILESIZE>4350</FILESIZE>
+<FILEMD5>c913679cf17ca9c9134a244c3cbfa7de</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\downloader\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\downloader\common\default\main\bk.png.zip</LOCATION>
+<DESTINATION>%App%\skin\downloader\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="bottombk.png" location="%App%\skin\downloader\common\default\main\bottombk.png" skipexistingfile="false" size="2807" check="md5" md5="a7c80ba9be27c9a39527ff55821e1344">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/downloader/common/default/main/bottombk.png.zip</LOCATION>
+<FILESIZE>2934</FILESIZE>
+<FILEMD5>f1674c454c90e5973183f499acc959e4</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\downloader\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\downloader\common\default\main\bottombk.png.zip</LOCATION>
+<DESTINATION>%App%\skin\downloader\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="button.png" location="%App%\skin\downloader\common\default\main\button.png" skipexistingfile="false" size="4280" check="md5" md5="ef96180044a5d8953a88f458c29c5036">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/downloader/common/default/main/button.png.zip</LOCATION>
+<FILESIZE>4273</FILESIZE>
+<FILEMD5>78cbb0ee470445dfb387f5d277276990</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\downloader\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\downloader\common\default\main\button.png.zip</LOCATION>
+<DESTINATION>%App%\skin\downloader\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="close.png" location="%App%\skin\downloader\common\default\main\close.png" skipexistingfile="false" size="2532" check="md5" md5="7c2e6ce7eb6a884304e01d2e91ae1096">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/downloader/common/default/main/close.png.zip</LOCATION>
+<FILESIZE>2335</FILESIZE>
+<FILEMD5>728ebc5d91d8d7da1b31171b832916b6</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\downloader\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\downloader\common\default\main\close.png.zip</LOCATION>
+<DESTINATION>%App%\skin\downloader\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="dot.gif" location="%App%\skin\downloader\common\default\main\dot.gif" skipexistingfile="false" size="1239" check="md5" md5="f5ed749bbc3aee10f8e6bca467af3256">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/downloader/common/default/main/dot.gif.zip</LOCATION>
+<FILESIZE>951</FILESIZE>
+<FILEMD5>3c0d83dff5430ed3281c5f8f4b036b40</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\downloader\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\downloader\common\default\main\dot.gif.zip</LOCATION>
+<DESTINATION>%App%\skin\downloader\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="logo.PNG" location="%App%\skin\downloader\common\default\main\logo.PNG" skipexistingfile="false" size="19485" check="md5" md5="ad129c9fa64d53de242e9b5f29f54a86">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/downloader/common/default/main/logo.PNG.zip</LOCATION>
+<FILESIZE>19586</FILESIZE>
+<FILEMD5>364c0357406b71cd1184ccb363bf6f36</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\downloader\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\downloader\common\default\main\logo.PNG.zip</LOCATION>
+<DESTINATION>%App%\skin\downloader\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="progress.png" location="%App%\skin\downloader\common\default\main\progress.png" skipexistingfile="false" size="2862" check="md5" md5="2be509618c2c56c0253982f3c5595eba">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/downloader/common/default/main/progress.png.zip</LOCATION>
+<FILESIZE>2989</FILESIZE>
+<FILEMD5>eedf47c6e8064490fc77ebe49a7a2e2d</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\downloader\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\downloader\common\default\main\progress.png.zip</LOCATION>
+<DESTINATION>%App%\skin\downloader\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="pfskin.xml" location="%App%\skin\downloader\common\default\pfskin.xml" skipexistingfile="false" size="3446" check="md5" md5="ac063d09949425f1cb79ced25470fe19">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/downloader/common/default/pfskin.xml.zip</LOCATION>
+<FILESIZE>1035</FILESIZE>
+<FILEMD5>4f5f6822f69b329f13246bb75e5f1630</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\downloader\common\default\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\downloader\common\default\pfskin.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\downloader\common\default\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="hfskins.xml" location="%App%\skin\downloader\common\hfskins.xml" skipexistingfile="false" size="194" check="md5" md5="f658da1cbfba84da517ddb770e1c8464">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/downloader/common/hfskins.xml.zip</LOCATION>
+<FILESIZE>276</FILESIZE>
+<FILEMD5>d2d28434fa792e3410254be2419b17c1</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\downloader\common\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\downloader\common\hfskins.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\downloader\common\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="maindialog.xml" location="%App%\skin\downloader\maindialog.xml" skipexistingfile="false" size="8523" check="md5" md5="ac55b3c5b4be5b273de7afb9f31442db">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/downloader/maindialog.xml.zip</LOCATION>
+<FILESIZE>1835</FILESIZE>
+<FILEMD5>24a8e303c4b06fd995915b35b12f98d5</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\downloader\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\downloader\maindialog.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\downloader\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="user.png" location="%App%\skin\header\user.png" skipexistingfile="false" size="19815" check="md5" md5="bd33996a317d84988573cf03dee7feab">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/header/user.png.zip</LOCATION>
+<FILESIZE>19939</FILESIZE>
+<FILEMD5>6d447f878f40b9deb5500a46c23081f5</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\header\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\header\user.png.zip</LOCATION>
+<DESTINATION>%App%\skin\header\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="menuskin.xml" location="%App%\skin\menuskin.xml" skipexistingfile="false" size="5027" check="md5" md5="19b3f3ae3ea3cb33e961169f23e19252">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/menuskin.xml.zip</LOCATION>
+<FILESIZE>1217</FILESIZE>
+<FILEMD5>caa6587962aa9438522f5023e5918654</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\menuskin.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="bk.png" location="%App%\skin\msgbox\bk.png" skipexistingfile="false" size="7846" check="md5" md5="41144194319dc4afab9407997952094f">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/msgbox/bk.png.zip</LOCATION>
+<FILESIZE>4350</FILESIZE>
+<FILEMD5>ea70fc1f208e9539ad10dc47d18feb72</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\msgbox\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\msgbox\bk.png.zip</LOCATION>
+<DESTINATION>%App%\skin\msgbox\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="button.png" location="%App%\skin\msgbox\button.png" skipexistingfile="false" size="4280" check="md5" md5="ef96180044a5d8953a88f458c29c5036">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/msgbox/button.png.zip</LOCATION>
+<FILESIZE>4273</FILESIZE>
+<FILEMD5>328ea1fb70e946c06accf34d3f107273</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\msgbox\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\msgbox\button.png.zip</LOCATION>
+<DESTINATION>%App%\skin\msgbox\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="close.png" location="%App%\skin\msgbox\close.png" skipexistingfile="false" size="2532" check="md5" md5="7c2e6ce7eb6a884304e01d2e91ae1096">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/msgbox/close.png.zip</LOCATION>
+<FILESIZE>2335</FILESIZE>
+<FILEMD5>b82a17a3d399304049e8da197397a40d</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\msgbox\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\msgbox\close.png.zip</LOCATION>
+<DESTINATION>%App%\skin\msgbox\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="msgbox.png" location="%App%\skin\msgbox\msgbox.png" skipexistingfile="false" size="9175" check="md5" md5="7ba240c30260480462e0db041f55db3d">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/msgbox/msgbox.png.zip</LOCATION>
+<FILESIZE>9298</FILESIZE>
+<FILEMD5>f2c72fc32c1d464db7371bf54143b119</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\msgbox\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\msgbox\msgbox.png.zip</LOCATION>
+<DESTINATION>%App%\skin\msgbox\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="shadow.png" location="%App%\skin\msgbox\shadow.png" skipexistingfile="false" size="2807" check="md5" md5="a7c80ba9be27c9a39527ff55821e1344">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/msgbox/shadow.png.zip</LOCATION>
+<FILESIZE>2930</FILESIZE>
+<FILEMD5>c52c87a814371ecf8502ff4eb11b68b6</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\msgbox\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\msgbox\shadow.png.zip</LOCATION>
+<DESTINATION>%App%\skin\msgbox\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="msgbox.xml" location="%App%\skin\msgbox.xml" skipexistingfile="false" size="7210" check="md5" md5="38b2003c211341bf7592ed339a07fdcd">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/msgbox.xml.zip</LOCATION>
+<FILESIZE>1173</FILESIZE>
+<FILEMD5>9fd38b99e16a9772ced5593f74fe3d56</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\msgbox.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="newpop.xml" location="%App%\skin\newpop.xml" skipexistingfile="false" size="1352" check="md5" md5="ea7f4d5bdc7422414724349713d258ba">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/newpop.xml.zip</LOCATION>
+<FILESIZE>736</FILESIZE>
+<FILEMD5>cbd5e22ae401e435f033ec436e20c267</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\newpop.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="nocaption.xml" location="%App%\skin\nocaption.xml" skipexistingfile="false" size="272" check="md5" md5="e7f99355a441aec2831b0beaae44a7cd">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/nocaption.xml.zip</LOCATION>
+<FILESIZE>324</FILESIZE>
+<FILEMD5>efad9584660186680599cd7949a31201</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\nocaption.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="nocaptionpop.xml" location="%App%\skin\nocaptionpop.xml" skipexistingfile="false" size="282" check="md5" md5="cbe641730380ef75a5afc6cbbd2138a0">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/nocaptionpop.xml.zip</LOCATION>
+<FILESIZE>324</FILESIZE>
+<FILEMD5>42a734f3c7181e3674143a368ca6def8</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\nocaptionpop.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="pfskin.bak" location="%App%\skin\pfskin.bak" skipexistingfile="false" size="3446" check="md5" md5="ac063d09949425f1cb79ced25470fe19">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/pfskin.bak.zip</LOCATION>
+<FILESIZE>1035</FILESIZE>
+<FILEMD5>d793c0c2d4586e1ac855eacb368e2063</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\pfskin.bak.zip</LOCATION>
+<DESTINATION>%App%\skin\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="bk.png" location="%App%\skin\platform\common\default\login\bk.png" skipexistingfile="false" size="7556" check="md5" md5="636a20f1c227279619638586ad342b77">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/login/bk.png.zip</LOCATION>
+<FILESIZE>6950</FILESIZE>
+<FILEMD5>ed70b37af3d251ae7360270a4f8fbc24</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\login\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\login\bk.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\login\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="check.png" location="%App%\skin\platform\common\default\login\check.png" skipexistingfile="false" size="2323" check="md5" md5="3ef1d683fb79af089c2efe97fb02a27e">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/login/check.png.zip</LOCATION>
+<FILESIZE>2123</FILESIZE>
+<FILEMD5>ad59c4c5fb45b5c0f9b23a71b33d333a</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\login\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\login\check.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\login\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="close.png" location="%App%\skin\platform\common\default\login\close.png" skipexistingfile="false" size="3408" check="md5" md5="bfa49fa4a72543300e88bc6af5206893">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/login/close.png.zip</LOCATION>
+<FILESIZE>3529</FILESIZE>
+<FILEMD5>b5b87f98bf9a64cff4b4a70c24cb5041</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\login\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\login\close.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\login\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="conn.png" location="%App%\skin\platform\common\default\login\conn.png" skipexistingfile="false" size="24591" check="md5" md5="d1d026d91dfcbca34a473bb3a9908909">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/login/conn.png.zip</LOCATION>
+<FILESIZE>24660</FILESIZE>
+<FILEMD5>10277d21481a6c50a4066090557b24cf</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\login\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\login\conn.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\login\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="dot.gif" location="%App%\skin\platform\common\default\login\dot.gif" skipexistingfile="false" size="1239" check="md5" md5="f5ed749bbc3aee10f8e6bca467af3256">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/login/dot.gif.zip</LOCATION>
+<FILESIZE>951</FILESIZE>
+<FILEMD5>07b8bfd0f9103d736b4ecbe92956dc15</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\login\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\login\dot.gif.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\login\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="forgetpwd.png" location="%App%\skin\platform\common\default\login\forgetpwd.png" skipexistingfile="false" size="21951" check="md5" md5="61089a354011eb3f9e015a0215fd4fe2">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/login/forgetpwd.png.zip</LOCATION>
+<FILESIZE>22073</FILESIZE>
+<FILEMD5>773a192983d0206777d0157caba8e76d</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\login\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\login\forgetpwd.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\login\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="guanwang.png" location="%App%\skin\platform\common\default\login\guanwang.png" skipexistingfile="false" size="21406" check="md5" md5="7469aea02e901c8c3caed5eb28b07348">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/login/guanwang.png.zip</LOCATION>
+<FILESIZE>21525</FILESIZE>
+<FILEMD5>8d5f5d426beda87289b3d26b89f17167</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\login\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\login\guanwang.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\login\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="input.png" location="%App%\skin\platform\common\default\login\input.png" skipexistingfile="false" size="3990" check="md5" md5="86e250e56af8a3f8fcf67488c44d85ea">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/login/input.png.zip</LOCATION>
+<FILESIZE>4090</FILESIZE>
+<FILEMD5>5fb83b14d8d3430eb8344d14e9cab1cd</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\login\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\login\input.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\login\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="login_btn.png" location="%App%\skin\platform\common\default\login\login_btn.png" skipexistingfile="false" size="7577" check="md5" md5="8cbfc4aa2c42c3ac3bf6a98d80cf1689">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/login/login_btn.png.zip</LOCATION>
+<FILESIZE>7577</FILESIZE>
+<FILEMD5>a331c69682d22cc39b4039c60abdba06</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\login\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\login\login_btn.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\login\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="register.png" location="%App%\skin\platform\common\default\login\register.png" skipexistingfile="false" size="21652" check="md5" md5="3a3a1488779661c8ee6e4ac8ba9a6065">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/login/register.png.zip</LOCATION>
+<FILESIZE>21776</FILESIZE>
+<FILEMD5>501da5ae5f83ef5b1525c49050607ee3</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\login\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\login\register.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\login\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="avatar.png" location="%App%\skin\platform\common\default\main\avatar.png" skipexistingfile="false" size="7077" check="md5" md5="f35cd4f3fe6a63b78ed434b9d6b3cf7c">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/avatar.png.zip</LOCATION>
+<FILESIZE>7177</FILESIZE>
+<FILEMD5>a1c376abaf3621c3620fefa6ff803764</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\avatar.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="bk.png" location="%App%\skin\platform\common\default\main\bk.png" skipexistingfile="false" size="262807" check="md5" md5="bc0b97e21ccc73e59d7a0a66003924c2">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/bk.png.zip</LOCATION>
+<FILESIZE>261826</FILESIZE>
+<FILEMD5>30ee0094bd58cd132924a57e42713133</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\bk.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="close.png" location="%App%\skin\platform\common\default\main\close.png" skipexistingfile="false" size="3408" check="md5" md5="bfa49fa4a72543300e88bc6af5206893">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/close.png.zip</LOCATION>
+<FILESIZE>3529</FILESIZE>
+<FILEMD5>4855fd6604bc3bb40ca70f143f456a4f</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\close.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="contact.png" location="%App%\skin\platform\common\default\main\contact.png" skipexistingfile="false" size="5184" check="md5" md5="f0b1bbeb9ae421f1f617a3fab5d583d7">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/contact.png.zip</LOCATION>
+<FILESIZE>5231</FILESIZE>
+<FILEMD5>aac1bdb66449a63e153da91526eb594c</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\contact.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="download.png" location="%App%\skin\platform\common\default\main\download.png" skipexistingfile="false" size="5393" check="md5" md5="dfba5dcb3f993dccdd1997bb8446acb6">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/download.png.zip</LOCATION>
+<FILESIZE>5487</FILESIZE>
+<FILEMD5>89f490ae85aabb935e2aabb6e01fda90</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\download.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="gamemgr.png" location="%App%\skin\platform\common\default\main\gamemgr.png" skipexistingfile="false" size="5160" check="md5" md5="9522e52e29ae3951f76b52a230b0ab72">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/gamemgr.png.zip</LOCATION>
+<FILESIZE>5256</FILESIZE>
+<FILEMD5>5d43312cc79b223096837c92cf8c2799</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\gamemgr.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="lobby.png" location="%App%\skin\platform\common\default\main\lobby.png" skipexistingfile="false" size="5680" check="md5" md5="1e6a71b3248c327d9ec15b037b691f2a">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/lobby.png.zip</LOCATION>
+<FILESIZE>5715</FILESIZE>
+<FILEMD5>5eb347a31c4c3a3561bfc346006b9f65</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\lobby.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="login.png" location="%App%\skin\platform\common\default\main\login.png" skipexistingfile="false" size="6022" check="md5" md5="a92e14e8d8c458c5ed49b07f6cca60eb">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/login.png.zip</LOCATION>
+<FILESIZE>6143</FILESIZE>
+<FILEMD5>a354064e349761187b2d753608ec42d2</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\login.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="logo.png" location="%App%\skin\platform\common\default\main\logo.png" skipexistingfile="false" size="11195" check="md5" md5="f1a420907eb2f642eeffc74b28dd4838">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/logo.png.zip</LOCATION>
+<FILESIZE>11314</FILESIZE>
+<FILEMD5>bd641c543fb68a50e670f18f47f1de93</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\logo.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="logout.png" location="%App%\skin\platform\common\default\main\logout.png" skipexistingfile="false" size="6101" check="md5" md5="4a5a76c82a395015b5de6876141cc45c">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/logout.png.zip</LOCATION>
+<FILESIZE>6224</FILESIZE>
+<FILEMD5>1dc1aae36390a323b85620e8fc5d95d0</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\logout.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="min.png" location="%App%\skin\platform\common\default\main\min.png" skipexistingfile="false" size="2881" check="md5" md5="74a84f3ad89b1d1492a9e03a3e24ed45">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/min.png.zip</LOCATION>
+<FILESIZE>2998</FILESIZE>
+<FILEMD5>f1831290dbead88dd6ca76c09df19036</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\min.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="resourcelib.png" location="%App%\skin\platform\common\default\main\resourcelib.png" skipexistingfile="false" size="5649" check="md5" md5="896ebdcf58f80d32f845f7db6b2c3a40">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/resourcelib.png.zip</LOCATION>
+<FILESIZE>5696</FILESIZE>
+<FILEMD5>9b4503ec2e89d843ace057467169671a</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\resourcelib.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="room.png" location="%App%\skin\platform\common\default\main\room.png" skipexistingfile="false" size="3723" check="md5" md5="5087bde38f5aa5ef25aa8cb3680e2744">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/room.png.zip</LOCATION>
+<FILESIZE>3283</FILESIZE>
+<FILEMD5>83c850b827cd58ec601c487b245ee474</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\room.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="rooms.png" location="%App%\skin\platform\common\default\main\rooms.png" skipexistingfile="false" size="4975" check="md5" md5="222ab5ef7e8e047d5b11d39d3be65456">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/rooms.png.zip</LOCATION>
+<FILESIZE>4922</FILESIZE>
+<FILEMD5>387c20f64cfc4721a8b56b4b8329b547</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\rooms.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="room_label.png" location="%App%\skin\platform\common\default\main\room_label.png" skipexistingfile="false" size="16863" check="md5" md5="70bd99b7f6b00654e17f0077886dd1fe">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/room_label.png.zip</LOCATION>
+<FILESIZE>16957</FILESIZE>
+<FILEMD5>330df27da8b4bf301b6de2cf7983d627</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\room_label.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="settings.png" location="%App%\skin\platform\common\default\main\settings.png" skipexistingfile="false" size="3827" check="md5" md5="e013f84bc2c2acb95f9116d064d2bebf">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/settings.png.zip</LOCATION>
+<FILESIZE>3954</FILESIZE>
+<FILEMD5>55c985ad72c5823ec30b8fc1f99f5dd6</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\settings.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="vedio.png" location="%App%\skin\platform\common\default\main\vedio.png" skipexistingfile="false" size="5810" check="md5" md5="43ca5b3fcc7714108a328031b6b6f84b">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/vedio.png.zip</LOCATION>
+<FILESIZE>5869</FILESIZE>
+<FILEMD5>a3bb4d2bb91645e59f1b5e7c81c11636</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\vedio.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="vscroll.png" location="%App%\skin\platform\common\default\main\vscroll.png" skipexistingfile="false" size="340" check="md5" md5="f1cd7285f65f2b652f1cad32bb7bdb64">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/main/vscroll.png.zip</LOCATION>
+<FILESIZE>465</FILESIZE>
+<FILEMD5>1c814d94a748465211f33d2cdd9322a4</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\main\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\main\vscroll.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\main\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="bk.png" location="%App%\skin\platform\common\default\mcengine\bk.png" skipexistingfile="false" size="114163" check="md5" md5="f0d7ba55ecd3fc8d26c55b8ecb327719">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/mcengine/bk.png.zip</LOCATION>
+<FILESIZE>114308</FILESIZE>
+<FILEMD5>48a7f8e49dd019720c455273ccaaeade</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\mcengine\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\mcengine\bk.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\mcengine\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="close.png" location="%App%\skin\platform\common\default\mcengine\close.png" skipexistingfile="false" size="3408" check="md5" md5="bfa49fa4a72543300e88bc6af5206893">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/mcengine/close.png.zip</LOCATION>
+<FILESIZE>3529</FILESIZE>
+<FILEMD5>80bbab8535c52bfffa4634aa244e3ffd</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\mcengine\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\mcengine\close.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\mcengine\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="credit.png" location="%App%\skin\platform\common\default\mcengine\credit.png" skipexistingfile="false" size="14031" check="md5" md5="c4e83c835590a88ef328caf8d0b54da3">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/mcengine/credit.png.zip</LOCATION>
+<FILESIZE>14154</FILESIZE>
+<FILEMD5>c1a0320c894bf9e3c81ae658ec98cf4a</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\mcengine\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\mcengine\credit.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\mcengine\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="input.png" location="%App%\skin\platform\common\default\mcengine\input.png" skipexistingfile="false" size="2979" check="md5" md5="eeb0597feee5cab0143acc265079d28c">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/mcengine/input.png.zip</LOCATION>
+<FILESIZE>3093</FILESIZE>
+<FILEMD5>869dde8973352d31d4233a786ede8d92</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\mcengine\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\mcengine\input.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\mcengine\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="mall.png" location="%App%\skin\platform\common\default\mcengine\mall.png" skipexistingfile="false" size="15148" check="md5" md5="a0e2bf42ab544ed709387b33942b05a8">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/mcengine/mall.png.zip</LOCATION>
+<FILESIZE>15267</FILESIZE>
+<FILEMD5>e29ae4cddcf65f72752adffc62f4c65a</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\mcengine\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\mcengine\mall.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\mcengine\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="settings.png" location="%App%\skin\platform\common\default\mcengine\settings.png" skipexistingfile="false" size="6281" check="md5" md5="cad6e0f140a80548eb5bac609b227bdb">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/mcengine/settings.png.zip</LOCATION>
+<FILESIZE>6313</FILESIZE>
+<FILEMD5>18a0e33345e816e5d747fb5bcb5a4609</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\mcengine\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\mcengine\settings.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\mcengine\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="start.png" location="%App%\skin\platform\common\default\mcengine\start.png" skipexistingfile="false" size="11478" check="md5" md5="d404a1531bb50eb765feb8cd4b253a44">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/mcengine/start.png.zip</LOCATION>
+<FILESIZE>11143</FILESIZE>
+<FILEMD5>ab3b4524e0a87a8b3a661ce75dd43152</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\mcengine\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\mcengine\start.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\mcengine\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="auto_install.png" location="%App%\skin\platform\common\default\mcenginesettings\auto_install.png" skipexistingfile="false" size="10025" check="md5" md5="cc6cd89db1b27661ac6e43505817e409">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/mcenginesettings/auto_install.png.zip</LOCATION>
+<FILESIZE>8927</FILESIZE>
+<FILEMD5>04db28ee77c2d210bfb4a1e16d95d054</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\mcenginesettings\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\mcenginesettings\auto_install.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\mcenginesettings\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="bk.png" location="%App%\skin\platform\common\default\mcenginesettings\bk.png" skipexistingfile="false" size="174794" check="md5" md5="d1847993c8600fd8a538704c12b6790a">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/mcenginesettings/bk.png.zip</LOCATION>
+<FILESIZE>174959</FILESIZE>
+<FILEMD5>a09a6a7a5ec3ece6bcecec568d03de24</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\mcenginesettings\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\mcenginesettings\bk.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\mcenginesettings\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="close.png" location="%App%\skin\platform\common\default\mcenginesettings\close.png" skipexistingfile="false" size="3408" check="md5" md5="bfa49fa4a72543300e88bc6af5206893">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/mcenginesettings/close.png.zip</LOCATION>
+<FILESIZE>3529</FILESIZE>
+<FILEMD5>b5b87f98bf9a64cff4b4a70c24cb5041</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\mcenginesettings\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\mcenginesettings\close.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\mcenginesettings\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="dot.gif" location="%App%\skin\platform\common\default\mcenginesettings\dot.gif" skipexistingfile="false" size="1239" check="md5" md5="f5ed749bbc3aee10f8e6bca467af3256">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/mcenginesettings/dot.gif.zip</LOCATION>
+<FILESIZE>951</FILESIZE>
+<FILEMD5>07b8bfd0f9103d736b4ecbe92956dc15</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\mcenginesettings\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\mcenginesettings\dot.gif.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\mcenginesettings\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="input.png" location="%App%\skin\platform\common\default\mcenginesettings\input.png" skipexistingfile="false" size="3207" check="md5" md5="98c2943518164314eaf865adcd98f65c">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/mcenginesettings/input.png.zip</LOCATION>
+<FILESIZE>3211</FILESIZE>
+<FILEMD5>be9ffeec8b1aca08421c5fcc78f4da63</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\mcenginesettings\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\mcenginesettings\input.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\mcenginesettings\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="open.png" location="%App%\skin\platform\common\default\mcenginesettings\open.png" skipexistingfile="false" size="5013" check="md5" md5="b81614265b52dcf6ba522cb4ed98e33b">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/mcenginesettings/open.png.zip</LOCATION>
+<FILESIZE>5100</FILESIZE>
+<FILEMD5>f79bb12e74b142f78236124d1ae43e94</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\mcenginesettings\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\mcenginesettings\open.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\mcenginesettings\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="save.png" location="%App%\skin\platform\common\default\mcenginesettings\save.png" skipexistingfile="false" size="9491" check="md5" md5="ecd668f16fe14a88792913668f7ac1a7">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/mcenginesettings/save.png.zip</LOCATION>
+<FILESIZE>9044</FILESIZE>
+<FILEMD5>b0eb540218cff3a832b294951b7c8178</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\mcenginesettings\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\mcenginesettings\save.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\mcenginesettings\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="search.png" location="%App%\skin\platform\common\default\mcenginesettings\search.png" skipexistingfile="false" size="6652" check="md5" md5="15561e7d92f589762c9c6758fbf68243">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/mcenginesettings/search.png.zip</LOCATION>
+<FILESIZE>6663</FILESIZE>
+<FILEMD5>b635b242b404a4db1f6d8264b7dae736</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\mcenginesettings\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\mcenginesettings\search.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\mcenginesettings\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="pfskin.xml" location="%App%\skin\platform\common\default\pfskin.xml" skipexistingfile="false" size="26888" check="md5" md5="1093319e188600f56d999848d4c4c964">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/pfskin.xml.zip</LOCATION>
+<FILESIZE>3222</FILESIZE>
+<FILEMD5>1ae68ad44a1ee425ad7133f32aeac221</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\pfskin.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="bk.png" location="%App%\skin\platform\common\default\register\bk.png" skipexistingfile="false" size="26429" check="md5" md5="922fee1f2601ff674cd7ea5f2271172b">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/register/bk.png.zip</LOCATION>
+<FILESIZE>24562</FILESIZE>
+<FILEMD5>36f488453b15acb5bcfddd8318c4b720</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\register\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\register\bk.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\register\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="close.png" location="%App%\skin\platform\common\default\register\close.png" skipexistingfile="false" size="3408" check="md5" md5="bfa49fa4a72543300e88bc6af5206893">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/register/close.png.zip</LOCATION>
+<FILESIZE>3529</FILESIZE>
+<FILEMD5>14b44239b6ae87b41757a0eefa21386f</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\register\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\register\close.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\register\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="input.png" location="%App%\skin\platform\common\default\register\input.png" skipexistingfile="false" size="4592" check="md5" md5="7e2cc2e7339e767498526f0227da0ad0">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/register/input.png.zip</LOCATION>
+<FILESIZE>4674</FILESIZE>
+<FILEMD5>bddacf1c68a7df834234c8ec4ae68150</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\register\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\register\input.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\register\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="register_btn.png" location="%App%\skin\platform\common\default\register\register_btn.png" skipexistingfile="false" size="12176" check="md5" md5="7dd11a30b312302e6fc1f3a368fff556">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/register/register_btn.png.zip</LOCATION>
+<FILESIZE>12114</FILESIZE>
+<FILEMD5>608542603897be88ae40c26e1d14d36b</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\register\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\register\register_btn.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\register\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="bind_btn.png" location="%App%\skin\platform\common\default\verifyemail\bind_btn.png" skipexistingfile="false" size="24863" check="md5" md5="f6b6cd022c25ad0b9577cf66835f7f56">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/verifyemail/bind_btn.png.zip</LOCATION>
+<FILESIZE>24787</FILESIZE>
+<FILEMD5>9cd067e56ffef2438328b7a4487a99f1</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\verifyemail\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\verifyemail\bind_btn.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\verifyemail\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="bk.png" location="%App%\skin\platform\common\default\verifyemail\bk.png" skipexistingfile="false" size="15818" check="md5" md5="0b0fab718eadc66b52e3abfcd9a37b01">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/verifyemail/bk.png.zip</LOCATION>
+<FILESIZE>14048</FILESIZE>
+<FILEMD5>fd2f75b4fac4840fb2d53f9356697a0c</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\verifyemail\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\verifyemail\bk.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\verifyemail\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="close.png" location="%App%\skin\platform\common\default\verifyemail\close.png" skipexistingfile="false" size="3408" check="md5" md5="bfa49fa4a72543300e88bc6af5206893">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/verifyemail/close.png.zip</LOCATION>
+<FILESIZE>3529</FILESIZE>
+<FILEMD5>b5b87f98bf9a64cff4b4a70c24cb5041</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\verifyemail\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\verifyemail\close.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\verifyemail\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="input.png" location="%App%\skin\platform\common\default\verifyemail\input.png" skipexistingfile="false" size="5070" check="md5" md5="7072895e04d06181851f80f9aed31030">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/default/verifyemail/input.png.zip</LOCATION>
+<FILESIZE>4940</FILESIZE>
+<FILEMD5>7bbe371ec9b2490715d487138e794998</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\default\verifyemail\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\default\verifyemail\input.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\default\verifyemail\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="pfskins.xml" location="%App%\skin\platform\common\pfskins.xml" skipexistingfile="false" size="1075" check="md5" md5="a7dd2cd5503b130abe198cadeabd5bb5">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/common/pfskins.xml.zip</LOCATION>
+<FILESIZE>540</FILESIZE>
+<FILEMD5>a07e1710c877e78388de40bf057f7a44</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\common\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\common\pfskins.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\common\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="login.xml" location="%App%\skin\platform\login.xml" skipexistingfile="false" size="7188" check="md5" md5="8a07e7381d5dfb93b42d84e392d64c57">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/login.xml.zip</LOCATION>
+<FILESIZE>1450</FILESIZE>
+<FILEMD5>e547a58be7f3c5a3436a039faa4832b4</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\login.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="main.xml" location="%App%\skin\platform\main.xml" skipexistingfile="false" size="5041" check="md5" md5="570adfe0e0d38616abe724ae924fc4f0">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/main.xml.zip</LOCATION>
+<FILESIZE>1436</FILESIZE>
+<FILEMD5>43eb86ab24d82a8dcfdfbf8115f5f1f7</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\main.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="mcengine.xml" location="%App%\skin\platform\mcengine.xml" skipexistingfile="false" size="3288" check="md5" md5="02af329c95491b4ebc3bc4b666362d56">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/mcengine.xml.zip</LOCATION>
+<FILESIZE>1096</FILESIZE>
+<FILEMD5>759f090e881643ff98825cbbf911377b</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\mcengine.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="mcenginesettings.xml" location="%App%\skin\platform\mcenginesettings.xml" skipexistingfile="false" size="4353" check="md5" md5="d6da03b9dcfc00037d8eecbdbbc0efdd">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/mcenginesettings.xml.zip</LOCATION>
+<FILESIZE>1137</FILESIZE>
+<FILEMD5>c2f7fbfe8c242d6e2d62db1491ad8231</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\mcenginesettings.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="menuicon.png" location="%App%\skin\platform\menu\menuicon.png" skipexistingfile="false" size="2056" check="md5" md5="cc96501c8ec55e40f4c30e762fee307c">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/menu/menuicon.png.zip</LOCATION>
+<FILESIZE>2183</FILESIZE>
+<FILEMD5>66ea43ffba42e56c803416b6969bdf6a</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\menu\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\menu\menuicon.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\menu\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="menuskin.png" location="%App%\skin\platform\menu\menuskin.png" skipexistingfile="false" size="214" check="md5" md5="1e176f2cad159cac1d66fd8c7444fdd2">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/menu/menuskin.png.zip</LOCATION>
+<FILESIZE>288</FILESIZE>
+<FILEMD5>0b23c0487fd1a4964232cf557dfe7883</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\menu\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\menu\menuskin.png.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\menu\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="menuskin.xml" location="%App%\skin\platform\menuskin.xml" skipexistingfile="false" size="5740" check="md5" md5="e487e87ef73bbc9c2ce5633ac3965f09">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/menuskin.xml.zip</LOCATION>
+<FILESIZE>1272</FILESIZE>
+<FILEMD5>70c2557d875247a14182a0e37381bc61</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\menuskin.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="register.xml" location="%App%\skin\platform\register.xml" skipexistingfile="false" size="3499" check="md5" md5="d4541b64f464b285944baf808bea249e">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/register.xml.zip</LOCATION>
+<FILESIZE>1164</FILESIZE>
+<FILEMD5>d46c380ded806a0af2b8159571ef18af</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\register.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="roompanel.xml" location="%App%\skin\platform\roompanel.xml" skipexistingfile="false" size="5869" check="md5" md5="1cea31d7657187af66ccf3de34ea974b">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/roompanel.xml.zip</LOCATION>
+<FILESIZE>1042</FILESIZE>
+<FILEMD5>924dcdd2049d148816be1585b9d70856</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\roompanel.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="verifyemail.xml" location="%App%\skin\platform\verifyemail.xml" skipexistingfile="false" size="2721" check="md5" md5="4e4eb75f96de0d02b5ed1b3456b2406c">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/platform/verifyemail.xml.zip</LOCATION>
+<FILESIZE>1063</FILESIZE>
+<FILEMD5>5a73c76ee00decb10220ff0e6fb68e01</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\platform\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\platform\verifyemail.xml.zip</LOCATION>
+<DESTINATION>%App%\skin\platform\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="0.png" location="%App%\skin\room\0.png" skipexistingfile="false" size="57223" check="md5" md5="6b8321645572ff37011135edbe6b215e">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/0.png.zip</LOCATION>
+<FILESIZE>57351</FILESIZE>
+<FILEMD5>c8c935d150b89c506718c6a87ace3f0c</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\0.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="1.png" location="%App%\skin\room\1.png" skipexistingfile="false" size="40848" check="md5" md5="5abab852f759619f8146f910d9d0c983">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/1.png.zip</LOCATION>
+<FILESIZE>40971</FILESIZE>
+<FILEMD5>297e6038e4821012286c067ff048ce62</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\1.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="10.png" location="%App%\skin\room\10.png" skipexistingfile="false" size="58775" check="md5" md5="fecf4615d819b2d2ab98fcd1c4df9d2d">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/10.png.zip</LOCATION>
+<FILESIZE>58895</FILESIZE>
+<FILEMD5>d8cebf569d999c9e3fcb80ce0f155acc</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\10.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="11.png" location="%App%\skin\room\11.png" skipexistingfile="false" size="54325" check="md5" md5="8dc52bf6a289320d905b5828150cf18a">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/11.png.zip</LOCATION>
+<FILESIZE>54455</FILESIZE>
+<FILEMD5>5520daba0efdd78bafaaf302b01525ae</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\11.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="12.png" location="%App%\skin\room\12.png" skipexistingfile="false" size="54496" check="md5" md5="018620b179946d2fe14da9ddd4b11ec6">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/12.png.zip</LOCATION>
+<FILESIZE>54626</FILESIZE>
+<FILEMD5>6034bb63a1f71b4fdd19ff8bd5593a3a</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\12.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="13.png" location="%App%\skin\room\13.png" skipexistingfile="false" size="52298" check="md5" md5="69f3588c6ca8bde8499711485ab84e73">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/13.png.zip</LOCATION>
+<FILESIZE>52375</FILESIZE>
+<FILEMD5>5760e0bb2c49e3c54bbab723bf72e9bd</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\13.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="14.png" location="%App%\skin\room\14.png" skipexistingfile="false" size="54951" check="md5" md5="0014f987e5c489fd17bba2a4bf40daf1">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/14.png.zip</LOCATION>
+<FILESIZE>55081</FILESIZE>
+<FILEMD5>61bc039d3d6277216b99d18dd736ad0c</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\14.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="15.png" location="%App%\skin\room\15.png" skipexistingfile="false" size="47516" check="md5" md5="cfcc4a08dd0117d76e9e8e4e7b244733">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/15.png.zip</LOCATION>
+<FILESIZE>47641</FILESIZE>
+<FILEMD5>aa8446674c157ca49d469f7857d494ab</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\15.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="16.png" location="%App%\skin\room\16.png" skipexistingfile="false" size="40848" check="md5" md5="5abab852f759619f8146f910d9d0c983">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/16.png.zip</LOCATION>
+<FILESIZE>40973</FILESIZE>
+<FILEMD5>a2503429e2b55b70c594d6ec47e4123a</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\16.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="17.png" location="%App%\skin\room\17.png" skipexistingfile="false" size="42933" check="md5" md5="eaa8270e153dc5d692444ca3a23919ee">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/17.png.zip</LOCATION>
+<FILESIZE>43058</FILESIZE>
+<FILEMD5>e4b82a095aa9657b916b08462af05135</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\17.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="18.png" location="%App%\skin\room\18.png" skipexistingfile="false" size="58037" check="md5" md5="493f5a546a3a100faa05732658a2eb8a">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/18.png.zip</LOCATION>
+<FILESIZE>58167</FILESIZE>
+<FILEMD5>fefa06e5901be5fcad687d7c33589118</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\18.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="19.png" location="%App%\skin\room\19.png" skipexistingfile="false" size="47178" check="md5" md5="b13ee10ce49edd4e46597d4660e22bc6">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/19.png.zip</LOCATION>
+<FILESIZE>47303</FILESIZE>
+<FILEMD5>ab8e2e27b355197b1b62c80e7016ad13</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\19.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="2.png" location="%App%\skin\room\2.png" skipexistingfile="false" size="42933" check="md5" md5="eaa8270e153dc5d692444ca3a23919ee">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/2.png.zip</LOCATION>
+<FILESIZE>43056</FILESIZE>
+<FILEMD5>5e075bf47ed7984fe1439e9719965399</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\2.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="20.png" location="%App%\skin\room\20.png" skipexistingfile="false" size="49033" check="md5" md5="1e78e67a3ef7e8372eb66b25d12cf382">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/20.png.zip</LOCATION>
+<FILESIZE>49158</FILESIZE>
+<FILEMD5>b63d615de17dbdc18964b6fe83d73e0d</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\20.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="21.png" location="%App%\skin\room\21.png" skipexistingfile="false" size="51066" check="md5" md5="64becbdf54f5d103812067ac9b0e4c16">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/21.png.zip</LOCATION>
+<FILESIZE>51196</FILESIZE>
+<FILEMD5>e3b40caec0377cbafe45c97fc5cbd0ea</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\21.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="22.png" location="%App%\skin\room\22.png" skipexistingfile="false" size="60545" check="md5" md5="aca34a93140d2dc530853e7374f94877">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/22.png.zip</LOCATION>
+<FILESIZE>60675</FILESIZE>
+<FILEMD5>e43ec231192b9f14acde59be15c45f60</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\22.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="23.png" location="%App%\skin\room\23.png" skipexistingfile="false" size="52578" check="md5" md5="f8fea43edf42f5f69e5d0b4df4f10bb0">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/23.png.zip</LOCATION>
+<FILESIZE>52708</FILESIZE>
+<FILEMD5>8b726057e094ce1b6cfe45dac3dd565c</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\23.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="24.png" location="%App%\skin\room\24.png" skipexistingfile="false" size="49859" check="md5" md5="c926d6582f870e5644ea0474ecba6356">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/24.png.zip</LOCATION>
+<FILESIZE>49989</FILESIZE>
+<FILEMD5>98e06ffdc6ec4811597358fd7f32acdd</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\24.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="25.png" location="%App%\skin\room\25.png" skipexistingfile="false" size="58775" check="md5" md5="fecf4615d819b2d2ab98fcd1c4df9d2d">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/25.png.zip</LOCATION>
+<FILESIZE>58895</FILESIZE>
+<FILEMD5>cbc084bcda28800f53ce0bf6137f2665</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\25.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="26.png" location="%App%\skin\room\26.png" skipexistingfile="false" size="54496" check="md5" md5="018620b179946d2fe14da9ddd4b11ec6">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/26.png.zip</LOCATION>
+<FILESIZE>54626</FILESIZE>
+<FILEMD5>1c0951474469c17ab5348a87077bc6c1</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\26.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="27.png" location="%App%\skin\room\27.png" skipexistingfile="false" size="52298" check="md5" md5="69f3588c6ca8bde8499711485ab84e73">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/27.png.zip</LOCATION>
+<FILESIZE>52375</FILESIZE>
+<FILEMD5>cd2626ccc7680e6a97a22a85b951f913</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\27.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="28.png" location="%App%\skin\room\28.png" skipexistingfile="false" size="54951" check="md5" md5="0014f987e5c489fd17bba2a4bf40daf1">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/28.png.zip</LOCATION>
+<FILESIZE>55081</FILESIZE>
+<FILEMD5>29975ae3ed1c85686d36b728b1f7840f</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\28.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="29.png" location="%App%\skin\room\29.png" skipexistingfile="false" size="54325" check="md5" md5="8dc52bf6a289320d905b5828150cf18a">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/29.png.zip</LOCATION>
+<FILESIZE>54455</FILESIZE>
+<FILEMD5>a52c402a761dc37aa8d24bfde6cd6837</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\29.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="3.png" location="%App%\skin\room\3.png" skipexistingfile="false" size="58037" check="md5" md5="493f5a546a3a100faa05732658a2eb8a">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/3.png.zip</LOCATION>
+<FILESIZE>58165</FILESIZE>
+<FILEMD5>2ca87f169d266ab629b613ca038f9780</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\3.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="30.png" location="%App%\skin\room\30.png" skipexistingfile="false" size="47516" check="md5" md5="cfcc4a08dd0117d76e9e8e4e7b244733">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/30.png.zip</LOCATION>
+<FILESIZE>47641</FILESIZE>
+<FILEMD5>28f293f6ab20bec736a0ed5ddb3e25b4</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\30.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="31.png" location="%App%\skin\room\31.png" skipexistingfile="false" size="57223" check="md5" md5="6b8321645572ff37011135edbe6b215e">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/31.png.zip</LOCATION>
+<FILESIZE>57353</FILESIZE>
+<FILEMD5>9180a1c1d0800eefd77d53430f7f2add</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\31.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="4.png" location="%App%\skin\room\4.png" skipexistingfile="false" size="47178" check="md5" md5="b13ee10ce49edd4e46597d4660e22bc6">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/4.png.zip</LOCATION>
+<FILESIZE>47301</FILESIZE>
+<FILEMD5>f3e974d4321f55d7b16e22270d4e7763</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\4.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="5.png" location="%App%\skin\room\5.png" skipexistingfile="false" size="49033" check="md5" md5="1e78e67a3ef7e8372eb66b25d12cf382">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/5.png.zip</LOCATION>
+<FILESIZE>49156</FILESIZE>
+<FILEMD5>e05d9e313177943debab33dca7adbe9e</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\5.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="6.png" location="%App%\skin\room\6.png" skipexistingfile="false" size="51066" check="md5" md5="64becbdf54f5d103812067ac9b0e4c16">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/6.png.zip</LOCATION>
+<FILESIZE>51194</FILESIZE>
+<FILEMD5>445dee4d9a7d0d42092cd95a056b0614</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\6.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="7.png" location="%App%\skin\room\7.png" skipexistingfile="false" size="60545" check="md5" md5="aca34a93140d2dc530853e7374f94877">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/7.png.zip</LOCATION>
+<FILESIZE>60673</FILESIZE>
+<FILEMD5>e0022c03aac27c9f08f33eee8d45d2a5</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\7.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="8.png" location="%App%\skin\room\8.png" skipexistingfile="false" size="52578" check="md5" md5="f8fea43edf42f5f69e5d0b4df4f10bb0">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/8.png.zip</LOCATION>
+<FILESIZE>52706</FILESIZE>
+<FILEMD5>7608da5de9ebb922416ae2ea9b62ffcf</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\8.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="9.png" location="%App%\skin\room\9.png" skipexistingfile="false" size="49859" check="md5" md5="c926d6582f870e5644ea0474ecba6356">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/skin/room/9.png.zip</LOCATION>
+<FILESIZE>49987</FILESIZE>
+<FILEMD5>6c75a4da106636481623171ef4871167</FILEMD5>
+<DESTINATION>%UpdaterTemp%\skin\room\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\skin\room\9.png.zip</LOCATION>
+<DESTINATION>%App%\skin\room\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+<FILE name="version.ini" location="%App%\version.ini" skipexistingfile="false" size="28" check="md5" md5="97fc4b9b65f3c0d2f41fac93ffc8150d">
+<ACTION type="download">
+<LOCATION>http://%UpdateServer%/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/patch_dir/version.ini.zip</LOCATION>
+<FILESIZE>144</FILESIZE>
+<FILEMD5>5daa7721b05bb1484a9dfbe2706b9bc4</FILEMD5>
+<DESTINATION>%UpdaterTemp%\</DESTINATION>
+</ACTION>
+<ACTION type="unzip">
+<LOCATION>%UpdaterTemp%\version.ini.zip</LOCATION>
+<DESTINATION>%App%\</DESTINATION>
+<OVERWRITE>true</OVERWRITE>
+<ONFAIL addsuffix="false" suffix=""/>
+</ACTION>
+</FILE>
+</FILES>
+<INI>
+<ITEM>
+<LOCATION>%App%\Version.ini</LOCATION>
+<GROUP>Version</GROUP>
+<KEY>Version</KEY>
+<VALUE>2.0.1.2</VALUE>
+</ITEM>
+</INI>
+<REGISTRY/>
+<EVENTS>
+<BEFORECHECK>
+<ACTION type="delete">
+<LOCATION>%App%\log</LOCATION>
+<ASKUSER>false</ASKUSER>
+<DIRECTORY>true</DIRECTORY>
+<DELSUBFILE>false</DELSUBFILE>
+</ACTION>
+</BEFORECHECK>
+<BEFOREINSTALL>
+<ACTION type="killmodule">
+<MODULENAME>%App%\n8loader.exe</MODULENAME>
+<ISPROCESS>true</ISPROCESS>
+<ASKUSER>false</ASKUSER>
+<ONFAIL retry="5" interval="1000" forcekill="true"/>
+<FAILMESSAGE>无法自动结束daloader.exe进程。更新将会继续进行，但是可能在更新文件失败时会进行回滚。</FAILMESSAGE>
+</ACTION>
+<ACTION type="killmodule">
+<MODULENAME>%App%\n8app.exe</MODULENAME>
+<ISPROCESS>true</ISPROCESS>
+<ASKUSER>false</ASKUSER>
+<ONFAIL retry="5" interval="1000" forcekill="true"/>
+<FAILMESSAGE>无法自动结束dreamalliance.exe进程。更新将会继续进行，但是可能在更新文件失败时会进行回滚。</FAILMESSAGE>
+</ACTION>
+</BEFOREINSTALL>
+<ONCLOSEUPDATE>
+<ACTION type="run">
+<LOCATION>%App%\n8loader.exe</LOCATION>
+<ALLOWMULTIINSTANCE>false</ALLOWMULTIINSTANCE>
+<RUNASLOCALUSER>false</RUNASLOCALUSER>
+<LOCALUSERPROCESS>%Windows%\explorer.exe</LOCALUSERPROCESS>
+<HIDDEN>false</HIDDEN>
+<FAILONNOFILE>false</FAILONNOFILE>
+<WAITFORSINGLEOBJECT>false</WAITFORSINGLEOBJECT>
+<PARAMETERS/>
+</ACTION>
+</ONCLOSEUPDATE>
+</EVENTS>
+</UPDATEINFO>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Games>
+  <game id="1"   name="云之天地" version="1.8.9" url="http://deploy.n8mc.com/games/1.8.9.zip"   server-url="www.3gbenben.com" server-port="" app="1.8.9\.minecraft" max-number="500" server="云之天地" field-nickname="true"/>
+</Games>

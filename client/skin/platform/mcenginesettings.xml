@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BFCFrame>
+  <BFCSkin>
+    <Images/>
+    <SkinElements type="common"/>
+    <Fonts />
+    <Tips />
+  </BFCSkin>
+  <BFCWindow size="584,370" minsize="584,370" caption-height="370">
+    <Panel id="1000" skinid="702" class="CBFCPanel" align="1,1,1,1" bound="0,0,584,370" affected-style="normal">
+      <!--右上角关闭按钮-->
+      <Button id="#F060" class="CBFCButton" skinid="703" align="0,1,1,0" bound="561,7,577,25">
+        <Tip show="true">
+          <Title type="text" string="关闭"/>
+        </Tip>
+      </Button>
+      <!--END 右上角关闭按钮-->
+      <!--我们需要一些设置-->
+      <Label id="2001"  class="CBFCLabel" align="1,1,1,1" bound="200,40,400,73" affected-style="normal">
+        <Font facename="微软雅黑" origin="0,0" size="20px" bold="true" italic="false" underline="false" />
+        <TextArea align="1,1,1,1" bound="0,0,200,33" color="#FFFFFF" hotcolor="#FFFFFF" selectedcolor="#FFFFFF">
+          <Text type="text" string="我们需要一些设置" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="true" rtlreading="false" />
+        </TextArea>
+      </Label>
+      <!--游戏ID-->
+      <Label id="2001"  class="CBFCLabel" align="1,1,1,1" bound="15,90,120,123" affected-style="normal">
+        <Font facename="微软雅黑" origin="0,0" size="20px" bold="true" italic="false" underline="false" />
+        <TextArea align="1,1,1,1" bound="0,0,105,33" color="#FFFFFF" hotcolor="#FFFFFF" selectedcolor="#FFFFFF">
+          <Text type="text" string="  游戏ID：" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="true" rtlreading="false" />
+        </TextArea>
+      </Label>
+      <Edit id="2002" skinid="704" class="CBFCEdit"  textcolor="#000000" align="1,1,0,0" bound="115,90,510,123" affected-style="tri-state" bordermargin="1,1,1,1" autoscroll="autohscroll">
+        <Font facename="微软雅黑" origin="0,0"   size="15px" bold="false" italic="false" underline="false" />
+      </Edit>
+      <!--JAVA路径-->
+      <Label id="2001"  class="CBFCLabel" align="1,1,1,1" bound="15,140,120,173" affected-style="normal">
+        <Font facename="微软雅黑" origin="0,0" size="20px" bold="true" italic="false" underline="false" />
+        <TextArea align="1,1,1,1" bound="0,0,105,33" color="#FFFFFF" hotcolor="#FFFFFF" selectedcolor="#FFFFFF">
+          <Text type="text" string="java路径：" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="true" rtlreading="false" />
+        </TextArea>
+      </Label>
+      <Edit id="2003" skinid="704" class="CBFCEdit"  textcolor="#000000" align="1,1,0,0" bound="115,140,510,173" affected-style="tri-state" bordermargin="1,1,1,1" autoscroll="autohscroll">
+        <Font facename="微软雅黑" origin="0,0"   size="15px" bold="false" italic="false" underline="false" />
+      </Edit>
+      <Button id="3004" skinid="705" class="CBFCButton" align="0,1,1,0" bound="521,140,581,172" affected-style="tri-state">
+        <Tip show="true">
+          <Title type="text" string="浏览"/>
+        </Tip>
+      </Button>
+      <Label id="2009"  class="CBFCLabel" align="1,1,1,1" bound="15,190,120,223" affected-style="normal">
+        <Font facename="微软雅黑" origin="0,0" size="18px" bold="true" italic="false" underline="false" />
+        <TextArea align="1,1,1,1" bound="0,0,105,33" color="#FFFFFF" hotcolor="#FFFFFF" selectedcolor="#FFFFFF">
+          <Text type="text" string=" 最大内存：" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="true" rtlreading="false" />
+        </TextArea>
+      </Label>
+      <Edit id="2004" skinid="704" class="CBFCEdit"  textcolor="#000000" align="1,1,0,0" bound="115,190,350,220" affected-style="tri-state" bordermargin="1,1,1,1" autoscroll="autohscroll">
+        <Font facename="微软雅黑" origin="0,0"   size="15px" bold="false" italic="false" underline="false" />
+      </Edit>
+      <Label id="2010"  class="CBFCLabel" align="1,1,1,1" bound="370,190,585,223" affected-style="normal">
+        <Font facename="微软雅黑" origin="0,0" size="15px" bold="true" italic="false" underline="false" />
+        <TextArea align="1,1,1,1" bound="0,0,215,33" color="#FF00FF" hotcolor="#FF00FF" selectedcolor="#FF00FF">
+          <Text type="text" string="MB       物理内存:{memory}" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="true" rtlreading="false" />
+        </TextArea>
+      </Label>
+      <!--跳过动画-->
+      <CheckButton id="4000" skinid="308" class="CBFCCheckButton" align="1,1,1,0" bound="15,245,137,300" affected-type="checked" affected-style="tri-state">
+        <Font facename="微软雅黑" origin="0,0" size="20px" bold="true" italic="false" underline="false" />
+        <TextArea align="1,1,1,1" bound="22,0,100,20" color="#FFFFFF" hotcolor="#FFFFFF" selectedcolor="#FFFFFF">
+          <Text type="text" string="跳过启动动画" align="left-vcenter" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="false" rtlreading="false" />
+        </TextArea>
+      </CheckButton>
+      <!--跳过界面自动进入服务器-->
+      <CheckButton id="4001" skinid="308" class="CBFCCheckButton" align="1,1,1,0" bound="255,245,377,300" affected-type="checked" affected-style="tri-state">
+        <Font facename="微软雅黑" origin="0,0" size="20px" bold="true" italic="false" underline="false" />
+        <TextArea align="1,1,1,1" bound="22,0,100,20" color="#FFFFFF" hotcolor="#FFFFFF" selectedcolor="#FFFFFF">
+          <Text type="text" string="跳过界面自动进入服务器" align="left-vcenter" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="false" rtlreading="false" />
+        </TextArea>
+      </CheckButton>
+      <!--匹配最佳设置-->
+      <Button id="3010" skinid="701" class="CBFCButton" align="0,1,1,0" bound="100,308,213,334" affected-style="tri-state">
+        <Tip show="true">
+          <Title type="text" string="匹配最佳设置"/>
+        </Tip>
+      </Button>
+     
+      <!--取消-->
+      <Button id="3009" skinid="708" class="CBFCButton" align="0,1,1,0" bound="250,308,363,334" affected-style="tri-state">
+        <Tip show="true">
+          <Title type="text" string="取消"/>
+        </Tip>
+      </Button>
+      <!--确认-->
+      <Button id="3007" skinid="706" class="CBFCButton" align="0,1,1,0" bound="400,308,513,334" affected-style="tri-state">
+        <Tip show="true">
+          <Title type="text" string="确认"/>
+        </Tip>
+      </Button>
+      <Label id="3008"  class="CBFCLabel" align="1,1,1,1" bound="30,300,450,340" affected-style="normal" visible="false">
+        <Font facename="微软雅黑" origin="0,0" size="20px" bold="true" italic="false" underline="false" />
+        <TextArea align="1,1,1,1" bound="0,0,420,40" color="#0000FF" hotcolor="#0000FF" selectedcolor="#0000FF">
+          <Text type="text" string="" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="true" rtlreading="false" />
+        </TextArea>
+      </Label>
+    </Panel>
+  </BFCWindow>
+</BFCFrame>

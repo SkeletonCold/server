@@ -1,0 +1,153 @@
+
+2016/09/09 20:13:16.948 13632 === >>>>>>>>>>>> SESSION START: DBG_LEVEL:31 >>>>>>>>>>>>
+2016/09/09 20:13:16.949 13632 === OSVERSIONINFOEX: platformid=2 major=6 minor=2
+2016/09/09 20:13:16.949 13632 *** 参数1: -f
+2016/09/09 20:13:16.949 13632 <upgdcore>=== Before SDDownloadFile: Url=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/forceup.xml,LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\forceup.dat
+2016/09/09 20:13:16.949 13632 <upgdcore>=== Calling CreateFolder in Before Calling SDDownloadFile: Result=1,TempDir=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\
+2016/09/09 20:13:16.950 13632 <upgdcore>=== Begin to StartDownload: Index=-1 Url=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/forceup.xml EncodedUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/forceup.xml
+2016/09/09 20:13:33.030 13632 <upgdcore>+++ Waiting Zero Event: Index=-1 ErrorCode=12002
+2016/09/09 20:13:33.030 13632 <upgdcore>@@@ Header: Index=-1 ErrorCode=12002
+2016/09/09 20:13:33.030 13632 <upgdcore>@@@ End to StartDownload: Index=-1 Result=2 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\forceup.dat
+2016/09/09 20:13:33.031 13632 <upgdcore>=== After SDDownloadFile: Result=0 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\forceup.dat
+2016/09/09 20:13:33.031 13632 === <<<<<<<<<<<< SESSION FINISH: DBG_LEVEL:31 <<<<<<<<<<<<
+
+
+2016/09/10 17:44:20.921 16216 === >>>>>>>>>>>> SESSION START: DBG_LEVEL:31 >>>>>>>>>>>>
+2016/09/10 17:44:20.921 16216 === OSVERSIONINFOEX: platformid=2 major=6 minor=2
+2016/09/10 17:44:20.921 16216 *** 参数1: -f
+2016/09/10 17:44:20.922 16216 <upgdcore>=== Before SDDownloadFile: Url=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/forceup.xml,LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\forceup.dat
+2016/09/10 17:44:20.922 16216 <upgdcore>=== Calling CreateFolder in Before Calling SDDownloadFile: Result=1,TempDir=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\
+2016/09/10 17:44:20.922 16216 <upgdcore>=== Begin to StartDownload: Index=-1 Url=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/forceup.xml EncodedUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/forceup.xml
+2016/09/10 17:44:22.505 16216 <upgdcore>=== InternetOpenUrl: Index=-1 Handle=0xcc000c ContentSize=51
+2016/09/10 17:44:22.506 16216 <upgdcore>=== End to StartDownload: Index=-1 Result=0 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\forceup.dat
+2016/09/10 17:44:22.506 16216 <upgdcore>=== After SDDownloadFile: Result=1 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\forceup.dat
+2016/09/10 17:44:22.506 16216 === <<<<<<<<<<<< SESSION FINISH: DBG_LEVEL:31 <<<<<<<<<<<<
+
+
+2016/09/10 17:44:22.537 21764 === >>>>>>>>>>>> SESSION START: DBG_LEVEL:31 >>>>>>>>>>>>
+2016/09/10 17:44:22.537 21764 === OSVERSIONINFOEX: platformid=2 major=6 minor=2
+2016/09/10 17:44:22.537 21764 *** 参数1: -c
+2016/09/10 17:44:22.537 21764 *** 参数2: -d
+
+2016/09/10 17:44:22.660 21764 <HFUCORE>=== >>>>>>>>>>>> SESSION START: DBG_LEVEL:31 >>>>>>>>>>>>
+2016/09/10 17:44:22.687 21764 <HFUCORE>=== Start Task: Task=0x10
+2016/09/10 17:44:22.687 21764 <HFUCORE>=== Enter StartCheckTask: wTask=0x10 TaskName=CheckTask
+2016/09/10 17:44:22.696 21764 <HFUCORE>=== Before DownloadXMLFile in CSDUCheckTask: XmlUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/grouplist.xml,LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\grouplist.xml
+2016/09/10 17:44:22.696 21764 <HFUCORE>=== Calling CreateFolder in Before Calling DownloadFile: Result=1,TempDir=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\
+2016/09/10 17:44:22.697 21764 <HFUCORE>=== DnsQuery: DomainName=deploy.n8mc.com
+2016/09/10 17:44:24.552 21764 <HFUCORE>+++ Waiting Zero Event: Index=0 ErrorCode=403
+2016/09/10 17:44:24.552 21764 <HFUCORE>=== DnsQuery: IP=222.186.10.96 Time=21ms
+2016/09/10 17:44:24.553 21764 <HFUCORE>=== Begin to StartDownload: Index=0 Url=http://222.186.10.96/upgrade/n8/oem/guanfang/grouplist.xml EncodedUrl=http://222.186.10.96/upgrade/n8/oem/guanfang/grouplist.xml
+2016/09/10 17:44:24.564 21764 <HFUCORE>+++ Waiting Zero Event: Index=0 ErrorCode=404
+2016/09/10 17:44:24.564 21764 <HFUCORE>@@@ Header: Index=0 ErrorCode=404
+2016/09/10 17:44:24.565 21764 <HFUCORE>@@@ End to StartDownload: Index=0 Result=2 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\grouplist.xml
+2016/09/10 17:44:24.565 21764 <HFUCORE>=== Begin to StartDownload: Index=0 Url=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/grouplist.xml EncodedUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/grouplist.xml
+2016/09/10 17:44:25.277 21764 <HFUCORE>@@@ InternetOpenUrl: Index=0 ErrorCode=12017
+2016/09/10 17:44:25.278 21764 <HFUCORE>=== End to StartDownload: Index=0 Result=12017 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\grouplist.xml
+2016/09/10 17:44:25.279 21764 <HFUCORE>@@@ Load GroupListXml Error:系统找不到指定的文件。
+2016/09/10 17:44:25.279 21764 <HFUCORE>@@@ Update Task Error: Task=0x10 ErrorID=0x9102 ErrorInfo=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\grouplist.xml
+2016/09/10 17:44:25.280 21764 <HFUCORE>=== DeleteUptempFiles: UptempPath=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\upgdfiles\ XmlPath=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\
+2016/09/10 17:44:25.280 21764 <HFUCORE>=== DeleteUptempFiles: UptempRoot=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\ AppPath=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\
+2016/09/10 17:44:25.280 21764 <HFUCORE>=== Leave StartCheckTask: wTask=0x10 TaskName=CheckTask
+2016/09/10 17:44:25.280 21764 <HFUCORE>=== <<<<<<<<<<<< SESSION FINISH: DBG_LEVEL:31 <<<<<<<<<<<<
+
+2016/09/10 17:44:25.299 21764 === After Run Process:E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\n8loader.exe,Param="E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\n8loader.exe" ,Directory=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\
+2016/09/10 17:44:25.300 21764 === <<<<<<<<<<<< SESSION FINISH: DBG_LEVEL:31 <<<<<<<<<<<<
+
+
+2016/09/10 17:44:25.382 3036 === >>>>>>>>>>>> SESSION START: DBG_LEVEL:31 >>>>>>>>>>>>
+2016/09/10 17:44:25.382 3036 === OSVERSIONINFOEX: platformid=2 major=6 minor=2
+2016/09/10 17:44:25.382 3036 *** 参数1: -f
+2016/09/10 17:44:25.382 3036 <upgdcore>=== Before SDDownloadFile: Url=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/forceup.xml,LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\forceup.dat
+2016/09/10 17:44:25.383 3036 <upgdcore>=== Calling CreateFolder in Before Calling SDDownloadFile: Result=1,TempDir=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\
+2016/09/10 17:44:25.383 3036 <upgdcore>=== Begin to StartDownload: Index=-1 Url=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/forceup.xml EncodedUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/forceup.xml
+2016/09/10 17:44:26.129 3036 <upgdcore>=== InternetOpenUrl: Index=-1 Handle=0xcc000c ContentSize=51
+2016/09/10 17:44:26.130 3036 <upgdcore>=== End to StartDownload: Index=-1 Result=0 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\forceup.dat
+2016/09/10 17:44:26.130 3036 <upgdcore>=== After SDDownloadFile: Result=1 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\forceup.dat
+2016/09/10 17:44:26.130 3036 === <<<<<<<<<<<< SESSION FINISH: DBG_LEVEL:31 <<<<<<<<<<<<
+
+
+2016/09/10 17:44:26.164 19820 === >>>>>>>>>>>> SESSION START: DBG_LEVEL:31 >>>>>>>>>>>>
+2016/09/10 17:44:26.164 19820 === OSVERSIONINFOEX: platformid=2 major=6 minor=2
+2016/09/10 17:44:26.165 19820 *** 参数1: -c
+2016/09/10 17:44:26.165 19820 *** 参数2: -d
+
+2016/09/10 17:44:26.228 19820 <HFUCORE>=== >>>>>>>>>>>> SESSION START: DBG_LEVEL:31 >>>>>>>>>>>>
+2016/09/10 17:44:26.232 19820 <HFUCORE>=== Start Task: Task=0x10
+2016/09/10 17:44:26.232 19820 <HFUCORE>=== Enter StartCheckTask: wTask=0x10 TaskName=CheckTask
+2016/09/10 17:44:26.237 19820 <HFUCORE>=== Before DownloadXMLFile in CSDUCheckTask: XmlUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/grouplist.xml,LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\grouplist.xml
+2016/09/10 17:44:26.237 19820 <HFUCORE>=== Calling CreateFolder in Before Calling DownloadFile: Result=1,TempDir=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\
+2016/09/10 17:44:26.237 19820 <HFUCORE>=== DnsQuery: DomainName=deploy.n8mc.com
+2016/09/10 17:44:28.542 19820 <HFUCORE>+++ Waiting Zero Event: Index=0 ErrorCode=403
+2016/09/10 17:44:28.543 19820 <HFUCORE>=== DnsQuery: IP=222.186.10.96 Time=10ms
+2016/09/10 17:44:28.543 19820 <HFUCORE>=== Begin to StartDownload: Index=0 Url=http://222.186.10.96/upgrade/n8/oem/guanfang/grouplist.xml EncodedUrl=http://222.186.10.96/upgrade/n8/oem/guanfang/grouplist.xml
+2016/09/10 17:44:28.554 19820 <HFUCORE>+++ Waiting Zero Event: Index=0 ErrorCode=404
+2016/09/10 17:44:28.554 19820 <HFUCORE>@@@ Header: Index=0 ErrorCode=404
+2016/09/10 17:44:28.554 19820 <HFUCORE>@@@ End to StartDownload: Index=0 Result=2 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\grouplist.xml
+2016/09/10 17:44:28.555 19820 <HFUCORE>=== Begin to StartDownload: Index=0 Url=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/grouplist.xml EncodedUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/grouplist.xml
+2016/09/10 17:44:29.442 19820 <HFUCORE>=== InternetOpenUrl: Index=0 Handle=0xcc000c ContentSize=1459
+2016/09/10 17:44:29.444 19820 <HFUCORE>=== End to StartDownload: Index=0 Result=0 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\grouplist.xml
+2016/09/10 17:44:29.445 19820 <HFUCORE>=== Before DownloadXMLFile in CSDUCheckTask: XmlUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/packet/directlist_auclt.xml,LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\directlist_auclt.xml
+2016/09/10 17:44:29.445 19820 <HFUCORE>=== Calling CreateFolder in Before Calling DownloadFile: Result=1,TempDir=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\
+2016/09/10 17:44:29.445 19820 <HFUCORE>=== DnsQuery: DomainName=deploy.n8mc.com
+2016/09/10 17:44:29.445 19820 <HFUCORE>=== DnsIP Cache: IP=222.186.10.96 Time=10ms
+2016/09/10 17:44:29.446 19820 <HFUCORE>=== Begin to StartDownload: Index=0 Url=http://222.186.10.96/upgrade/n8/oem/guanfang/packet/directlist_auclt.xml EncodedUrl=http://222.186.10.96/upgrade/n8/oem/guanfang/packet/directlist_auclt.xml
+2016/09/10 17:44:29.460 19820 <HFUCORE>+++ Waiting Zero Event: Index=0 ErrorCode=404
+2016/09/10 17:44:29.461 19820 <HFUCORE>@@@ Header: Index=0 ErrorCode=404
+2016/09/10 17:44:29.461 19820 <HFUCORE>@@@ End to StartDownload: Index=0 Result=2 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\directlist_auclt.xml
+2016/09/10 17:44:29.461 19820 <HFUCORE>=== Begin to StartDownload: Index=0 Url=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/packet/directlist_auclt.xml EncodedUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/packet/directlist_auclt.xml
+2016/09/10 17:44:30.130 19820 <HFUCORE>=== InternetOpenUrl: Index=0 Handle=0xcc000c ContentSize=1160
+2016/09/10 17:44:30.130 19820 <HFUCORE>=== End to StartDownload: Index=0 Result=0 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\directlist_auclt.xml
+2016/09/10 17:44:30.131 19820 <HFUCORE>=== Before DownloadXMLFile in CSDUCheckTask: XmlUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/packet/auclt/1.0.0.4/1.0.0.4.zip,LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\1.0.0.4.zip
+2016/09/10 17:44:30.132 19820 <HFUCORE>=== Calling CreateFolder in Before Calling DownloadFile: Result=1,TempDir=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\
+2016/09/10 17:44:30.132 19820 <HFUCORE>=== DnsQuery: DomainName=deploy.n8mc.com
+2016/09/10 17:44:30.132 19820 <HFUCORE>=== DnsIP Cache: IP=222.186.10.96 Time=10ms
+2016/09/10 17:44:30.132 19820 <HFUCORE>=== Begin to StartDownload: Index=0 Url=http://222.186.10.96/upgrade/n8/oem/guanfang/packet/auclt/1.0.0.4/1.0.0.4.zip EncodedUrl=http://222.186.10.96/upgrade/n8/oem/guanfang/packet/auclt/1.0.0.4/1.0.0.4.zip
+2016/09/10 17:44:30.143 19820 <HFUCORE>+++ Waiting Zero Event: Index=0 ErrorCode=404
+2016/09/10 17:44:30.143 19820 <HFUCORE>@@@ Header: Index=0 ErrorCode=404
+2016/09/10 17:44:30.144 19820 <HFUCORE>@@@ End to StartDownload: Index=0 Result=2 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\1.0.0.4.zip
+2016/09/10 17:44:30.144 19820 <HFUCORE>=== Begin to StartDownload: Index=0 Url=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/packet/auclt/1.0.0.4/1.0.0.4.zip EncodedUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/packet/auclt/1.0.0.4/1.0.0.4.zip
+2016/09/10 17:44:31.032 19820 <HFUCORE>=== InternetOpenUrl: Index=0 Handle=0xcc000c ContentSize=2238
+2016/09/10 17:44:31.034 19820 <HFUCORE>=== End to StartDownload: Index=0 Result=0 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\1.0.0.4.zip
+2016/09/10 17:44:31.036 19820 <HFUCORE>=== compareVerString: NewVersion=1.0.0.4 OldVersion=1.0.0.4
+2016/09/10 17:44:31.038 19820 <HFUCORE>=== DeleteUptempFiles: UptempPath=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\upgdfiles\ XmlPath=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\0\
+2016/09/10 17:44:31.038 19820 <HFUCORE>=== DeleteUptempFiles: UptempRoot=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\ AppPath=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\
+2016/09/10 17:44:31.041 19820 <HFUCORE>=== Leave StartCheckTask: wTask=0x10 TaskName=CheckTask
+2016/09/10 17:44:31.041 19820 <HFUCORE>=== <<<<<<<<<<<< SESSION FINISH: DBG_LEVEL:31 <<<<<<<<<<<<
+
+2016/09/10 17:44:31.042 19820 <HFUCORE>=== Start Task: Task=0x10
+2016/09/10 17:44:31.042 19820 <HFUCORE>=== Enter StartCheckTask: wTask=0x10 TaskName=CheckTask
+2016/09/10 17:44:31.043 19820 <HFUCORE>=== Before DownloadXMLFile in CSDUCheckTask: XmlUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/grouplist.xml,LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\1\grouplist.xml
+2016/09/10 17:44:31.044 19820 <HFUCORE>=== Calling CreateFolder in Before Calling DownloadFile: Result=1,TempDir=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\1\
+2016/09/10 17:44:31.044 19820 <HFUCORE>=== DnsQuery: DomainName=deploy.n8mc.com
+2016/09/10 17:44:31.044 19820 <HFUCORE>=== DnsIP Cache: IP=222.186.10.96 Time=10ms
+2016/09/10 17:44:31.044 19820 <HFUCORE>=== Begin to StartDownload: Index=0 Url=http://222.186.10.96/upgrade/n8/oem/guanfang/grouplist.xml EncodedUrl=http://222.186.10.96/upgrade/n8/oem/guanfang/grouplist.xml
+2016/09/10 17:44:31.055 19820 <HFUCORE>+++ Waiting Zero Event: Index=0 ErrorCode=404
+2016/09/10 17:44:31.055 19820 <HFUCORE>@@@ Header: Index=0 ErrorCode=404
+2016/09/10 17:44:31.055 19820 <HFUCORE>@@@ End to StartDownload: Index=0 Result=2 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\1\grouplist.xml
+2016/09/10 17:44:31.055 19820 <HFUCORE>=== Begin to StartDownload: Index=0 Url=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/grouplist.xml EncodedUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/grouplist.xml
+2016/09/10 17:44:32.143 19820 <HFUCORE>=== InternetOpenUrl: Index=0 Handle=0xcc000c ContentSize=1459
+2016/09/10 17:44:32.144 19820 <HFUCORE>=== End to StartDownload: Index=0 Result=0 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\1\grouplist.xml
+2016/09/10 17:44:32.147 19820 <HFUCORE>=== Before DownloadXMLFile in CSDUCheckTask: XmlUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/packet/directlist_platform.xml,LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\1\directlist_platform.xml
+2016/09/10 17:44:32.147 19820 <HFUCORE>=== Calling CreateFolder in Before Calling DownloadFile: Result=1,TempDir=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\1\
+2016/09/10 17:44:32.147 19820 <HFUCORE>=== DnsQuery: DomainName=deploy.n8mc.com
+2016/09/10 17:44:32.147 19820 <HFUCORE>=== DnsIP Cache: IP=222.186.10.96 Time=10ms
+2016/09/10 17:44:32.147 19820 <HFUCORE>=== Begin to StartDownload: Index=0 Url=http://222.186.10.96/upgrade/n8/oem/guanfang/packet/directlist_platform.xml EncodedUrl=http://222.186.10.96/upgrade/n8/oem/guanfang/packet/directlist_platform.xml
+2016/09/10 17:44:32.158 19820 <HFUCORE>+++ Waiting Zero Event: Index=0 ErrorCode=404
+2016/09/10 17:44:32.159 19820 <HFUCORE>@@@ Header: Index=0 ErrorCode=404
+2016/09/10 17:44:32.159 19820 <HFUCORE>@@@ End to StartDownload: Index=0 Result=2 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\1\directlist_platform.xml
+2016/09/10 17:44:32.159 19820 <HFUCORE>=== Begin to StartDownload: Index=0 Url=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/packet/directlist_platform.xml EncodedUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/packet/directlist_platform.xml
+2016/09/10 17:44:32.817 19820 <HFUCORE>=== InternetOpenUrl: Index=0 Handle=0xcc000c ContentSize=1165
+2016/09/10 17:44:32.818 19820 <HFUCORE>=== End to StartDownload: Index=0 Result=0 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\1\directlist_platform.xml
+2016/09/10 17:44:32.819 19820 <HFUCORE>=== Before DownloadXMLFile in CSDUCheckTask: XmlUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/2.0.1.2.zip,LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\1\2.0.1.2.zip
+2016/09/10 17:44:32.819 19820 <HFUCORE>=== Calling CreateFolder in Before Calling DownloadFile: Result=1,TempDir=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\1\
+2016/09/10 17:44:32.819 19820 <HFUCORE>=== DnsQuery: DomainName=deploy.n8mc.com
+2016/09/10 17:44:32.819 19820 <HFUCORE>=== DnsIP Cache: IP=222.186.10.96 Time=10ms
+2016/09/10 17:44:32.819 19820 <HFUCORE>=== Begin to StartDownload: Index=0 Url=http://222.186.10.96/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/2.0.1.2.zip EncodedUrl=http://222.186.10.96/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/2.0.1.2.zip
+2016/09/10 17:44:32.830 19820 <HFUCORE>+++ Waiting Zero Event: Index=0 ErrorCode=404
+2016/09/10 17:44:32.831 19820 <HFUCORE>@@@ Header: Index=0 ErrorCode=404
+2016/09/10 17:44:32.831 19820 <HFUCORE>@@@ End to StartDownload: Index=0 Result=2 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\1\2.0.1.2.zip
+2016/09/10 17:44:32.831 19820 <HFUCORE>=== Begin to StartDownload: Index=0 Url=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/2.0.1.2.zip EncodedUrl=http://deploy.n8mc.com/upgrade/n8/oem/guanfang/packet/platform/2.0.1.2/2.0.1.2.zip
+2016/09/10 17:44:33.501 19820 <HFUCORE>=== InternetOpenUrl: Index=0 Handle=0xcc000c ContentSize=10406
+2016/09/10 17:44:33.721 19820 <HFUCORE>=== End to StartDownload: Index=0 Result=0 LocalFile=E:\respository\branches\launcher\2.0.1.0\dreamalliance\bin\Release\upgdtemp\1\2.0.1.2.zip
+2016/09/10 17:44:33.727 19820 <HFUCORE>=== compareVerString: NewVersion=2.0.1.2 OldVersion=2.0.0.6

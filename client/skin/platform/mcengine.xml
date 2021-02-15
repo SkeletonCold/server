@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BFCFrame>
+  <BFCSkin>
+    <Images/>
+    <SkinElements type="common"/>
+    <Fonts />
+    <Tips />
+  </BFCSkin>
+  <BFCWindow size="1273,720" minsize="1273,720" caption-height="720">
+    <Panel id="1000" skinid="601" class="CBFCPanel" align="1,1,1,1" bound="0,0,1273,720" affected-style="normal">
+      <!--右上角关闭按钮-->
+      <Button id="#F060" class="CBFCButton" skinid="606" align="0,1,1,0" bound="1186,18,1225,56">
+        <Tip show="true">
+          <Title type="text" string="关闭"/>
+        </Tip>
+      </Button>
+      <!--END 右上角关闭按钮-->
+	   <!--右上角最小化按钮-->
+      <Button id="#F020" class="CBFCButton" skinid="608" align="0,1,1,0" bound="1140,28,1181,52">
+        <Tip show="true">
+          <Title type="text" string="最小化"/>
+        </Tip>
+      </Button>
+      <!--END 右上角最小化按钮-->
+	   <!--右上角设置按钮-->
+      <Button id="2004" class="CBFCButton" skinid="604" align="0,1,1,0" bound="1093,18,1130,55">
+        <Tip show="true">
+          <Title type="text" string="设置"/>
+        </Tip>
+      </Button>
+      <!--END 右上角设置按钮-->
+	  
+      <!--昵称-->
+      <Label id="2001"  class="CBFCLabel" align="1,1,1,1" bound="980,460,1190,490" affected-style="normal">
+        <Font facename="Courier New" origin="0,0" size="30px" bold="true" italic="false" underline="false" />
+        <TextArea align="1,1,1,1" bound="0,0,210,30" color="#FFFFFF" hotcolor="#FFFFFF" selectedcolor="#FFFFFF">
+          <Text type="text" string="" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="true" rtlreading="false" />
+        </TextArea>
+      </Label>
+      <!--Edit id="2002" skinid="607" class="CBFCEdit"  placeholder-color="RGB(150,150,150)" placeholder="请输入服务器昵称" textcolor="#FFFFFF" align="1,1,0,0" bound="55,25,204,54" affected-style="four-state" bordermargin="10,1,1,1" autoscroll="autohscroll">
+        <Font facename="微软雅黑" origin="0,0"   size="14px" bold="false" italic="false" underline="false" />
+      </Edit-->
+      <!--错误提示-->
+      <!--Label id="2001"  class="CBFCLabel" align="1,1,1,1" bound="225,25,420,47" affected-style="normal">
+        <Font facename="微软雅黑" origin="0,0" size="13px" bold="true" italic="false" underline="false" />
+        <TextArea align="1,1,1,1" bound="0,0,195,22" color="#0000FF" hotcolor="#0000FF" selectedcolor="#0000FF" disablecolor="#00FF00">
+          <Text type="text" string="" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="true" rtlreading="false" />
+        </TextArea>
+      </Label-->
+      
+      <!--官方网站-->
+      <Button id="2005" skinid="607" class="CBFCButton" align="0,1,1,0" bound="60,12,167,56" affected-style="tri-state">
+        <Tip show="true">
+          <Title type="text" string="官方网站"/>
+        </Tip>
+      </Button>
+	   <!--新手指南-->
+      <Button id="2006" skinid="609" class="CBFCButton" align="0,1,1,0" bound="200,12,307,56" affected-style="tri-state">
+        <Tip show="true">
+          <Title type="text" string="新手指南"/>
+        </Tip>
+      </Button>
+	   <!--充值中心-->
+      <Button id="2007" skinid="602" class="CBFCButton" align="0,1,1,0" bound="340,12,446,56" affected-style="tri-state">
+        <Tip show="true">
+          <Title type="text" string="充值中心"/>
+        </Tip>
+      </Button>
+	    <!--官方论坛-->
+      <Button id="2008" skinid="603" class="CBFCButton" align="0,1,1,0" bound="850,12,957,56" affected-style="tri-state">
+        <Tip show="true">
+          <Title type="text" string="官方论坛"/>
+        </Tip>
+      </Button>
+	    <!--在线客服-->
+      <Button id="2009" skinid="610" class="CBFCButton" align="0,1,1,0" bound="980,12,1087,56" affected-style="tri-state">
+        <Tip show="true">
+          <Title type="text" string="在线客服"/>
+        </Tip>
+      </Button>
+      <!--开始游戏-->
+      <Button id="#1" skinid="605" class="CBFCButton" align="0,1,1,0" bound="910,500,1185,585" affected-style="tri-state">
+        <Tip show="true">
+          <Title type="text" string="开始游戏"/>
+        </Tip>
+      </Button>
+	  <!--图片切换-->
+	   <Button id="2010" class="CBFCButton" skinid="612" align="0,1,1,0" bound="58,141,776,399"/>
+	  <!--二维码-->
+      <Label id="2011"  class="CBFCLabel" align="1,1,1,1" bound="64,445,271,465" affected-style="normal">
+        <Font facename="微软雅黑" origin="0,0" size="12px" bold="true" italic="false" underline="false" />
+        <TextArea align="1,1,1,1" bound="0,0,205,20" color="#FFFFFF" hotcolor="#FFFFFF" selectedcolor="#FFFFFF">
+          <Text type="text" string="扫一扫二维码快速加入本群" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="true" rtlreading="false" />
+        </TextArea>
+      </Label>
+	     <ForeImage id="0" skinid="611"  align="1,1,0,0" bound="69,462,208,577" affected-style="normal" />
+	  <!--网页-->
+	  <Container id="#FFFF" class="CBFCContainer" align="1,1,1,1" bound="248,435,776,595" />
+       <!--关闭背景音乐-->
+      <CheckButton id="2012" skinid="308" class="CBFCCheckButton" align="1,1,1,0" bound="1035,680,1157,720" affected-type="checked" affected-style="tri-state">
+        <Font facename="微软雅黑" origin="0,0" size="20px" bold="true" italic="false" underline="false" />
+        <TextArea align="1,1,1,1" bound="22,0,100,20" color="#c5c2c8" hotcolor="c8c2f2" selectedcolor="#FFFFFF">
+          <Text type="text" string="关闭背景音乐" align="left-vcenter" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="false" rtlreading="false" />
+        </TextArea>
+      </CheckButton>
+    </Panel>
+  </BFCWindow>
+</BFCFrame>

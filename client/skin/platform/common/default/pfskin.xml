@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BFCSkin>
+  <Images>
+    <Image id="0" src="skin\msgbox\close.png" />
+    <Image id="1" src="skin\msgbox\msgbox.png" />
+    <Image id="2" src="skin\msgbox\button.png" />
+    <Image id="3" src="skin\msgbox\shadow.png" />
+    <Image id="4" src="skin\msgbox\bk.png" />
+    <Image id="5" src="skin\platform\common\default\mcengine\bk.png" />
+    <Image id="6" src="skin\platform\common\default\mcengine\credit.png" />
+    <Image id="7" src="skin\platform\common\default\mcengine\mall.png" />
+    <Image id="8" src="skin\platform\common\default\mcengine\settings.png" />
+    <Image id="9" src="skin\platform\common\default\mcengine\start.png" />
+    <Image id="10" src="skin\platform\common\default\mcengine\close.png" />
+	<Image id="11" src="skin\platform\common\default\mcengine\min.png"/>
+	
+	<Image id="12" src="skin\platform\common\default\mcengine\home.png"/>
+	<Image id="13" src="skin\platform\common\default\mcengine\guide.png"/>
+	<Image id="14" src="skin\platform\common\default\mcengine\conn.png"/>
+	<Image id="15" src="skin\platform\common\default\mcengine\2dbarcode.png"/>	
+    <Image id="16" src="skin\platform\common\default\mcengine\rm.png"/>
+    
+   
+    <Image id="17" src="skin\platform\common\default\mcenginesettings\search.png" />
+	<Image id="18" src="skin\platform\common\default\mcenginesettings\match.png" />
+	<Image id="19" src="skin\platform\common\default\mcenginesettings\bk.png" />
+    <Image id="20" src="skin\platform\common\default\mcenginesettings\close.png" />
+    <Image id="21" src="skin\platform\common\default\mcenginesettings\input.png" />
+	<Image id="22" src="skin\platform\common\default\mcenginesettings\open.png" />
+	<Image id="23" src="skin\platform\common\default\mcenginesettings\save.png" />
+	<Image id="24" src="skin\platform\common\default\mcenginesettings\check.png" />
+	<Image id="25" src="skin\platform\common\default\mcenginesettings\cancel.png" />
+	
+
+  </Images>
+  <SkinElements name="默认" border-style="rect" border-radius="0" border="0,0,0,0" backcolor="RGB(132,203,238)" textcolor="RGB(255,255,255)">
+    <!--100至199数值预留给边框元素用-->
+    <SysElements>
+      <!--#F000至#FFFF预留给系统元素用,其中#F000至#F1FF是WINDOWS操作系统预留用,#F200至#FFFF预留自用-->
+      <!--其中#F000至#F1FF是WINDOWS操作系统预留的系统按纽-->
+      <!--msgbox-->
+      <Element id="#F0A0" name="标题栏" affected-style="normal">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,4" style="tile" bound="0,0,200,400"/>
+        </Backgrounds>
+      </Element>
+      <Element id="#F060" name="关闭" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,0" style="rect" bound="0,0,24,19"/>
+          <Background affected-style="hover" origin="1,0" style="rect" bound="0,19,24,38"/>
+          <Background affected-style="press" origin="1,0" style="rect" bound="0,38,24,57"/>
+        </Backgrounds>
+      </Element>
+      <!--end msgbox-->
+      <Element id="#F020" name="最小化" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,0" style="rect" bound="0,0,24,19"/>
+          <Background affected-style="hover" origin="1,0" style="rect" bound="0,19,24,38"/>
+          <Background affected-style="press" origin="1,0" style="rect" bound="0,38,24,57"/>
+        </Backgrounds>
+      </Element>
+      <!--其中#F200至#FFFF预留自用-->
+    </SysElements>
+    <ClientElements>
+      <!--200至999预留给客户区元素用-->
+      <!--msgbox-->
+      <Element id="201" name="消息类型图标" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,1" style="rect" bound="0,0,40,41"/>
+        </Backgrounds>
+      </Element>
+      <Element id="202" name="通用消息框按钮" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,2" style="rect" corner="3,3" bound="0,0,87,32"/>
+          <Background affected-style="hover" origin="1,2" style="rect" corner="3,3" bound="0,32,87,64"/>
+          <Background affected-style="press" origin="1,2" style="rect" corner="3,3" bound="0,64,87,96"/>
+        </Backgrounds>
+      </Element>
+      <Element id="203" name="底图" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,4" style="tile" bound="0,0,200,400"/>
+        </Backgrounds>
+      </Element>
+      <Element id="204" name="通用消息框按钮灰" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,2" style="rect" bound="87,0,174,32"/>
+          <Background affected-style="hover" origin="1,2" style="rect"  bound="87,32,174,64"/>
+          <Background affected-style="press" origin="1,2" style="rect"  bound="87,64,174,96"/>
+        </Backgrounds>
+      </Element>
+      <Element id="205" name="客户区前景色" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,3" style="tile" bound="0,0,16,16"/>
+        </Backgrounds>
+      </Element>
+      <!--end msgbox-->     
+      <!--mc engine-->
+      <Element id="601" name="MC启动器主界面" affected-style="normal">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,5" style="rect" bound="0,0,1273,720"/>
+        </Backgrounds>
+      </Element>
+      <Element id="602" name="MC启动器主界面充值" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,6" style="rect" bound="0,0,106,44"/>
+          <Background affected-style="hover" origin="1,6" style="rect" bound="0,44,106,88"/>
+          <Background affected-style="press" origin="1,6" style="rect" bound="0,44,106,88"/>
+        </Backgrounds>
+      </Element>
+      <Element id="603" name="MC启动器主界面官方论坛" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,7" style="rect" bound="0,0,107,44"/>
+          <Background affected-style="hover" origin="1,7" style="rect" bound="0,44,107,88"/>
+          <Background affected-style="press" origin="1,7" style="rect" bound="0,44,107,88"/>
+        </Backgrounds>
+      </Element>
+      <Element id="604" name="MC启动器主界面设置" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,8" style="rect" bound="0,0,37,37"/>
+          <Background affected-style="hover" origin="1,8" style="rect" bound="0,37,37,74"/>
+          <Background affected-style="press" origin="1,8" style="rect" bound="0,37,37,74"/>
+        </Backgrounds>
+      </Element>
+      <Element id="605" name="MC启动器主界面启动" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,9" style="rect" bound="0,0,275,85"/>
+          <Background affected-style="hover" origin="1,9" style="rect" bound="0,85,275,170"/>
+          <Background affected-style="press" origin="1,9" style="rect" bound="0,170,275,255"/>
+        </Backgrounds>
+      </Element>
+      <Element id="606" name="MC启动器主界面关闭" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,10" style="rect" bound="0,0,39,38"/>
+          <Background affected-style="hover" origin="1,10" style="rect" bound="0,38,39,76"/>
+          <Background affected-style="press" origin="1,10" style="rect" bound="0,38,39,76"/>
+        </Backgrounds>
+      </Element>
+      <Element id="607" name="MC启动器主界面官方网站" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,12" style="rect" bound="0,0,107,44"/>
+          <Background affected-style="hover" origin="1,12" style="rect" bound="0,44,107,88"/>
+          <Background affected-style="press" origin="1,12" style="rect" bound="0,44,107,88"/>
+        </Backgrounds>
+      </Element>
+	   <Element id="608" name="MC启动器主界面最小化" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,11" style="rect" bound="0,0,41,22"/>
+          <Background affected-style="hover" origin="1,11" style="rect" bound="0,22,41,44"/>
+          <Background affected-style="press" origin="1,11" style="rect" bound="0,22,41,44"/>
+        </Backgrounds>
+      </Element>
+	   <Element id="609" name="MC启动器主界面新手指南" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,13" style="rect" bound="0,0,107,44"/>
+          <Background affected-style="hover" origin="1,13" style="rect" bound="0,44,107,88"/>
+          <Background affected-style="press" origin="1,13" style="rect" bound="0,44,107,88"/>
+        </Backgrounds>
+      </Element>
+	   <Element id="610" name="MC启动器主界面在线客服" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,14" style="rect" bound="0,0,107,44"/>
+          <Background affected-style="hover" origin="1,14" style="rect" bound="0,44,107,88"/>
+          <Background affected-style="press" origin="1,14" style="rect" bound="0,44,107,88"/>
+        </Backgrounds>
+      </Element>
+	   <Element id="611" name="MC启动器主界面二维码" affected-style="normal">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,15" style="rect" bound="0,0,139,115"/>
+        </Backgrounds>
+      </Element>
+	   <Element id="612" name="MC启动器主界面广告图" affected-style="normal">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,16" style="rect" bound="0,0,718,258"/>
+        </Backgrounds>
+      </Element>
+	  
+      <!--end mc engine-->
+	   <Element id="308" name="勾选框" affected-style="tri-state">
+        <Backgrounds bound="0,0,22,22">
+          <Background affected-style="normal" style="rect" origin="1,24" bound="0,0,22,22"/>
+          <Background affected-style="hover" style="rect" origin="1,24" bound="0,22,22,44"/>
+          <Background affected-style="press" style="rect" origin="1,24" bound="0,0,22,22"/>
+        </Backgrounds>
+        <Backgrounds bound="0,0,22,22" affected-type="checked">
+          <Background affected-style="normal" style="rect" origin="1,24" bound="0,0,22,22"/>
+          <Background affected-style="hover" style="rect" origin="1,24" bound="0,22,22,44"/>
+          <Background affected-style="press" style="rect" origin="1,24" bound="0,44,22,66"/>
+        </Backgrounds>
+      </Element>
+      <!--mc engine settings-->
+      <Element id="701" name="MC启动器设置主界面匹配最佳设置" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,18" style="rect" bound="0,0,113,26"/>
+          <Background affected-style="hover" origin="1,18" style="rect" bound="0,26,113,52"/>
+          <Background affected-style="press" origin="1,18" style="rect" bound="0,26,113,52"/>
+        </Backgrounds>
+      </Element>
+      <Element id="702" name="MC启动器设置主界面背景" affected-style="normal">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,19" style="rect" bound="0,0,584,370"/>
+        </Backgrounds>
+      </Element>
+      <Element id="703" name="MC启动器设置主界面关闭" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,20" style="rect" bound="0,0,16,18"/>
+          <Background affected-style="hover" origin="1,20" style="rect" bound="0,18,16,36"/>
+          <Background affected-style="press" origin="1,20" style="rect" bound="0,36,16,54"/>
+        </Backgrounds>
+      </Element>
+      <Element id="704" name="MC启动器设置主界面输入框" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,21" style="rect" bound="0,0,693,33"/>
+          <Background affected-style="hover" origin="1,21" style="rect" bound="0,33,693,66"/>
+          <Background affected-style="press" origin="1,21" style="rect" bound="0,33,693,66"/>
+        </Backgrounds>
+      </Element>
+      <Element id="705" name="MC启动器设置主界面浏览" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,22" style="rect" bound="0,0,61,32"/>
+          <Background affected-style="hover" origin="1,22" style="rect" bound="0,32,61,64"/>
+          <Background affected-style="press" origin="1,22" style="rect" bound="0,64,61,96"/>
+        </Backgrounds>
+      </Element>
+      <Element id="706" name="MC启动器设置主界面确认" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,23" style="rect" bound="0,0,113,26"/>
+          <Background affected-style="hover" origin="1,23" style="rect" bound="0,26,113,52"/>
+          <Background affected-style="press" origin="1,23" style="rect" bound="0,26,113,52"/>
+        </Backgrounds>
+      </Element>
+      <Element id="707" name="MC启动器设置主界面搜索" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,17" style="rect" bound="0,0,68,32"/>
+          <Background affected-style="hover" origin="1,17" style="rect" bound="0,32,68,64"/>
+          <Background affected-style="press" origin="1,17" style="rect" bound="0,64,68,96"/>
+        </Backgrounds>
+      </Element>
+	  <Element id="708" name="MC启动器设置主界面取消" affected-style="tri-state">
+        <Backgrounds>
+          <Background affected-style="normal" origin="1,25" style="rect" bound="0,0,113,26"/>
+          <Background affected-style="hover" origin="1,25" style="rect" bound="0,26,113,52"/>
+          <Background affected-style="press" origin="1,25" style="rect" bound="0,26,113,52"/>
+        </Backgrounds>
+      </Element>
+      <!--end mc engine settings-->
+    </ClientElements>
+
+  </SkinElements>
+  <Fonts>
+    <Font facename="微软雅黑" size="9" default="true" />
+  </Fonts>
+</BFCSkin>

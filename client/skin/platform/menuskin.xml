@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BFCMenuSkin>
+	<Images>
+		<Image id="0" src="skin\platform\menu\menuskin.png" />
+		<Image id="1" src="skin\platform\menu\menuicon.png" />
+	</Images>
+	<SkinElements name="默认菜单风格" border-style="rect" border-radius="0" border="1,1,1,1" backcolor="RGB(0,0,0)">
+		<!--100至199数值预留给边框元素用-->
+	  <BorderElements>
+      <Element id="102" name="上边框" affected-style="normal" bound="0,0,-1,2">
+	      <Backgrounds>
+	        <Background affected-style="normal" style="color" color="RGB(71,77,80)"/>
+	      </Backgrounds>
+	    </Element>
+      <Element id="104" name="右边框" affected-style="normal" bound="-3,2,-1,-2">
+        <Backgrounds>
+          <Background affected-style="normal" style="color" color="RGB(71,77,80)"/>
+        </Backgrounds>
+      </Element>
+      <Element id="106" name="下边框" affected-style="normal" bound="0,-3,-1,-1">
+        <Backgrounds>
+          <Background affected-style="normal" style="color" color="RGB(71,77,80)"/>
+        </Backgrounds>
+      </Element>
+      <Element id="108" name="左边框" affected-style="normal" bound="0,2,2,-2">
+        <Backgrounds>
+          <Background affected-style="normal" style="color" bound="RGB(71,77,80)"/>
+        </Backgrounds>
+        </Element>
+        <!--Element id="101" name="左上角" affected-style="normal" bound="0,0,3,3">
+	      <Backgrounds>
+	        <Background affected-style="normal" style="rect" bound="0,0,3,3"/>
+	      </Backgrounds>
+	    </Element>    
+	    <Element id="102" name="上边框" affected-style="normal" bound="3,0,-4,2">
+	      <Backgrounds>
+	        <Background affected-style="normal" style="rect" bound="3,0,118,2"/>
+	      </Backgrounds>
+	    </Element>
+	    <Element id="103" name="右上角" affected-style="normal" bound="-4,0,-1,3">
+	      <Backgrounds>
+	        <Background affected-style="normal" style="rect" bound="118,0,121,3"/>
+	      </Backgrounds>
+	    </Element>    
+	    <Element id="104" name="右边框" affected-style="normal" bound="-4,3,-1,-4">
+	      <Backgrounds>
+	        <Background affected-style="normal" style="rect" bound="118,3,121,67"/>
+	      </Backgrounds>
+	    </Element>
+	    <Element id="105" name="右下角" affected-style="normal" bound="-4,-4,-1,-1">
+	      <Backgrounds>
+	        <Background affected-style="normal" style="rect" bound="118,67,121,70"/>
+	      </Backgrounds>
+	    </Element>
+	    <Element id="106" name="下边框" affected-style="normal" bound="3,-4,-4,-1">
+	    <Backgrounds>
+	        <Background affected-style="normal" style="rect" bound="3,67,118,70"/>
+	      </Backgrounds>
+	    </Element>
+	    <Element id="107" name="左下角" affected-style="normal" bound="0,-4,3,-1">
+	      <Backgrounds>
+	        <Background affected-style="normal" style="rect" bound="0,67,3,70"/>
+	      </Backgrounds>
+	    </Element>
+	    <Element id="108" name="左边框" affected-style="normal" bound="0,3,2,-4">
+	      <Backgrounds>
+	        <Background affected-style="normal" style="rect" bound="0,3,2,67"/>
+	      </Backgrounds>
+	    </Element-->    
+	  </BorderElements>
+	  <ClientElements>
+	  	<!--200至299预留给客户区元素用-->
+	    <Element id="201" name="左边区域" affected-style="normal">
+	      <Backgrounds>
+	        <Background affected-style="normal" origin="1,0" style="rect" bound="0,0,27,30"/>
+	      </Backgrounds>
+	    </Element>
+	    <Element id="202" name="右边区域" affected-style="normal">
+	      <Backgrounds>
+	        <Background affected-style="normal" origin="1,0" style="rect" bound="27,0,118,30"/>
+	      </Backgrounds>
+	    </Element>	    
+	  	<Element id="203" name="选中菜单背景" affected-style="normal">
+	      <Backgrounds>
+	        <Background affected-style="normal" origin="0,-1" style="color" color="RGB(150,150,150)"/>
+	      </Backgrounds>
+	    </Element>
+	  	<!--Element id="204" name="菜单CHECK前景" affected-style="two-state">
+	      <Backgrounds>
+	        <Background affected-style="normal" style="rect" bound="0,70,14,84"/>
+	        <Background affected-style="hover" style="rect" bound="14,70,28,84"/>
+	      </Backgrounds>
+	    </Element>
+	  	<Element id="205" name="菜单三角前景" affected-style="two-state">
+	      <Backgrounds>
+	        <Background affected-style="normal" style="rect" bound="0,85,14,99"/>
+	        <Background affected-style="hover" style="rect" bound="14,85,28,99"/>
+	      </Backgrounds>
+	    </Element-->
+	  </ClientElements>
+	</SkinElements>
+  <Fonts>
+  	<Font facename="微软雅黑" size="9" default="true" />
+  </Fonts>
+  <MenuItems itemheight="28" sepatatorheight="13" indent="8" sepindent="2" leftwidth="27" iconsize="13,13" selectedmargin="0,1,0,1" sepatatorcolor="RGB(206,206,206)" textcolor="RGB(255,255,255)" selecttextcolor="RGB(255,255,255)" graytextcolor="RGB(180,180,180)" disabletextcolor="RGB(180,180,180)">
+	    <!--0x8000至0xF000预留给菜单ID元素用-->
+	    <MenuItem id="33000" name="设置中心" affected-style="normal">
+	      <Backgrounds>
+	        <Background affected-style="normal" origin="1,1" style="rect" bound="0,0,13,13"/>
+	      </Backgrounds>	    	
+			</MenuItem>
+	    <MenuItem id="33007" name="重新登录" affected-style="normal">
+	      <Backgrounds>
+	        <Background affected-style="normal" origin="1,1" style="rect" bound="13,0,26,13"/>
+	      </Backgrounds>	    	
+			</MenuItem>
+			<MenuItem id="33009" name="退出牛吧" affected-style="normal">
+	      <Backgrounds>
+	        <Background affected-style="normal" origin="1,1" style="rect" bound="26,0,39,13"/>
+	      </Backgrounds>	    	
+			</MenuItem>
+  </MenuItems>
+</BFCMenuSkin>

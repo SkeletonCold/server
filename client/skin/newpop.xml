@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BFCFrame>
+	<BFCSkin>
+  	<Images />
+		<SkinElements type="common"/>
+		<Fonts />
+		<Tips />
+	</BFCSkin>
+	<BFCWindow size="350,220" minsize="350,220" caption-height="30" border-visiable="false" >
+		<Panel id="#FFF0" class="CBFCPanel" skinid="#F0A0" align="1,1,1,0" bound="0,0,350,30" affected-style="normal">
+			<Button id="#F0C0" class="CBFCButton" align="1,1,0,0" bound="10,8,26,24" affected-style="normal">
+				<Tip show="true">
+					<Title type="text" string="LOGO图标"/>
+				</Tip>
+			</Button>
+			<Label id="#F0A0" class="CBFCLabel" align="1,1,1,1" bound="33,8,303,24" hittest="false">
+				<Font facename="微软雅黑" origin="0,0" size="15px" bold="false" italic="false" underline="false" />
+				<TextArea align="1,1,1,1" bound="0,0,270,16">
+					<Text type="text" color="#FFFFFF" align="left-vcenter" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="false" rtlreading="false" />
+				</TextArea>
+			</Label>			
+			<Panel id="#FFFE" class="CBFCPanel" align="0,1,1,0" bound="320,5,344,24">			
+				<Button id="#F060" class="CBFCButton" skinid="#F060" align="0,1,1,0" bound="0,0,24,19">
+					<Tip show="true">
+						<Title type="text" string="关闭"/>
+					</Tip>
+				</Button>
+			</Panel>	
+		</Panel>
+	</BFCWindow>
+</BFCFrame>

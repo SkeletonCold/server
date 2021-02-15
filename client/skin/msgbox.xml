@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BFCFrame>
+	<BFCSkin>
+  	<Images />
+	  <SkinElements type="common" />
+	</BFCSkin>
+	<BFCWindow size="180,156" minsize="180,156" caption-height="30" topdrawborder="false" >
+		<Panel id="#FFF0" class="CBFCPanel" skinid="#F0A0" align="1,1,1,0" bound="0,0,180,30" affected-style="normal">
+			<Button id="#F0C0" class="CBFCButton" align="1,1,0,0" bound="10,8,26,24" affected-style="normal">
+				<Tip show="true">
+					<Title type="text" string="LOGO图标"/>
+				</Tip>
+			</Button>
+			<Lable id="#F0A0" class="CBFCLabel" align="1,1,1,0" bound="33,6,133,22" hittest="false">
+				<Font facename="微软雅黑" origin="0,0" size="15px" bold="false" italic="false" underline="false" />
+				<TextArea align="1,1,1,1" bound="0,0,100,16">
+					<Text type="text" string="" color="#000000" align="left-vcenter" wrap="singleline" prefix="no-prefix" word-ellipsis="true" path-ellipsis="false" end-ellipsis="true" rtlreading="false" />
+				</TextArea>
+			</Lable>
+		</Panel>
+		<Panel id="#EFFF" class="CBFCPanel" align="0,1,1,0" bound="151,5,175,24">
+			<Button id="#F060" class="CBFCButton" skinid="#F060" align="0,1,1,0" bound="0,0,24,19">
+				<Tip show="true">
+					<Title type="text" string="关闭"/>
+				</Tip>
+			</Button>
+		</Panel>
+		<Panel id="#E000" skinid="203" class="CBFCPanel" align="1,1,1,1" bound="0,30,180,156" affected-style="normal">
+				<Label id="#E002" class="CBFCLabel" align="1,1,1,1" bound="38,20,103,61">
+					<ForeImage skinid="201" align="1,0,0,0" bound="0,0,40,41" affected-style="normal" />
+					<TextArea align="1,1,1,1" bound="55,0,63,41">
+						<Text type="text" string="" color="#000000" align="left-vcenter" wrap="none" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="false" rtlreading="false" />
+					</TextArea>
+				</Label>
+				<Panel id="#E003" class="CBFCPanel" align="0,0,0,1" bound="50,81,140,114">
+					<Button id="1" class="CBFCButton" skinid="202" align="1,0,0,1" bound="0,0,87,32" visible="false" transparent="true" >
+						<Font facename="微软雅黑" origin="0,0" size="9" bold="false" italic="false" underline="false" />
+						<TextArea align="1,1,0,0" bound="0,0,87,32" hotcolor="#FFFFFF" selectedcolor="#FFFFFF" press-offset="0,1">
+						<Text type="text" string="确定" color="#FFFFFF"  align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="false" rtlreading="false" />
+						</TextArea>
+					</Button>
+					<Button id="2" class="CBFCButton" skinid="204" align="1,0,0,1"  bound="0,0,87,32" visible="false" transparent="true" >
+						<Font facename="微软雅黑" origin="0,0" size="9" bold="false" italic="false" underline="false" />
+						<TextArea align="1,1,0,0" bound="0,0,87,32" hotcolor="#00" selectedcolor="#00" press-offset="0,1">
+							<Text type="text" string="取消" color="#00" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="false" rtlreading="false" />
+						</TextArea>
+					</Button>
+					<Button id="3" class="CBFCButton" skinid="204" align="1,0,0,1"  bound="0,0,87,32" visible="false" transparent="true" >
+						<Font facename="微软雅黑" origin="0,0" size="9" bold="false" italic="false" underline="false" />
+						<TextArea align="1,1,0,0" bound="0,0,87,32" hotcolor="#00" selectedcolor="#00" press-offset="0,1">
+							<Text type="text" string="终止" color="#00" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="false" rtlreading="false" />
+						</TextArea>
+					</Button>
+					<Button id="4" class="CBFCButton" skinid="204" align="1,0,0,1"  bound="0,0,87,32" visible="false" transparent="true" >
+					<Font facename="微软雅黑" origin="0,0" size="9" bold="false" italic="false" underline="false" />
+					<TextArea align="1,1,0,0" bound="0,0,87,32" hotcolor="#FFFFFF" selectedcolor="#FFFFFF" press-offset="0,1">
+						<Text type="text" string="重试" color="#FFFFFF" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="false" rtlreading="false" />
+					</TextArea>
+				</Button>
+				<Button id="5" class="CBFCButton" skinid="204" align="1,0,0,1"  bound="0,0,87,32" visible="false" transparent="true" >
+					<Font facename="微软雅黑" origin="0,0" size="9" bold="false" italic="false" underline="false" />
+					<TextArea align="1,1,0,0" bound="0,0,87,32" hotcolor="#00" selectedcolor="#00" press-offset="0,1">
+						<Text type="text" string="忽略" color="#00" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="false" rtlreading="false" />
+					</TextArea>
+				</Button>
+				<Button id="6" class="CBFCButton" skinid="202" align="1,0,0,1"  bound="0,0,87,32" visible="false" transparent="true" >
+					<Font facename="微软雅黑" origin="0,0" size="9" bold="false" italic="false" underline="false" />
+					<TextArea align="1,1,0,0" bound="0,0,87,32" hotcolor="#FFFFFF" selectedcolor="#FFFFFF" press-offset="0,1">
+						<Text type="text" string="是" color="#FFFFFF" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="false" rtlreading="false" />
+					</TextArea>
+				</Button>
+				<Button id="7" class="CBFCButton" skinid="204" align="1,0,0,1"  bound="0,0,87,32" visible="false" transparent="true" >
+					<Font facename="微软雅黑" origin="0,0" size="9" bold="false" italic="false" underline="false" />
+					<TextArea align="1,1,0,0" bound="0,0,87,32" hotcolor="#00" selectedcolor="#00" press-offset="0,1">
+						<Text type="text" string="否" color="#00" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="false" rtlreading="false" />
+					</TextArea>
+				</Button>
+				<Button id="10" class="CBFCButton" skinid="202" align="1,0,0,1"  bound="0,0,87,32" visible="false" transparent="true" >
+					<Font facename="微软雅黑" origin="0,0" size="9" bold="false" italic="false" underline="false" />
+					<TextArea align="1,1,0,0" bound="0,0,87,32" hotcolor="#00" selectedcolor="#00" press-offset="0,1">
+						<Text type="text" string="重试" color="#00" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="false" rtlreading="false" />
+					</TextArea>
+				</Button>
+				<Button id="11" class="CBFCButton" skinid="202" align="1,0,0,1"  bound="0,0,87,32" visible="false" transparent="true" >
+					<Font facename="微软雅黑" origin="0,0" size="9" bold="false" italic="false" underline="false" />
+					<TextArea align="1,1,0,0" bound="0,0,87,32" hotcolor="#FFFFFF" selectedcolor="#FFFFFF" press-offset="0,1">
+						<Text type="text" string="继续" color="#FFFFFF" align="center" wrap="singleline" prefix="no-prefix" word-ellipsis="false" path-ellipsis="false" end-ellipsis="false" rtlreading="false" />
+					</TextArea>
+				</Button>
+			</Panel>
+                <ForeImage id="0" skinid="205" align="1,1,1,1" bound="0,0,180,123" affected-style="normal" />	
+	</Panel>
+	 
+	</BFCWindow>
+</BFCFrame>

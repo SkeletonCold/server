@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mods>
+  <mod game-id="1"   name="街霸游戏"  version="1.8.9">
+    <jar name="InputFix-1.8.x-v2.jar"/>
+    <jar name="ExtraInputFix-QSBv2.jar"/>
+    <jar name="jei_1.8.9-2.28.18.186.jar"/>
+    <jar name="Neat 1.1-3.jar"/>
+    <jar name="OptiFine_1.8.9_HD_U_H5.jar"/>
+	<jar name="Xaeros_Minimap_1.9.2_Forge_1.8.9.jar"/>
+  </mod>
+  <mod game-id="2"   name="梦世界"  version="1.8.9">
+    <jar name="InputFix-1.8.x-v2.jar"/>
+    <jar name="ExtraInputFix-QSBv2.jar"/>
+    <jar name="jei_1.8.9-2.28.18.186.jar"/>
+    <jar name="Neat 1.1-3.jar"/>
+    <jar name="OptiFine_1.8.9_HD_U_H5.jar"/>
+	<jar name="Xaeros_Minimap_1.9.2_Forge_1.8.9.jar"/>
+  </mod>
+  <mod game-id="3"   name="自由之地"  version="1.8.9">
+    <jar name="InputFix-1.8.x-v2.jar"/>
+    <jar name="ExtraInputFix-QSBv2.jar"/>
+    <jar name="jei_1.8.9-2.28.18.186.jar"/>
+    <jar name="Neat 1.1-3.jar"/>
+    <jar name="OptiFine_1.8.9_HD_U_H5.jar"/>
+	<jar name="Xaeros_Minimap_1.9.2_Forge_1.8.9.jar"/>
+  </mod>
+  <mod game-id="4"   name="天空都市"  version="1.9">
+    <jar name="OptiFine_1.9.0_HD_U_B5.jar"/>
+  </mod>
+  <mod game-id="5"   name="42craft"  version="1.8.9">
+    <jar name="InputFix-1.8.x-v2.jar"/>
+    <jar name="ExtraInputFix-QSBv2.jar"/>
+    <jar name="jei_1.8.9-2.28.18.186.jar"/>
+    <jar name="Neat 1.1-3.jar"/>
+    <jar name="OptiFine_1.8.9_HD_U_H5.jar"/>
+	<jar name="Xaeros_Minimap_1.9.2_Forge_1.8.9.jar"/>
+  </mod>
+  <mod game-id="6"   name="游戏世界"  version="1.8.9">
+    <jar name="InputFix-1.8.x-v2.jar"/>
+    <jar name="ExtraInputFix-QSBv2.jar"/>
+    <jar name="jei_1.8.9-2.28.18.186.jar"/>
+    <jar name="Neat 1.1-3.jar"/>
+    <jar name="OptiFine_1.8.9_HD_U_H5.jar"/>
+	<jar name="Xaeros_Minimap_1.9.2_Forge_1.8.9.jar"/>
+  </mod>
+  <mod game-id="7"   name="魔法梦境"  version="1.7.10">
+    <jar name="[1.7.10]zan皮肤版小地图.jar"/>
+    <jar name="1.7.10_AM2-1.4.0.008.jar"/>
+    <jar name="AnimationAPI-1.7.10-1.2.4.jar"/>
+    <jar name="Bamboo-2.6.8.5.jar"/>
+    <jar name="CraftGuide-1.6.8.2-forge[hukk汉化].jar"/>
+    <jar name="CustomNPCs_1.7.10d.jar"/>
+    <jar name="InputFix-1.7.10-v5.jar"/>
+    <jar name="血条Neat 1.0-1.jar"/>
+  </mod>
+  <mod game-id="8"   name="泡泡云"  version="1.8.9">
+    <jar name="InputFix-1.8.x-v2.jar"/>
+    <jar name="ExtraInputFix-QSBv2.jar"/>
+    <jar name="jei_1.8.9-2.28.18.186.jar"/>
+    <jar name="Neat 1.1-3.jar"/>
+    <jar name="OptiFine_1.8.9_HD_U_H5.jar"/>
+	<jar name="Xaeros_Minimap_1.9.2_Forge_1.8.9.jar"/>
+  </mod>
+  <mod game-id="9"   name="地球天空"  version="1.8.9">
+    <jar name="InputFix-1.8.x-v2.jar"/>
+    <jar name="ExtraInputFix-QSBv2.jar"/>
+    <jar name="jei_1.8.9-2.28.18.186.jar"/>
+    <jar name="Neat 1.1-3.jar"/>
+    <jar name="OptiFine_1.8.9_HD_U_H5.jar"/>
+	<jar name="Xaeros_Minimap_1.9.2_Forge_1.8.9.jar"/>
+  </mod>
+  <mod game-id="10"   name="永恒领域"  version="1.8.9">
+    <jar name="InputFix-1.8.x-v2.jar"/>
+    <jar name="ExtraInputFix-QSBv2.jar"/>
+    <jar name="jei_1.8.9-2.28.18.186.jar"/>
+    <jar name="Neat 1.1-3.jar"/>
+    <jar name="OptiFine_1.8.9_HD_U_H5.jar"/>
+	<jar name="Xaeros_Minimap_1.9.2_Forge_1.8.9.jar"/>
+  </mod>
+  <mod game-id="11"   name="云之天地"  version="1.8.9">
+    <jar name="InputFix-1.8.x-v2.jar"/>
+    <jar name="ExtraInputFix-QSBv2.jar"/>
+    <jar name="jei_1.8.9-2.28.18.186.jar"/>
+    <jar name="Neat 1.1-3.jar"/>
+    <jar name="OptiFine_1.8.9_HD_U_H5.jar"/>
+	<jar name="Xaeros_Minimap_1.9.2_Forge_1.8.9.jar"/>
+  </mod>
+ </mods>
